@@ -1,0 +1,13 @@
+- better management of output directory (should we just automatically
+  create some temporary location for the parsed files, and only write to a user-specified location if the user specifically
+  requests it?)
+
+- handle situation where embedded email headers start at the top of the page (somehow identify that these are not starting a new email)
+
+- parallel uploads to DocumentCloud
+
+- upload error handling so you can retry failed uploads -- very important for large document sets
+
+- UI for sorting and filtering; maybe sort by email size, sender frequency, sort by subject line, sort by subject but
+  collapse numeric-only differences, e.g. "DNCR media clips for 4-7-2016" and "DNCR media clips for 4-8-2016" could
+  be collapsed to "DNCR media clips for " or something.
