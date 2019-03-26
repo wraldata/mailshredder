@@ -1,15 +1,20 @@
+const fs = require('fs')
 const pr = require('pdfreader')
 const EmailHeaderScanner = require('../utils/EmailHeaderScanner')
 
 let MonolithicPdfReader = function (params) {
   let _options = {
     newPageForEachMessage: true,
-    verbose: false
+    verbose: false,
+    src: ''
   }
+
+  Object.assign(_options, params)
 
   let _src = ''
   let _emails = []
   let _onParseComplete = null
+  let _onParseFail = null
   let _ignoreHeadersUntilNextPage = false
   let _currPage = 0
   let _currLine = {
@@ -21,12 +26,12 @@ let MonolithicPdfReader = function (params) {
 
   let _ehs = new EmailHeaderScanner()
 
-  if (typeof params.src !== 'undefined') {
-    _src = params.src
+  if (!_options.src) {
+    throw new Error('Error: you must specify params.src.')
   }
 
-  if (!_src) {
-    throw new Error('Error: you must specify params.src.')
+  if (!fs.existsSync(_options.src)) {
+    throw new Error(`Error: src file ${_options.src} does not exist.`)
   }
 
   function log (msg) {
@@ -131,7 +136,7 @@ let MonolithicPdfReader = function (params) {
 
   function onPdfReaderItem (err, item) {
     if (err) {
-      // callback(err)
+      _onParseFail(err.data)
     } else if (!item) {
       finishParsing()
     } else if (item.page) {
@@ -146,9 +151,10 @@ let MonolithicPdfReader = function (params) {
 
     let p = new Promise(function (resolve, reject) {
       _onParseComplete = resolve
+      _onParseFail = reject
     })
 
-    new pr.PdfReader().parseFileItems(_src, onPdfReaderItem)
+    new pr.PdfReader().parseFileItems(_options.src, onPdfReaderItem)
 
     return p
   }

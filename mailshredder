@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 
 const MonolithicPdfReader = require('./readers/MonolithicPdfReader')
-const MonolithicPdfWriter = require('./writers/MonolithicPdfWriter')
+const MultiplePdfWriter = require('./writers/MultiplePdfWriter')
 const DocumentCloudUploader = require('./uploaders/DocumentCloudUploader')
+const EmailReportGenerator = require('./utils/EmailReportGenerator')
+const moment = require('moment')
 
 let program = require('commander')
 
@@ -10,8 +12,9 @@ program
   .version('0.0.1', '-v, --version')
   .option('-i, --input-file <input-file>', 'path to input file')
   .option('-o, --output-dir <output-dir>', 'output directory, where files will be created')
-  .option('-t, --input-type <input-type>', 'type of input file (MonolithicPdf, MultiplePdf)')
-  .option('-T, --output-type <output-type>', 'type of output files (MultiplePdf)')
+  .option('-b, --base-name <base-name>', 'base name for output files')
+  .option('-r, --reader-type <reader-type>', 'type of input file reader (MonolithicPdf, MultiplePdf)')
+  .option('-w, --writer-type <writer-type>', 'type of output file writer (MultiplePdf)')
   .option('-p, --document-cloud-project-id <document-cloud-project-id>', 'Project ID of existing DocumentCloud project')
   .option('-u, --document-cloud-username <document-cloud-username>', 'DocumentCloud username (you will be prompted for your password unless you also use the -P option)')
   .option('-P, --document-cloud-password <document-cloud-password>', 'DocumentCloud password (be careful about using this option, as it could expose your password in a ps listing or in your history file')
@@ -26,17 +29,43 @@ if (!program.outputDir) {
   program.outputDir = '/tmp'
 }
 
-if (!program.inputType) {
-  program.inputType = 'MonolithicPdf'
+if (!program.baseName) {
+  program.baseName = 'mailshredder-' + moment().format('YYYY-MM-DD-HH-mm-ss')
 }
 
-if (!program.inputType.match(/^(MonolithicPdf|MultiplePdf)$/)) {
-  console.error(`Unrecognized input type "${program.inputType}".  Exiting.`)
+if (!program.readerType) {
+  program.readerType = 'MonolithicPdf'
+}
+
+if (!program.writerType) {
+  program.readerType = ''
+}
+
+if (!program.writerType) {
+  program.readerType = ''
+}
+
+// check for recognized reader type
+if (!program.readerType.match(/^(MonolithicPdf|MultiplePdf)$/)) {
+  console.error(`Unrecognized reader type "${program.readerType}".  Exiting.`)
   process.exit(1)
 }
 
-if (!program.outputType.match(/^(MultiplePdf)$/)) {
-  console.error(`Unrecognized output type "${program.outputType}".  Exiting.`)
+// check for recognized writer type
+if (program.writerType && !program.writerType.match(/^(MultiplePdf)$/)) {
+  console.error(`Unrecognized writer type "${program.writerType}".  Exiting.`)
+  process.exit(1)
+}
+
+// check for compatible reader and writer type
+if (program.readerType.match(/^(MonolithicPdf|MultiplePdf)$/) &&
+  (!program.writerType.match(/^(MultiplePdf)$/))) {
+  console.error(`Cannot use reader type ${program.readerType} with writer type ${program.writerType}.  Exiting.`)
+  process.exit(1)
+}
+
+if (program.documentCloudProjectId && !program.writerType) {
+  console.error(`DocumentCloud project ID specified, but no writer type specified.  Exiting.`)
   process.exit(1)
 }
 
@@ -68,39 +97,57 @@ if (program.documentCloudProjectId) {
     process.exit(1)
   })
 } else {
-  // if we're not using DocumentCloud, just go ahead and process the
+  // if we're not using DocumentCloud, just go ahead and process the input
   processInput()
 }
 
-function processInput () {
-  switch (program.inputType) {
+function setupReaderAndWriter () {
+  switch (program.readerType) {
     case 'MonolithicPdf':
       r = new MonolithicPdfReader({
         src: program.inputFile
       })
 
-      // FIXME: this writer is really a MonolithicPdfToMultiplePdfWriter...
-      // need to check the output type and load the appropriate writer
-      w = new MonolithicPdfWriter({
-        src: program.inputFile,
-        outDir: program.outputDir
-      })
+      if (program.writerType === 'MultiplePdf') {
+        w = new MultiplePdfWriter({
+          src: program.inputFile,
+          outDir: program.outputDir,
+          baseName: program.baseName
+        })
+      }
 
       break
 
     default:
-      console.error(`Input type "${program.inputType}" not yet supported.  Exiting.`)
+      console.error(`Input type "${program.readerType}" not yet supported.  Exiting.`)
       process.exit(0)
+  }
+}
+
+function processInput () {
+  try {
+    setupReaderAndWriter()
+  } catch (err) {
+    console.error(err.message)
+    process.exit(1)
   }
 
   console.log('reading input ' + program.inputFile + '...')
 
   r.read().then(function (emails) {
-    w.setEmails(emails)
-    return w.write()
+    let g = new EmailReportGenerator()
+    g.generate(emails, program.outputDir, program.baseName)
+
+    if (w) {
+      w.setEmails(emails)
+      return w.write()
+    }
   }).then(function (files) {
     if (u) {
       u.uploadFiles(files)
     }
+  }).catch(function (err) {
+    console.error(err.message)
+    process.exit(1)
   })
 }

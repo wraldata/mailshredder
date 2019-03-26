@@ -1,3 +1,11 @@
+- case insensitivity when parsing out headers?
+
+- maybe output senders by pages of email as well as just numbers of messages
+
+- how to make it super easy to open the TXT files in a spreadsheet?
+
+- how to cluster subject lines for easy filtering?
+
 - better management of output directory (should we just automatically
   create some temporary location for the parsed files, and only write to a user-specified location if the user specifically
   requests it?)
