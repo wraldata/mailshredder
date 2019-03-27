@@ -4,6 +4,8 @@
 
 - how to make it super easy to open the TXT files in a spreadsheet?
 
+- use sequelize instead of flat files?
+
 - how to cluster subject lines for easy filtering?
 
 - better management of output directory (should we just automatically
