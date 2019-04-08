@@ -7,6 +7,8 @@
 - use sequelize instead of flat files?
 
 - how to cluster subject lines for easy filtering?
+   - extract all "Re:", "Fwd:", etc. to get the thread subjects
+   - maybe use first 10, 15, 20, 25 characters of subject lines for grouping?
 
 - better management of output directory (should we just automatically
   create some temporary location for the parsed files, and only write to a user-specified location if the user specifically

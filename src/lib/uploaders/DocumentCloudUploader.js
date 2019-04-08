@@ -2,9 +2,12 @@ const DocumentCloudClient = require('electron').remote.require('documentcloud')
 const pathinfo = require('pathinfo')
 const path = require('path')
 const fs = require('fs')
+const EventEmitter = require('events')
 const flatten = require('q-flat').flatten
 
 let DocumentCloudUploader = function (params) {
+  let _self = new EventEmitter()
+
   let _options = {
     username: '',
     password: '',
@@ -23,7 +26,7 @@ let DocumentCloudUploader = function (params) {
 
   let _client = new DocumentCloudClient(_options.username, _options.password)
 
-  this.validateProjectId = function (projectId) {
+  _self.validateProjectId = function (projectId) {
     let promise = new Promise(function (resolve, reject) {
       _client.projects.list(function (err, response) {
         if (err) {
@@ -68,12 +71,15 @@ let DocumentCloudUploader = function (params) {
             return
           }
           if (response.status_code !== 200) {
+            recordResult(file, false)
             reject(new Error('Unexpected status code: ' + response.status_code))
           }
 
+          recordResult(file, true)
           resolve(true)
         })
       } catch (err) {
+        recordResult(file, false)
         console.error(err)
         throw new Error('Error uploading to Document Cloud: ' + err.message)
       }
@@ -109,19 +115,12 @@ let DocumentCloudUploader = function (params) {
   let _files = {
     count: 0,
     updateAt: 0,
-    unsent: [],
+    all: [],
     success: [],
     fail: []
   }
 
-  function getNextFile () {
-    if (_files.unsent.length < 1) {
-      return null
-    }
-    return _files.unsent.pop()
-  }
-
-  function recordResult (f, success, resolve) {
+  function recordResult (f, success) {
     if (success) {
       _files.success.push(f)
     } else {
@@ -135,33 +134,24 @@ let DocumentCloudUploader = function (params) {
       console.log('[DocumentCloudUpdater] ' + percDone + '% (' + _files.success.length + ' success, ' + _files.fail.length + ' fail)')
     }
 
-    if (numAttempted >= _files.count) {
-      resolve(_files)
-    }
+    _self.emit('upload-success', f)
   }
 
-  this.uploadFiles = function (files) {
-    _files.unsent = JSON.parse(JSON.stringify(files))
-    _files.count = _files.unsent.length
+  _self.uploadFiles = function (files) {
+    _files.all = JSON.parse(JSON.stringify(files))
+    _files.count = _files.all.length
+    _files.success = []
+    _files.fail = []
     _files.updateAt = Math.max(parseInt(_files.count / 20), 1)
 
-    let promise = new Promise(function (resolve, reject) {
-      let f = null
-      while ((f = getNextFile()) !== null) {
-        let pi = pathinfo(f)
-
-        let data = getMetaData(f)
-
-        console.log(`uploading ${f}...`)
-        uploadFile(f, pi.basename, data).then(function () {
-          recordResult(f, true, resolve)
-        }).catch(function () {
-          recordResult(f, false, resolve)
-        })
-      }
-    })
-    return promise
+    return Promise.all(_files.all.map(function (f) {
+      let pi = pathinfo(f)
+      let data = getMetaData(f)
+      return uploadFile(f, pi.basename, data)
+    }))
   }
+
+  return _self
 }
 
 export default DocumentCloudUploader

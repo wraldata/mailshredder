@@ -71,7 +71,9 @@ module.exports = function (ctx) {
         'QField',
         'QInput',
         'QSearch',
-        'QPageSticky'
+        'QPageSticky',
+
+        'QProgress'
       ],
       directives: [
         'Ripple'

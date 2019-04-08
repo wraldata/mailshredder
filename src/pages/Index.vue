@@ -87,6 +87,12 @@
         title="Upload"
         subtitle="Send to DocumentCloud"
       >
+        <br /><br /><strong>Upload progress:</strong><br /><br />
+        <q-progress
+          :percentage="uploadProgress"
+          animate
+          style="height: 16px"
+        />
       </q-step>
 
       <q-page-sticky position="bottom-right" :offset="[10, 10]">
@@ -100,7 +106,11 @@
           Back
         </q-btn>
 
-        <q-btn color="primary" @click="onNextClick">
+        <q-btn
+          color="primary"
+          @click="onNextClick"
+          v-if="currentStep !== 'step-upload'"
+        >
           {{ currentStep === 'step-done' ? 'Finalize' : 'Next' }}
         </q-btn>
       </q-stepper-navigation>
@@ -183,6 +193,8 @@ export default {
     emails: [],
     uploader: null,
 
+    uploadProgress: 0,
+
     inputFileWritten: '',
     inputFileWrittenAt: null,
 
@@ -262,7 +274,19 @@ export default {
         files.push(e.files.pdf)
       }
 
-      this.uploader.uploadFiles(files)
+      let numUploadSuccess = 0
+      this.uploadProgress = 0
+      this.uploader.on('upload-success', evt => {
+        numUploadSuccess++
+        this.uploadProgress = Math.round(numUploadSuccess / files.length * 100.0)
+        console.log('[on-upload-success] numUploadSuccess: ' + numUploadSuccess + ', uploadProgress: ' + this.uploadProgress)
+      })
+
+      this.uploader.uploadFiles(files).then(() => {
+        console.log('[uploadFiles] done uploading.')
+      }).catch(function (err) {
+        this.$q.notify('Error uploading to Document Cloud: ' + err.message)
+      })
     },
 
     processFile: function () {
@@ -361,7 +385,7 @@ export default {
       // note that there is a scoping issue with the way calls are made to remote objects,
       // so you have to use an arrow function (or store a reference to 'this')
       console.log(dialog.showOpenDialog(options, (selection) => {
-        if (selection.length === 1) {
+        if (selection && selection.length === 1) {
           console.log('user selected: ' + selection[0])
           this.setupForm.inputFile = '' + selection[0]
         }

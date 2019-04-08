@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const pdftk = require('node-pdftk')
 
 let MultiplePdfWriter = function (params) {
   let _options = {
@@ -14,7 +15,6 @@ let MultiplePdfWriter = function (params) {
   let _onWriteSuccess = null
   let _onWriteFail = null
 
-  let _pdfreader = null
   let _currIdx = 0
   let _files = []
 
@@ -59,17 +59,24 @@ let MultiplePdfWriter = function (params) {
     return number + '' // always return a string
   }
 
-  if (!fs.existsSync(_options.outDir)) {
-    fs.mkdirSync(_options.outDir)
+  function ensureDirectoryExists (dir) {
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir)
+    }
+
+    if (!isDir(dir)) {
+      throw new Error('Error: output directory ' + dir + ' exists, but is not a directory.')
+    }
+
+    if (!isDirEmpty(dir)) {
+      throw new Error('Error: output directory ' + dir + ' is not empty.')
+    }
   }
 
-  if (!isDir(_options.outDir)) {
-    throw new Error('Error: output directory ' + _options.outDir + ' exists, but is not a directory.')
-  }
+  let _pageDir = path.join(_options.outDir, 'pages')
 
-  if (!isDirEmpty(_options.outDir)) {
-    throw new Error('Error: output directory ' + _options.outDir + ' is not empty.')
-  }
+  ensureDirectoryExists(_options.outDir)
+  ensureDirectoryExists(_pageDir)
 
   this.setEmails = function (emails) {
     _options.emails = emails
@@ -85,10 +92,11 @@ let MultiplePdfWriter = function (params) {
     }
 
     let e = _options.emails[i]
-    console.log(`Email ${i}, pages ${e.start.page} to ${e.end.page}`)
 
     let outPdf = path.join(_options.outDir, _options.baseName + '-' + zeroFill(i, 6) + '.pdf')
     let outJson = path.join(_options.outDir, _options.baseName + '-' + zeroFill(i, 6) + '.json')
+
+    console.log(`Email ${i}, pages ${e.start.page} - ${e.end.page} to ${outPdf}`)
 
     e.files = {
       pdf: outPdf,
@@ -97,11 +105,17 @@ let MultiplePdfWriter = function (params) {
 
     fs.writeFileSync(outJson, JSON.stringify(e.headers))
 
-    let pdf = _pdfreader.range(e.start.page, e.end.page)
-    pdf.pdfStream().pipe(fs.createWriteStream(outPdf)).on('finish', function () {
+    let input = []
+    for (let j = e.start.page; j <= e.end.page; j++) {
+      let p = path.join(_pageDir, 'page-' + zeroFill(j, 6) + '.pdf')
+      console.log(`  - ${p}`)
+      input.push(p)
+    }
+
+    pdftk.input(input).cat().output(outPdf).then(() => {
       _currIdx++
       writeNextUsingPageBoundaries()
-    }).on('error', function (err) {
+    }, (err) => {
       _onWriteFail(err)
     })
 
@@ -109,13 +123,18 @@ let MultiplePdfWriter = function (params) {
   }
 
   function writeUsingPageBoundaries () {
-    var scissors = require('scissors')
-    _pdfreader = scissors(_options.src)
+    let output = path.join(_pageDir, 'page-%06d.pdf')
 
-    _files = []
-    _currIdx = 0
+    console.log('[writeUsingPageBoundaries] bursting into pages: ' + output)
+    pdftk.input(_options.src).burst(output).then(() => {
+      console.log('[writeUsingPageBoundaries] done with burst')
 
-    writeNextUsingPageBoundaries()
+      _files = []
+      _currIdx = 0
+      writeNextUsingPageBoundaries()
+    }).catch(err => {
+      throw new Error('Error bursting into individual pages: ' + err.message)
+    })
   }
 
   this.write = function () {
