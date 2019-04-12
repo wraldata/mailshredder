@@ -70,6 +70,7 @@ module.exports = function (ctx) {
 
         'QField',
         'QInput',
+        'QCheckbox',
         'QSearch',
         'QPageSticky',
 

@@ -2,9 +2,11 @@ const fs = require('fs')
 const path = require('path')
 const pdftk = require('node-pdftk')
 
+const ensureDirectoryExists = require('../utils/Filesystem').ensureDirectoryExists
+
 let MultiplePdfWriter = function (params) {
   let _options = {
-    newPageForEachMessage: true, // this refers more to the format of the input Pdf
+    inputType: MultiplePdfWriter.INPUT_TYPE_SINGLE_FILE_PAGE_PER_EMAIL,
     outDir: '/tmp',
     src: '',
     baseName: '',
@@ -32,45 +34,12 @@ let MultiplePdfWriter = function (params) {
     throw new Error('Error: you must specify params.baseName.')
   }
 
-  function isDirEmpty (path) {
-    try {
-      let files = fs.readdirSync(path)
-      return (files.length < 1)
-    } catch (e) {
-      throw new Error(`Error: could not determine if "${path}" is empty: ${e.message}`)
-    }
-  }
-
-  function isDir (path) {
-    try {
-      let stat = fs.lstatSync(path)
-      return stat.isDirectory()
-    } catch (e) {
-      // lstatSync throws an error if path doesn't exist
-      return false
-    }
-  }
-
   function zeroFill (number, width) {
     width -= number.toString().length
     if (width > 0) {
       return new Array(width + (/\./.test(number) ? 2 : 1)).join('0') + number
     }
     return number + '' // always return a string
-  }
-
-  function ensureDirectoryExists (dir) {
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir)
-    }
-
-    if (!isDir(dir)) {
-      throw new Error('Error: output directory ' + dir + ' exists, but is not a directory.')
-    }
-
-    if (!isDirEmpty(dir)) {
-      throw new Error('Error: output directory ' + dir + ' is not empty.')
-    }
   }
 
   let _pageDir = path.join(_options.outDir, 'pages')
@@ -87,6 +56,7 @@ let MultiplePdfWriter = function (params) {
 
     if (i > _options.emails.length - 1) {
       // resolve promise
+      this.emit('email-write-complete', {})
       _onWriteSuccess(_files)
       return
     }
@@ -114,7 +84,7 @@ let MultiplePdfWriter = function (params) {
 
     pdftk.input(input).cat().output(outPdf).then(() => {
       _currIdx++
-      writeNextUsingPageBoundaries()
+      writeNextUsingPageBoundaries.call(this)
     }, (err) => {
       _onWriteFail(err)
     })
@@ -125,16 +95,38 @@ let MultiplePdfWriter = function (params) {
   function writeUsingPageBoundaries () {
     let output = path.join(_pageDir, 'page-%06d.pdf')
 
-    console.log('[writeUsingPageBoundaries] bursting into pages: ' + output)
+    // FIXME -- this doesn't work when the src is a directory; if we're dealing with a directory of input files,
+    // it's assumed that each is an individual email.  In such a case, we can skip all the writing and just
+    // use the originals (or the OCR-ed version) as the emails that we upload to Document Cloud
+    this.emit('start-burst', { output: output })
     pdftk.input(_options.src).burst(output).then(() => {
-      console.log('[writeUsingPageBoundaries] done with burst')
+      this.emit('start-email-write', {})
 
       _files = []
       _currIdx = 0
-      writeNextUsingPageBoundaries()
+      writeNextUsingPageBoundaries.call(this)
     }).catch(err => {
       throw new Error('Error bursting into individual pages: ' + err.message)
     })
+  }
+
+  function writeMultipleToMultiple () {
+    for (let i = 0; i < _options.emails.length; i++) {
+      let e = _options.emails[i]
+
+      let outPdf = e.file
+      let outJson = outPdf + '.json'
+
+      console.log(`Email ${i}, pages ${e.start.page} - ${e.end.page} from ${outPdf}`)
+
+      e.files = {
+        pdf: outPdf,
+        json: outJson
+      }
+
+      fs.writeFileSync(outJson, JSON.stringify(e.headers))
+      _files.push(outPdf)
+    }
   }
 
   this.write = function () {
@@ -147,8 +139,11 @@ let MultiplePdfWriter = function (params) {
       _onWriteFail = reject
     })
 
-    if (_options.newPageForEachMessage) {
-      writeUsingPageBoundaries()
+    if (_options.inputType === MultiplePdfWriter.INPUT_TYPE_SINGLE_FILE_PAGE_PER_EMAIL) {
+      writeUsingPageBoundaries.call(this)
+    } else if (_options.inputType === MultiplePdfWriter.INPUT_TYPE_DIRECTORY_FILE_PER_EMAIL) {
+      writeMultipleToMultiple()
+      _onWriteSuccess(_files)
     } else {
       _onWriteFail()
     }
@@ -156,5 +151,10 @@ let MultiplePdfWriter = function (params) {
     return p
   }
 }
+
+MultiplePdfWriter.INPUT_TYPE_SINGLE_FILE_PAGE_PER_EMAIL = 1
+MultiplePdfWriter.INPUT_TYPE_DIRECTORY_FILE_PER_EMAIL = 2
+
+MultiplePdfWriter.prototype = Object.create(require('events').EventEmitter.prototype)
 
 export default MultiplePdfWriter

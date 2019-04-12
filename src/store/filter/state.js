@@ -1,4 +1,5 @@
 export default {
+  emails: [],
   tableData: [],
   selected: [],
   inputFileWritten: '',

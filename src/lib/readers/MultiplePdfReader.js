@@ -4,10 +4,10 @@ import EmailHeaderScanner from '../utils/EmailHeaderScanner'
 const ensureDirectoryExists = require('../utils/Filesystem').ensureDirectoryExists
 import PDFUtils from '../utils/PDFUtils'
 
-let MonolithicPdfReader = function (params) {
+let MultiplePdfReader = function (params) {
   let _options = {
-    newPageForEachMessage: true,
     verbose: true,
+    outDir: '/tmp',
     performOCR: false,
     src: ''
   }
@@ -27,12 +27,15 @@ let MonolithicPdfReader = function (params) {
   }
   let _ocrDir = ''
 
+  let _files = []
+  let _currIdx = 0
+
   if (!_options.src) {
     throw new Error('Error: you must specify params.src.')
   }
 
   if (!fs.existsSync(_options.src)) {
-    throw new Error(`Error: src file ${_options.src} does not exist.`)
+    throw new Error(`Error: src directory ${_options.src} does not exist.`)
   }
 
   if (_options.performOCR) {
@@ -71,13 +74,11 @@ let MonolithicPdfReader = function (params) {
       let start = scanResult[1]
       let headers = scanResult[2]
 
-      if (_options.newPageForEachMessage) {
-        end = {
-          page: scanResult[1].page - 1
-        }
-        start = {
-          page: scanResult[1].page
-        }
+      end = {
+        page: scanResult[1].page - 1
+      }
+      start = {
+        page: scanResult[1].page
       }
 
       // add an "end" to the previous email
@@ -87,20 +88,16 @@ let MonolithicPdfReader = function (params) {
 
       // add a new email to the list
       _emails.push({
-        file: _options.src,
+        file: _files[_currIdx],
         start: start,
         headers: headers
       })
 
-      if (_options.newPageForEachMessage) {
-        _ignoreHeadersUntilNextPage = true
-      }
+      _ignoreHeadersUntilNextPage = true
     }
 
     if (scanResult[0] !== 'header') {
-      if (_options.newPageForEachMessage) {
-        _ignoreHeadersUntilNextPage = true
-      }
+      _ignoreHeadersUntilNextPage = true
     }
   }
 
@@ -118,9 +115,7 @@ let MonolithicPdfReader = function (params) {
   function processPage (item) {
     processLine(_currLine)
 
-    if (_options.newPageForEachMessage) {
-      _ehs.reset()
-    }
+    _ehs.reset()
 
     _currPage++
     log('--------------------------------------------------------------------------------')
@@ -141,7 +136,8 @@ let MonolithicPdfReader = function (params) {
         page: _currPage
       }
     }
-    _onParseComplete(_emails)
+    _currIdx++
+    parseNext(_emails)
   }
 
   function onPdfItem (err, item) {
@@ -156,6 +152,23 @@ let MonolithicPdfReader = function (params) {
     }
   }
 
+  function parseNext () {
+    if (_currIdx > _files.length - 1) {
+      _onParseComplete(_emails)
+      return
+    }
+
+    if (_options.performOCR) {
+      let pi = path.parse(_files[_currIdx])
+      _pdf.ocr(_files[_currIdx], path.join(_ocrDir, pi.name))
+      _files[_currIdx] = path.join(_ocrDir, pi.base)
+      console.log('[parseNext] parsing ' + _files[_currIdx])
+    }
+
+    _currPage = 0
+    _pdf.toText(_files[_currIdx], onPdfItem)
+  }
+
   this.read = function () {
     _emails = []
 
@@ -164,20 +177,28 @@ let MonolithicPdfReader = function (params) {
       _onParseFail = reject
     })
 
-    console.log('[MonolithicPdfReader]] reading ' + _options.src)
+    console.log('[MultiplePdfReader]] reading ' + _options.src)
 
-    if (_options.performOCR) {
-      let pi = path.parse(_options.src)
-      _pdf.ocr(_options.src, path.join(_ocrDir, pi.name))
-      _options.src = path.join(_ocrDir, pi.base)
-      console.log('[parseNext] parsing ' + _options.src)
-    }
+    fs.readdir(_options.src, function (err, items) {
+      if (err) {
+        throw new Error(`Error reading ${_options.src}: ${err.message}`)
+      }
 
-    _pdf.toText(_options.src, onPdfItem)
+      _files = []
+      for (let i = 0; i < items.length; i++) {
+        if (!items[i].match(/\.pdf$/)) {
+          continue
+        }
+        _files.push(path.join(_options.src, items[i]))
+      }
+
+      _currIdx = 0
+      parseNext.call(this)
+    })
 
     return p
   }
 }
 
-// module.exports = MonolithicPdfReader
-export default MonolithicPdfReader
+// module.exports = MultiplePdfReader
+export default MultiplePdfReader

@@ -1,5 +1,4 @@
 const DocumentCloudClient = require('electron').remote.require('documentcloud')
-const pathinfo = require('pathinfo')
 const path = require('path')
 const fs = require('fs')
 const EventEmitter = require('events')
@@ -89,8 +88,7 @@ let DocumentCloudUploader = function (params) {
   }
 
   function getMetaData (file) {
-    let pi = pathinfo(file)
-    let metaFilePath = path.join(pi.dirname, pi.basename + '.json')
+    let metaFilePath = file + '.json'
 
     let json = fs.readFileSync(metaFilePath, 'utf-8')
 
@@ -145,9 +143,9 @@ let DocumentCloudUploader = function (params) {
     _files.updateAt = Math.max(parseInt(_files.count / 20), 1)
 
     return Promise.all(_files.all.map(function (f) {
-      let pi = pathinfo(f)
+      let pi = path.parse(f)
       let data = getMetaData(f)
-      return uploadFile(f, pi.basename, data)
+      return uploadFile(f, pi.base, data)
     }))
   }
 

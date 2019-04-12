@@ -1,8 +1,18 @@
+- get OCR working faster/more reliably
+
+- add OCR support to MonolithicPdfReader
+
+- test MultiplePdfReader with and without OCR
+
+- preview a message
+
+- force table to show "all" -- can't really do that; it breaks the layout
+
 - case insensitivity when parsing out headers?
 
-- maybe output senders by pages of email as well as just numbers of messages
+- report: maybe output senders by pages of email as well as just numbers of messages
 
-- how to make it super easy to open the TXT files in a spreadsheet?
+- report: how to make it super easy to open the TXT files in a spreadsheet?
 
 - use sequelize instead of flat files?
 

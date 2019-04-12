@@ -13,10 +13,11 @@
   "dependencies": {
     "aws-sdk": "^2.436.0",
     "buffertools": "^2.1.6",
+    "command-exists": "^1.2.8",
     "documentcloud": "^0.1.0",
+    "moment": "^2.24.0",
     "node-pdftk": "^2.0.2",
     "pathinfo": "^0.1.0",
-    "pdfreader": "^1.0.0",
     "q-flat": "^1.0.7",
     "tempnam": "^1.1.0",
     "vuelidate": "^0.7.4"
@@ -26,8 +27,9 @@
     "babel-eslint": "^10.0.1",
     "devtron": "^1.4.0",
     "electron": "^4.0.5",
-    "electron-debug": "^2.1.0",
+    "electron-debug": "^2.2.0",
     "electron-devtools-installer": "^2.2.4",
+    "electron-packager": "^13.1.1",
     "eslint": "^5.10.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^5.0.0",

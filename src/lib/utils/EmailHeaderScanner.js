@@ -3,6 +3,11 @@ let EmailHeaderScanner = function () {
   let _headersFound = {}
   let _continuation = false
   let _continuationHeader = null
+  let _lastHeader = null
+  // we expect headers to be horizontally aligned, but they're not always perfectly aligned;
+  // how far out of horizontal alignment can they be before we decide that a given piece of text
+  // is not actually a header?
+  let _xPosTolerance = 1
 
   function containsEmail (text) {
     if (text.match(/\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+/)) {
@@ -12,8 +17,16 @@ let EmailHeaderScanner = function () {
     return false
   }
 
+  function headerShouldHaveAddresses (h) {
+    if (h.header.match(/^\s*(From|To|Cc|Bcc)/)) {
+      return true
+    }
+
+    return false
+  }
+
   function scanForNewHeader (line) {
-    let matches = line.text.match(/^\s*(From|To|Subject|Date|Attachments|Cc|Bcc):\s+(.+)/)
+    let matches = line.text.match(/^\s*(From|To|Subject|Date|Sent|Attachments|Cc|Bcc):\s+(.+)/)
     if (!matches) {
       return false
     }
@@ -22,7 +35,8 @@ let EmailHeaderScanner = function () {
     // x coordinate, it is likely a quoted email inside the email)
     for (let h in _headersFound) {
       let foundLine = _headersFound[h].line
-      if (line.x !== foundLine.x) {
+      let delta = Math.abs(line.x - foundLine.x)
+      if (delta > _xPosTolerance) {
         return false
       }
     }
@@ -48,6 +62,7 @@ let EmailHeaderScanner = function () {
     // look for a header that starts on this line
     let foundHeader = scanForNewHeader(line)
     if (foundHeader) {
+      _lastHeader = foundHeader
       return foundHeader
     }
 
@@ -65,11 +80,26 @@ let EmailHeaderScanner = function () {
       }
     }
 
+    // Deal with outlook output that might look like this:
+    //  From: Akroyd, Cathy R [/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP
+    //        (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=82FDF2DE4BE5481C8F01C933B5F2CAB9-CRAKROYD]
+    //
+    // FIXME: this is sort of a continuation header, but it doesn't have any sort of hint on the first line that it might
+    // be a continuation header, so the logic used for _continuationHeader wouldn't really work
+    if (_lastHeader && headerShouldHaveAddresses(_lastHeader)) {
+      if (line.text.match(/CN=RECIPIENTS/i)) {
+        _lastHeader.value += ' ' + line.text
+        return _lastHeader
+      }
+    }
+
+    _lastHeader = null
     return false
   }
 
   function foundCriticalHeaders () {
-    if (_headersFound['From'] && _headersFound['Subject'] && _headersFound['Date']) {
+    if (_headersFound['From'] && _headersFound['Subject'] &&
+      (_headersFound['Date'] || _headersFound['Sent'])) {
       return true
     }
 
