@@ -12,6 +12,19 @@
           style="top: 0px; left: 0px; right: 0px; bottom: 0px;"
           row-key="emailId"
         >
+          <q-tr :id="props.row.id" slot="body" slot-scope="props" :props="props" @dblclick.native="preview(props.row)" class="cursor-pointer">
+            <q-td auto-width>
+              <q-checkbox color="primary" v-model="props.selected" />
+            </q-td>
+            <q-td
+              v-for="col in props.cols"
+              :key="col.name"
+              :props="props"
+              style="overflow: hidden"
+            >
+              {{ col.value }}
+            </q-td>
+          </q-tr>
         <!-- MUST have a slot-scope, or the q-search won't display; if we set it to "props", we get an error at compile time
             about props not being used; set it to "{}" instead  - https://github.com/vuejs/eslint-plugin-vue/issues/781 -->
           <template slot="top-left" slot-scope="{}">
@@ -23,6 +36,35 @@
             />
           </template>
         </q-table>
+        <br />
+        <q-btn
+          label="Select all"
+          color="secondary"
+          @click="selectAll()"
+          v-if="!globalButtonsDisabled"
+          :disabled="globalButtonsDisabled"
+        />&nbsp;
+        <q-btn
+          label="Select none"
+          color="secondary"
+          @click="selectNone()"
+          v-if="!globalButtonsDisabled"
+          :disabled="globalButtonsDisabled"
+        />&nbsp;
+        <q-btn
+          label="Invert selection"
+          color="secondary"
+          @click="invertSelection()"
+          v-if="!globalButtonsDisabled"
+          :disabled="globalButtonsDisabled"
+        />&nbsp;
+        <q-btn
+          label="Remove unselected"
+          color="secondary"
+          @click="removeUnselected()"
+          v-if="!globalButtonsDisabled"
+          :disabled="globalButtonsDisabled"
+        />
     </div>
 </template>
 
@@ -56,6 +98,7 @@ table.q-table {
 </style>
 
 <script>
+const { spawn } = require('child_process')
 const { dialog } = require('electron').remote
 const path = require('path')
 const fs = require('fs')
@@ -126,6 +169,14 @@ export default {
     }
   },
   computed: {
+    globalButtonsDisabled: {
+      get () {
+        if (this.emailFilter) {
+          return true
+        }
+        return false
+      }
+    },
     emails: {
       get () {
         return this.$store.state.filter.emails
@@ -171,6 +222,36 @@ export default {
     this.processFile()
   },
   methods: {
+    selectAll: function () {
+      let newSelected = []
+      for (let i = 0; i < this.tableData.length; i++) {
+        newSelected.push(this.tableData[i])
+      }
+      this.selected = newSelected
+    },
+    selectNone: function () {
+      this.selected = []
+    },
+    invertSelection: function () {
+      this.selected = this.tableData.filter((el) => !this.selected.includes(el))
+    },
+    removeUnselected: function () {
+      let newTableData = []
+      for (let i = 0; i < this.selected.length; i++) {
+        newTableData.push(this.selected[i])
+      }
+      this.tableData = newTableData
+    },
+    preview: function (row) {
+      console.log('[preview] row: ', row)
+      let id = row.emailId - 1
+      let email = this.emails[id]
+      if (email.files.pdf) {
+        console.log('[preview] email: ', email)
+        spawn('open', [email.files.pdf])
+      }
+    },
+
     processFile: function () {
       if ((this.inputFileWritten === this.$store.state.setup.inputFile)) {
         console.log('[processFile] input filename unchanged since last processing...')
@@ -229,6 +310,14 @@ export default {
         baseName: this.baseName
       })
 
+      // decodes HTML entities (our pdf reading code is getting entities, and quasar/vue is double-encoding them);
+      // we often see HTML entities like &apos; in the subject lines
+      function domDecoder (str) {
+        let parser = new DOMParser()
+        let dom = parser.parseFromString('<!doctype html><body>' + str, 'text/html')
+        return dom.body.textContent
+      }
+
       console.log('[processFile] reading ' + this.$store.state.setup.inputFile)
       notify('Reading ' + this.$store.state.setup.inputFile)
       r.read().then((emails) => {
@@ -248,9 +337,9 @@ export default {
 
           let record = {
             emailId: i + 1,
-            from: e.headers.From ? e.headers.From.value : '',
-            subject: e.headers.Subject ? e.headers.Subject.value : '',
-            to: e.headers.To ? e.headers.To.value : '',
+            from: e.headers.From ? domDecoder(e.headers.From.value) : '',
+            subject: e.headers.Subject ? domDecoder(e.headers.Subject.value) : '',
+            to: e.headers.To ? domDecoder(e.headers.To.value) : '',
             date: datestr,
             numPages: e.end.page - e.start.page + 1
           }
@@ -258,7 +347,7 @@ export default {
           newSelected.push(record)
         }
 
-        console.log(newdata)
+        // console.log(newdata)
         this.tableData = newdata
         this.selected = newSelected
 

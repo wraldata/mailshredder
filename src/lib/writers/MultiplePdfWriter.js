@@ -64,7 +64,7 @@ let MultiplePdfWriter = function (params) {
     let e = _options.emails[i]
 
     let outPdf = path.join(_options.outDir, _options.baseName + '-' + zeroFill(i, 6) + '.pdf')
-    let outJson = path.join(_options.outDir, _options.baseName + '-' + zeroFill(i, 6) + '.json')
+    let outJson = outPdf + '.json'
 
     console.log(`Email ${i}, pages ${e.start.page} - ${e.end.page} to ${outPdf}`)
 

@@ -6,9 +6,19 @@ import PDFUtils from '../utils/PDFUtils'
 
 let MonolithicPdfReader = function (params) {
   let _options = {
+    // FIXME: our multipage PDF parsing currently requires that each message start a new page;
+    // if you set this to false, you'll get some bad results; it's here for future extensibility
+    // (although I have no idea how to properly parse a "run-on" multipage PDF)
     newPageForEachMessage: true,
-    verbose: true,
+    // some email PDF dumps have a "masthead" line at the top of the page, with somebody's name in it
+    numNonHeadersAllowedAtTop: 1,
+    // some email PDF dumps have slight variation in the y-position of the components of the header, e.g. "To:" and "foo@example.com"; this is usually between 0.01 and 0.25 mm
+    yPosTolerance: 0.5,
+    // convert image-based PDF to text before parsing, using pdftotext; currently, the caller has to indicate whether to
+    // perform this OCR; if the PDF is not image based and performOCR is true, you will get bad results.  If the PDF
+    // is image based, and performOCR is false, you won't get any results
     performOCR: false,
+    verbose: false,
     src: ''
   }
 
@@ -17,6 +27,7 @@ let MonolithicPdfReader = function (params) {
   let _emails = []
   let _onParseComplete = null
   let _onParseFail = null
+  let _numNonHeadersSeenOnPage = 0
   let _ignoreHeadersUntilNextPage = false
   let _currPage = 0
   let _currLine = {
@@ -65,7 +76,7 @@ let MonolithicPdfReader = function (params) {
     log('SCAN RESULT: ' + scanResult[0])
 
     if (scanResult[0] === 'email_start') {
-      log('EMAIL START: ', scanResult[1])
+      log('EMAIL START: ', scanResult[1], scanResult[2])
 
       let end = scanResult[1]
       let start = scanResult[1]
@@ -98,14 +109,20 @@ let MonolithicPdfReader = function (params) {
     }
 
     if (scanResult[0] !== 'header') {
+      _numNonHeadersSeenOnPage++
+
       if (_options.newPageForEachMessage) {
-        _ignoreHeadersUntilNextPage = true
+        if (_options.numNonHeadersAllowedAtTop < _numNonHeadersSeenOnPage) {
+          _ignoreHeadersUntilNextPage = true
+        }
       }
     }
   }
 
   function processText (item) {
-    if (item.y > _currLine.y) {
+    let delta = Math.abs(item.y - _currLine.y)
+
+    if (delta > _options.yPosTolerance) {
       processLine(_currLine)
       _currLine.x = item.x
       _currLine.y = item.y
@@ -132,6 +149,7 @@ let MonolithicPdfReader = function (params) {
       y: -1,
       text: ''
     }
+    _numNonHeadersSeenOnPage = 0
     _ignoreHeadersUntilNextPage = false
   }
 

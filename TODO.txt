@@ -1,12 +1,43 @@
-- get OCR working faster/more reliably
+- get OCR working faster/more reliably; currently the conversion from PDF to 300dpi TIFF and then running tesseract on the result takes about 6.8s per page.
 
-- add OCR support to MonolithicPdfReader
+- options:
+  - MonolithicPdfReader: allow control of numNonHeadersAllowedAtTop
+  - allow control of verbosity in readers and writers so you can diagnose problems
+    (and allow user to view logs in a non-dev build)
 
-- test MultiplePdfReader with and without OCR
+- MultiplePdfReader without OCR doesn't write anything in the tmp directory, and it writes JSON files directly into
+  the directory with the files.  That's *probably* OK; it's definitely faster and lighter on disk usage.  But it's 
+  different from all the other modes (monolithic+ocr, monolithic no-ocr, multiple+ocr)
 
-- preview a message
+- UI improvements:
+  - if you mistakenly process an image-only PDF without OCR checked, you can't go back and just check OCR; the
+    system will avoid re-processing the PDF.  It needs to check whether the user has the same options selected,
+    not just using the filename and the file's modtime
+  - with OCR on, the UI locks up pretty badly when it starts processing the first PDF; we need to at least allow
+    for the stepper to transition and the progress overlay to come up
 
-- force table to show "all" -- can't really do that; it breaks the layout
+- cleanup of tmp directories (/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder on my mac)
+
+- filter options:
+  - undo selection change (in case you accidentally hit "select all" after painstakingly selecting lots of
+    individual emails)
+  - make "select all" and "select none" respect the current filter  
+  - force table to show "all" -- tried this, but it breaks the layout
+
+- support for other input types:
+  - eml
+  - pst
+  - PDF portfolio
+
+- concept of a "project" -- let you re-open an existing project and manipulate the selection and re-export
+
+- upload error handling so you can retry failed uploads -- very important for large document sets
+
+- MultiplePdfReader - handle documents with no email at all (like some random text docs that got thrown into the mix)
+
+- parallel uploads to DocumentCloud
+
+- saving credentials for convenience
 
 - case insensitivity when parsing out headers?
 
@@ -14,22 +45,4 @@
 
 - report: how to make it super easy to open the TXT files in a spreadsheet?
 
-- use sequelize instead of flat files?
-
-- how to cluster subject lines for easy filtering?
-   - extract all "Re:", "Fwd:", etc. to get the thread subjects
-   - maybe use first 10, 15, 20, 25 characters of subject lines for grouping?
-
-- better management of output directory (should we just automatically
-  create some temporary location for the parsed files, and only write to a user-specified location if the user specifically
-  requests it?)
-
 - handle situation where embedded email headers start at the top of the page (somehow identify that these are not starting a new email)
-
-- parallel uploads to DocumentCloud
-
-- upload error handling so you can retry failed uploads -- very important for large document sets
-
-- UI for sorting and filtering; maybe sort by email size, sender frequency, sort by subject line, sort by subject but
-  collapse numeric-only differences, e.g. "DNCR media clips for 4-7-2016" and "DNCR media clips for 4-8-2016" could
-  be collapsed to "DNCR media clips for " or something.

@@ -6,6 +6,10 @@ import PDFUtils from '../utils/PDFUtils'
 
 let MultiplePdfReader = function (params) {
   let _options = {
+    // some email PDF dumps have a "masthead" line at the top of the page, with somebody's name in it
+    numNonHeadersAllowedAtTop: 1,
+    // some email PDF dumps have slight variation in the y-position of the components of the header, e.g. "To:" and "foo@example.com"; this is usually between 0.01 and 0.25 mm
+    yPosTolerance: 0.5,
     verbose: true,
     outDir: '/tmp',
     performOCR: false,
@@ -17,6 +21,7 @@ let MultiplePdfReader = function (params) {
   let _emails = []
   let _onParseComplete = null
   let _onParseFail = null
+  let _numNonHeadersSeenOnPage = 0
   let _ignoreHeadersUntilNextPage = false
   let _currPage = 0
   let _currLine = {
@@ -97,12 +102,20 @@ let MultiplePdfReader = function (params) {
     }
 
     if (scanResult[0] !== 'header') {
-      _ignoreHeadersUntilNextPage = true
+      _numNonHeadersSeenOnPage++
+
+      if (_options.newPageForEachMessage) {
+        if (_options.numNonHeadersAllowedAtTop < _numNonHeadersSeenOnPage) {
+          _ignoreHeadersUntilNextPage = true
+        }
+      }
     }
   }
 
   function processText (item) {
-    if (item.y > _currLine.y) {
+    let delta = Math.abs(item.y - _currLine.y)
+
+    if (delta > _options.yPosTolerance) {
       processLine(_currLine)
       _currLine.x = item.x
       _currLine.y = item.y
@@ -127,6 +140,8 @@ let MultiplePdfReader = function (params) {
       y: -1,
       text: ''
     }
+
+    _numNonHeadersSeenOnPage = 0
     _ignoreHeadersUntilNextPage = false
   }
 
