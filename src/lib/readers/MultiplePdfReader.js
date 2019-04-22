@@ -6,6 +6,12 @@ import PDFUtils from '../utils/PDFUtils'
 
 let MultiplePdfReader = function (params) {
   let _options = {
+    // While it's more typical to see a multiple-pdf tranch contain one email per PDF, it's possible
+    // for us to parse out more than one email from a single PDF within that group of files.  But we
+    // expect to see them at least start at the top of a new page.
+    // if you set this to false, you'll get some bad results; it's here for future extensibility
+    // (although I have no idea how to properly parse a "run-on" multi-email PDF)
+    newPageForEachMessage: true,
     // some email PDF dumps have a "masthead" line at the top of the page, with somebody's name in it
     numNonHeadersAllowedAtTop: 1,
     // some email PDF dumps have slight variation in the y-position of the components of the header, e.g. "To:" and "foo@example.com"; this is usually between 0.01 and 0.25 mm
@@ -21,6 +27,7 @@ let MultiplePdfReader = function (params) {
   let _emails = []
   let _onParseComplete = null
   let _onParseFail = null
+  let _numHeadersSeenOnPage = 0
   let _numNonHeadersSeenOnPage = 0
   let _ignoreHeadersUntilNextPage = false
   let _currPage = 0
@@ -101,13 +108,16 @@ let MultiplePdfReader = function (params) {
       _ignoreHeadersUntilNextPage = true
     }
 
-    if (scanResult[0] !== 'header') {
+    if (scanResult[0] === 'header') {
+      _numHeadersSeenOnPage++
+    } else {
       _numNonHeadersSeenOnPage++
 
       if (_options.newPageForEachMessage) {
-        if (_options.numNonHeadersAllowedAtTop < _numNonHeadersSeenOnPage) {
-          _ignoreHeadersUntilNextPage = true
+        if ((_numHeadersSeenOnPage === 0) && (_options.numNonHeadersAllowedAtTop < _numNonHeadersSeenOnPage)) {
+          return
         }
+        _ignoreHeadersUntilNextPage = true
       }
     }
   }
@@ -141,6 +151,7 @@ let MultiplePdfReader = function (params) {
       text: ''
     }
 
+    _numHeadersSeenOnPage = 0
     _numNonHeadersSeenOnPage = 0
     _ignoreHeadersUntilNextPage = false
   }

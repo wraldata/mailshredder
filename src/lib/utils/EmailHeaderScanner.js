@@ -83,11 +83,15 @@ let EmailHeaderScanner = function () {
     // Deal with outlook output that might look like this:
     //  From: Akroyd, Cathy R [/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP
     //        (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=82FDF2DE4BE5481C8F01C933B5F2CAB9-CRAKROYD]
+    //  To:   Talley,NoelleS$[/o=ExchangeLabs/ou=ExchangeAdministrativeGroup
+    //        (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd9f3882421746bcb5a60cbe82cdff89-nstalley]; Weiner, Sadie
+    //        [/o=ExchangeLabs/ou=Exchange Administrative Group
+    //        (FYDIBOHF23SPDLT)/cn=Recipients/cn=df98bd64929043eeaab54e589dd7d1b2-asweiner]
     //
     // FIXME: this is sort of a continuation header, but it doesn't have any sort of hint on the first line that it might
     // be a continuation header, so the logic used for _continuationHeader wouldn't really work
     if (_lastHeader && headerShouldHaveAddresses(_lastHeader)) {
-      if (line.text.match(/CN=RECIPIENTS/i)) {
+      if (line.text.match(/\/(o=exchange|ou=|cn=|)/i)) {
         _lastHeader.value += ' ' + line.text
         return _lastHeader
       }

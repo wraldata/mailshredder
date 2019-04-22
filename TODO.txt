@@ -13,6 +13,7 @@
   - if you mistakenly process an image-only PDF without OCR checked, you can't go back and just check OCR; the
     system will avoid re-processing the PDF.  It needs to check whether the user has the same options selected,
     not just using the filename and the file's modtime
+  - auto-detection of scanned PDFs so the user doesn't have to select OCR or no OCR (this would obviate the previous)
   - with OCR on, the UI locks up pretty badly when it starts processing the first PDF; we need to at least allow
     for the stepper to transition and the progress overlay to come up
 
@@ -25,9 +26,10 @@
   - force table to show "all" -- tried this, but it breaks the layout
 
 - support for other input types:
+  - PDF portfolio - pdftk FILENAME.pdf unpack_files will extract all files.  You could try this on a single PDF to 
+    see if it changes the contents of the directory; if it does, then remove the original PDF and process the new PDFs
   - eml
   - pst
-  - PDF portfolio
 
 - concept of a "project" -- let you re-open an existing project and manipulate the selection and re-export
 

@@ -8,7 +8,7 @@ let MonolithicPdfReader = function (params) {
   let _options = {
     // FIXME: our multipage PDF parsing currently requires that each message start a new page;
     // if you set this to false, you'll get some bad results; it's here for future extensibility
-    // (although I have no idea how to properly parse a "run-on" multipage PDF)
+    // (although I have no idea how to properly parse a "run-on" multi-email PDF)
     newPageForEachMessage: true,
     // some email PDF dumps have a "masthead" line at the top of the page, with somebody's name in it
     numNonHeadersAllowedAtTop: 1,
@@ -18,7 +18,7 @@ let MonolithicPdfReader = function (params) {
     // perform this OCR; if the PDF is not image based and performOCR is true, you will get bad results.  If the PDF
     // is image based, and performOCR is false, you won't get any results
     performOCR: false,
-    verbose: false,
+    verbose: true,
     src: ''
   }
 
@@ -27,6 +27,7 @@ let MonolithicPdfReader = function (params) {
   let _emails = []
   let _onParseComplete = null
   let _onParseFail = null
+  let _numHeadersSeenOnPage = 0
   let _numNonHeadersSeenOnPage = 0
   let _ignoreHeadersUntilNextPage = false
   let _currPage = 0
@@ -108,13 +109,16 @@ let MonolithicPdfReader = function (params) {
       }
     }
 
-    if (scanResult[0] !== 'header') {
+    if (scanResult[0] === 'header') {
+      _numHeadersSeenOnPage++
+    } else {
       _numNonHeadersSeenOnPage++
 
       if (_options.newPageForEachMessage) {
-        if (_options.numNonHeadersAllowedAtTop < _numNonHeadersSeenOnPage) {
-          _ignoreHeadersUntilNextPage = true
+        if ((_numHeadersSeenOnPage === 0) && (_options.numNonHeadersAllowedAtTop < _numNonHeadersSeenOnPage)) {
+          return
         }
+        _ignoreHeadersUntilNextPage = true
       }
     }
   }
@@ -149,6 +153,7 @@ let MonolithicPdfReader = function (params) {
       y: -1,
       text: ''
     }
+    _numHeadersSeenOnPage = 0
     _numNonHeadersSeenOnPage = 0
     _ignoreHeadersUntilNextPage = false
   }
