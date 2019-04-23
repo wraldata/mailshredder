@@ -109,6 +109,8 @@ import MonolithicPdfReader from '../lib/readers/MonolithicPdfReader'
 import MultiplePdfReader from '../lib/readers/MultiplePdfReader'
 import MultiplePdfWriter from '../lib/writers/MultiplePdfWriter'
 
+import Logger from '../lib/utils/Logger'
+
 const moment = require('moment')
 
 export default {
@@ -201,20 +203,12 @@ export default {
         this.$store.commit('filter/updateSelected', val)
       }
     },
-    inputFileWritten: {
+    lastJob: {
       get () {
-        return this.$store.state.filter.inputFileWritten
+        return this.$store.state.filter.lastJob
       },
       set (val) {
-        this.$store.commit('filter/updateInputFileWritten', val)
-      }
-    },
-    inputFileWrittenAt: {
-      get () {
-        return this.$store.state.filter.inputFileWrittenAt
-      },
-      set (val) {
-        this.$store.commit('filter/updateInputFileWrittenAt', val)
+        this.$store.commit('filter/updateLastJob', val)
       }
     }
   },
@@ -253,19 +247,16 @@ export default {
     },
 
     processFile: function () {
-      if ((this.inputFileWritten === this.$store.state.setup.inputFile)) {
-        console.log('[processFile] input filename unchanged since last processing...')
-        let modDate = fs.statSync(this.$store.state.setup.inputFile).mtime
-        console.log('[processFile] modDate:', modDate)
-        console.log('[processFile] inputFileWrittenAt:', this.inputFileWrittenAt)
-        if (this.inputFileWrittenAt > modDate) {
-          console.log('[processFile] input file unchanged since last processing; skipping re-processing')
-          return
-        } else {
-          console.log('[processFile] input file changed since last processing; re-processing')
-        }
-      } else {
-        console.log('[processFile] new input file specified since last processing; re-processing')
+      let newJob = {
+        inputFile: this.$store.state.setup.inputFile,
+        inputFileModTime: fs.statSync(this.$store.state.setup.inputFile).mtime,
+        performOCR: this.$store.state.setup.performOCR,
+        unpackPortfolio: this.$store.state.setup.unpackPortfolio
+      }
+
+      if (JSON.stringify(newJob) === JSON.stringify(this.lastJob)) {
+        console.log('[processFile] job parameters unchanged; skipping re-processing')
+        return
       }
 
       this.tableData = []
@@ -285,25 +276,38 @@ export default {
       fs.unlinkSync(this.outputDir)
       fs.mkdirSync(this.outputDir)
       this.baseName = path.parse(this.$store.state.setup.inputFile).base
+      Logger.init(this.outputDir)
 
       let r = null
+      let w = null
       let inputType = MultiplePdfWriter.INPUT_TYPE_SINGLE_FILE_PAGE_PER_EMAIL
-      if (fs.lstatSync(this.$store.state.setup.inputFile).isDirectory()) {
+
+      if (this.$store.state.setup.unpackPortfolio) {
         r = new MultiplePdfReader({
           src: this.$store.state.setup.inputFile,
           outDir: this.outputDir,
-          performOCR: this.$store.state.setup.performOCR
+          performOCR: this.$store.state.setup.performOCR,
+          unpackPortfolio: true
         })
         inputType = MultiplePdfWriter.INPUT_TYPE_DIRECTORY_FILE_PER_EMAIL
       } else {
-        r = new MonolithicPdfReader({
-          src: this.$store.state.setup.inputFile,
-          outDir: this.outputDir,
-          performOCR: this.$store.state.setup.performOCR
-        })
+        if (fs.lstatSync(this.$store.state.setup.inputFile).isDirectory()) {
+          r = new MultiplePdfReader({
+            src: this.$store.state.setup.inputFile,
+            outDir: this.outputDir,
+            performOCR: this.$store.state.setup.performOCR
+          })
+          inputType = MultiplePdfWriter.INPUT_TYPE_DIRECTORY_FILE_PER_EMAIL
+        } else {
+          r = new MonolithicPdfReader({
+            src: this.$store.state.setup.inputFile,
+            outDir: this.outputDir,
+            performOCR: this.$store.state.setup.performOCR
+          })
+        }
       }
 
-      let w = new MultiplePdfWriter({
+      w = new MultiplePdfWriter({
         src: this.$store.state.setup.inputFile,
         inputType: inputType,
         outDir: this.outputDir,
@@ -351,9 +355,6 @@ export default {
         this.tableData = newdata
         this.selected = newSelected
 
-        // let g = new EmailReportGenerator()
-        // g.generate(emails, program.outputDir, program.baseName)
-
         if (w) {
           w.on('start-burst', evt => {
             notify('Bursting into individual pages (' + evt.output + ')')
@@ -370,8 +371,7 @@ export default {
         }
       }).then((files) => {
         console.log('[processFile] writing complete.')
-        this.inputFileWritten = this.$store.state.setup.inputFile
-        this.inputFileWrittenAt = new Date()
+        this.lastJob = newJob
         this.$q.loading.hide()
       }).catch(function (err) {
         dialog.showMessageBox({

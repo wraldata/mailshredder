@@ -17,3 +17,7 @@ export function updateInputFile (state, inputFile) {
 export function updatePerformOCR (state, performOCR) {
   state.performOCR = performOCR
 }
+
+export function updateUnpackPortfolio (state, unpackPortfolio) {
+  state.unpackPortfolio = unpackPortfolio
+}

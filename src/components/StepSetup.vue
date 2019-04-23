@@ -48,7 +48,12 @@
         <q-field
           label="Perform OCR"
         >
-        <q-checkbox v-model="performOCR" />
+          <q-checkbox v-model="performOCR" />
+        </q-field>
+        <q-field
+          label="Unpack PDF Portfolio"
+        >
+          <q-checkbox v-model="unpackPortfolio" />
         </q-field>
     </div>
 </template>
@@ -56,7 +61,8 @@
 <script>
 const { dialog } = require('electron').remote
 import { required, integer, minValue } from 'vuelidate/lib/validators'
-import DocumentCloudUploader from '../lib//uploaders/DocumentCloudUploader'
+import DocumentCloudUploader from '../lib/uploaders/DocumentCloudUploader'
+const FSUtils = require('../lib/utils/Filesystem')
 
 export default {
   name: 'StepSetup',
@@ -110,6 +116,14 @@ export default {
       set (val) {
         this.$store.commit('setup/updatePerformOCR', val)
       }
+    },
+    unpackPortfolio: {
+      get () {
+        return this.$store.state.setup.unpackPortfolio
+      },
+      set (val) {
+        this.$store.commit('setup/updateUnpackPortfolio', val)
+      }
     }
   },
   methods: {
@@ -123,12 +137,12 @@ export default {
 
       // note that there is a scoping issue with the way calls are made to remote objects,
       // so you have to use an arrow function (or store a reference to 'this')
-      console.log(dialog.showOpenDialog(options, (selection) => {
+      dialog.showOpenDialog(options, (selection) => {
         if (selection && selection.length === 1) {
           console.log('user selected: ' + selection[0])
           this.inputFile = '' + selection[0]
         }
-      }))
+      })
     },
     validate: function () {
       this.$v.$touch()
@@ -138,6 +152,23 @@ export default {
           errMessage: 'One or more errors in form fields; please correct before proceeding.'
         })
         return
+      }
+
+      if (FSUtils.isDir(this.inputFile)) {
+        if (this.unpackPortfolio) {
+          this.$emit('validation-result', {
+            result: false,
+            errMessage: '"Unpack PDF Portfolio" checked, but directory selected; select a single portfolio file instead.'
+          })
+          return
+        }
+        if (FSUtils.isDirEmpty(this.inputFile)) {
+          this.$emit('validation-result', {
+            result: false,
+            errMessage: 'Directory selected, but nothing in directory; cannot proceed.'
+          })
+          return
+        }
       }
 
       let u = new DocumentCloudUploader({

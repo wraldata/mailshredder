@@ -3,6 +3,7 @@ const path = require('path')
 import EmailHeaderScanner from '../utils/EmailHeaderScanner'
 const ensureDirectoryExists = require('../utils/Filesystem').ensureDirectoryExists
 import PDFUtils from '../utils/PDFUtils'
+import Logger from '../utils/Logger'
 
 let MultiplePdfReader = function (params) {
   let _options = {
@@ -19,8 +20,11 @@ let MultiplePdfReader = function (params) {
     verbose: true,
     outDir: '/tmp',
     performOCR: false,
+    unpackPortfolio: false,
     src: ''
   }
+
+  let _logger = Logger.getLogger()
 
   Object.assign(_options, params)
 
@@ -38,6 +42,7 @@ let MultiplePdfReader = function (params) {
     text: ''
   }
   let _ocrDir = ''
+  let _unpackDir = ''
 
   let _files = []
   let _currIdx = 0
@@ -55,48 +60,37 @@ let MultiplePdfReader = function (params) {
     ensureDirectoryExists(_ocrDir)
   }
 
+  if (_options.unpackPortfolio) {
+    _unpackDir = path.join(_options.outDir, 'unpack')
+    ensureDirectoryExists(_unpackDir)
+  }
+
   let _ehs = new EmailHeaderScanner()
   let _pdf = new PDFUtils()
-
-  function log (msg) {
-    if (!_options.verbose) {
-      return
-    }
-    console.log(msg)
-  }
 
   function processLine (line) {
     if (line.text === '') {
       return
     }
 
-    log(`[[${line.x}, ${line.y}]] ${line.text}`)
+    _logger.debug(`[[${line.x}, ${line.y}]] ${line.text}`)
 
     if (_ignoreHeadersUntilNextPage) {
       return
     }
 
     let scanResult = _ehs.scanLine(line)
-    log('SCAN RESULT: ' + scanResult[0])
+    _logger.debug('SCAN RESULT: ' + scanResult[0])
 
     if (scanResult[0] === 'email_start') {
-      log('EMAIL START: ', scanResult[1])
+      _logger.debug('EMAIL START: ', scanResult[1])
 
-      let end = scanResult[1]
-      let start = scanResult[1]
-      let headers = scanResult[2]
-
-      end = {
-        page: scanResult[1].page - 1
-      }
-      start = {
+      let start = {
+        file: _files[_currIdx],
         page: scanResult[1].page
       }
 
-      // add an "end" to the previous email
-      if (_emails.length > 0) {
-        _emails[_emails.length - 1].end = end
-      }
+      let headers = scanResult[2]
 
       // add a new email to the list
       _emails.push({
@@ -114,7 +108,7 @@ let MultiplePdfReader = function (params) {
       _numNonHeadersSeenOnPage++
 
       if (_options.newPageForEachMessage) {
-        if ((_numHeadersSeenOnPage === 0) && (_options.numNonHeadersAllowedAtTop < _numNonHeadersSeenOnPage)) {
+        if ((_numHeadersSeenOnPage === 0) && (_options.numNonHeadersAllowedAtTop <= _numNonHeadersSeenOnPage)) {
           return
         }
         _ignoreHeadersUntilNextPage = true
@@ -138,11 +132,18 @@ let MultiplePdfReader = function (params) {
   function processPage (item) {
     processLine(_currLine)
 
+    if (_emails.length > 0) {
+      _emails[_emails.length - 1].end = {
+        file: _files[_currIdx],
+        page: _currPage
+      }
+    }
+
     _ehs.reset()
 
     _currPage++
-    log('--------------------------------------------------------------------------------')
-    log('PAGE ' + item.page)
+    _logger.debug('--------------------------------------------------------------------------------')
+    _logger.debug('PAGE ' + item.page)
     _currLine = {
       file: _options.src,
       page: _currPage,
@@ -184,15 +185,20 @@ let MultiplePdfReader = function (params) {
       return
     }
 
+    _currPage = 0
+
     if (_options.performOCR) {
       let pi = path.parse(_files[_currIdx])
-      _pdf.ocr(_files[_currIdx], path.join(_ocrDir, pi.name))
-      _files[_currIdx] = path.join(_ocrDir, pi.base)
-      console.log('[parseNext] parsing ' + _files[_currIdx])
+      _logger.debug('[parseNext] OCR-ing ' + _files[_currIdx])
+      _pdf.ocr(_files[_currIdx], path.join(_ocrDir, pi.name), function () {
+        _files[_currIdx] = path.join(_ocrDir, pi.base)
+        _logger.debug('[parseNext] extracting text from ' + _files[_currIdx])
+        _pdf.toText(_files[_currIdx], onPdfItem)
+      })
+    } else {
+      _logger.debug('[parseNext] extracting text from ' + _files[_currIdx])
+      _pdf.toText(_files[_currIdx], onPdfItem)
     }
-
-    _currPage = 0
-    _pdf.toText(_files[_currIdx], onPdfItem)
   }
 
   this.read = function () {
@@ -203,24 +209,36 @@ let MultiplePdfReader = function (params) {
       _onParseFail = reject
     })
 
-    console.log('[MultiplePdfReader]] reading ' + _options.src)
+    if (_options.unpackPortfolio) {
+      _logger.debug('[MultiplePdfReader] unpacking ' + _options.src + ' to ' + _unpackDir)
+      _pdf.unpackPortfolio(_options.src, _unpackDir, () => {
+        _options.src = _unpackDir
+        reallyRead()
+      })
+    } else {
+      reallyRead()
+    }
 
-    fs.readdir(_options.src, function (err, items) {
-      if (err) {
-        throw new Error(`Error reading ${_options.src}: ${err.message}`)
-      }
+    function reallyRead () {
+      _logger.debug('[MultiplePdfReader] reading ' + _options.src)
 
-      _files = []
-      for (let i = 0; i < items.length; i++) {
-        if (!items[i].match(/\.pdf$/)) {
-          continue
+      fs.readdir(_options.src, function (err, items) {
+        if (err) {
+          throw new Error(`Error reading ${_options.src}: ${err.message}`)
         }
-        _files.push(path.join(_options.src, items[i]))
-      }
 
-      _currIdx = 0
-      parseNext.call(this)
-    })
+        _files = []
+        for (let i = 0; i < items.length; i++) {
+          if (!items[i].match(/\.pdf$/)) {
+            continue
+          }
+          _files.push(path.join(_options.src, items[i]))
+        }
+
+        _currIdx = 0
+        parseNext.call(this)
+      })
+    }
 
     return p
   }

@@ -1,6 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const pdftk = require('node-pdftk')
+import Logger from '../utils/Logger'
 
 const ensureDirectoryExists = require('../utils/Filesystem').ensureDirectoryExists
 
@@ -13,6 +14,8 @@ let MultiplePdfWriter = function (params) {
     emails: [],
     verbose: false
   }
+
+  let _logger = Logger.getLogger()
 
   let _onWriteSuccess = null
   let _onWriteFail = null
@@ -66,7 +69,7 @@ let MultiplePdfWriter = function (params) {
     let outPdf = path.join(_options.outDir, _options.baseName + '-' + zeroFill(i, 6) + '.pdf')
     let outJson = outPdf + '.json'
 
-    console.log(`Email ${i}, pages ${e.start.page} - ${e.end.page} to ${outPdf}`)
+    _logger.debug(`Email ${i}, pages ${e.start.page} - ${e.end.page} to ${outPdf}`)
 
     e.files = {
       pdf: outPdf,
@@ -78,7 +81,7 @@ let MultiplePdfWriter = function (params) {
     let input = []
     for (let j = e.start.page; j <= e.end.page; j++) {
       let p = path.join(_pageDir, 'page-' + zeroFill(j, 6) + '.pdf')
-      console.log(`  - ${p}`)
+      _logger.debug(`  - ${p}`)
       input.push(p)
     }
 
@@ -114,10 +117,11 @@ let MultiplePdfWriter = function (params) {
     for (let i = 0; i < _options.emails.length; i++) {
       let e = _options.emails[i]
 
-      let outPdf = e.file
+      let outPdf = path.join(_options.outDir, _options.baseName + '-' + zeroFill(i, 6) + '.pdf')
       let outJson = outPdf + '.json'
+      _logger.debug(`Email ${i}, ${e.file} to ${outPdf}`)
 
-      console.log(`Email ${i}, pages ${e.start.page} - ${e.end.page} from ${outPdf}`)
+      fs.copyFileSync(e.file, outPdf)
 
       e.files = {
         pdf: outPdf,

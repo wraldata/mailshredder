@@ -3,5 +3,6 @@ export default {
   dcPassword: '',
   dcProjectId: '',
   inputFile: '',
-  performOCR: false
+  performOCR: false,
+  unpackPortfolio: false
 }

@@ -1,23 +1,14 @@
 - get OCR working faster/more reliably; currently the conversion from PDF to 300dpi TIFF and then running tesseract on the result takes about 6.8s per page.
 
-- options:
-  - MonolithicPdfReader: allow control of numNonHeadersAllowedAtTop
-  - allow control of verbosity in readers and writers so you can diagnose problems
-    (and allow user to view logs in a non-dev build)
+- make log available in the UI for diagnostics
 
-- MultiplePdfReader without OCR doesn't write anything in the tmp directory, and it writes JSON files directly into
-  the directory with the files.  That's *probably* OK; it's definitely faster and lighter on disk usage.  But it's 
-  different from all the other modes (monolithic+ocr, monolithic no-ocr, multiple+ocr)
+- auto-detection so you don't need user-specified options
+   - scanned PDFs
+   - PDF portfolios 
 
-- UI improvements:
-  - if you mistakenly process an image-only PDF without OCR checked, you can't go back and just check OCR; the
-    system will avoid re-processing the PDF.  It needs to check whether the user has the same options selected,
-    not just using the filename and the file's modtime
-  - auto-detection of scanned PDFs so the user doesn't have to select OCR or no OCR (this would obviate the previous)
-  - with OCR on, the UI locks up pretty badly when it starts processing the first PDF; we need to at least allow
-    for the stepper to transition and the progress overlay to come up
-
-- cleanup of tmp directories (/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder on my mac)
+- cleanup of tmp directories; both the mailshredder ones and the ones used for convert/tesseract; these currently
+  build up indefinitely
+  /var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder and /var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T on my mac)
 
 - filter options:
   - undo selection change (in case you accidentally hit "select all" after painstakingly selecting lots of
@@ -26,10 +17,17 @@
   - force table to show "all" -- tried this, but it breaks the layout
 
 - support for other input types:
-  - PDF portfolio - pdftk FILENAME.pdf unpack_files will extract all files.  You could try this on a single PDF to 
-    see if it changes the contents of the directory; if it does, then remove the original PDF and process the new PDFs
   - eml
   - pst
+
+- make DocumentCloud optional -- you should be able to just use the tool to split up the PDF and build you a directory 
+  of filtered PDFs and their metadata files
+
+- MonolithicPdfReader: allow control of numNonHeadersAllowedAtTop (would we encounter email tranches with
+  a multi-line "masthead" at the top of each page? we currently allow for a single line at the top; the more you
+  allow, the bigger the chance you're going to get a false positive where an embedded email gets recognized
+  as the start of a new email -- imagine a 3 page email, where on page 3, you have two lines of text and then
+  a set of headers from an embedded email)
 
 - concept of a "project" -- let you re-open an existing project and manipulate the selection and re-export
 
@@ -37,7 +35,7 @@
 
 - MultiplePdfReader - handle documents with no email at all (like some random text docs that got thrown into the mix)
 
-- parallel uploads to DocumentCloud
+- parallel uploads to DocumentCloud for speed (although speed doesn't seem like a big problem with DC)
 
 - saving credentials for convenience
 

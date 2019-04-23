@@ -3,6 +3,7 @@ const path = require('path')
 import EmailHeaderScanner from '../utils/EmailHeaderScanner'
 const ensureDirectoryExists = require('../utils/Filesystem').ensureDirectoryExists
 import PDFUtils from '../utils/PDFUtils'
+import Logger from '../utils/Logger'
 
 let MonolithicPdfReader = function (params) {
   let _options = {
@@ -21,6 +22,8 @@ let MonolithicPdfReader = function (params) {
     verbose: true,
     src: ''
   }
+
+  let _logger = Logger.getLogger()
 
   Object.assign(_options, params)
 
@@ -55,29 +58,22 @@ let MonolithicPdfReader = function (params) {
   let _ehs = new EmailHeaderScanner()
   let _pdf = new PDFUtils()
 
-  function log (msg) {
-    if (!_options.verbose) {
-      return
-    }
-    console.log(msg)
-  }
-
   function processLine (line) {
     if (line.text === '') {
       return
     }
 
-    log(`[[${line.x}, ${line.y}]] ${line.text}`)
+    _logger.debug(`[[${line.x}, ${line.y}]] ${line.text}`)
 
     if (_ignoreHeadersUntilNextPage) {
       return
     }
 
     let scanResult = _ehs.scanLine(line)
-    log('SCAN RESULT: ' + scanResult[0])
+    _logger.debug('SCAN RESULT: ' + scanResult[0])
 
     if (scanResult[0] === 'email_start') {
-      log('EMAIL START: ', scanResult[1], scanResult[2])
+      _logger.debug('EMAIL START: ', scanResult[1], scanResult[2])
 
       let end = scanResult[1]
       let start = scanResult[1]
@@ -115,7 +111,7 @@ let MonolithicPdfReader = function (params) {
       _numNonHeadersSeenOnPage++
 
       if (_options.newPageForEachMessage) {
-        if ((_numHeadersSeenOnPage === 0) && (_options.numNonHeadersAllowedAtTop < _numNonHeadersSeenOnPage)) {
+        if ((_numHeadersSeenOnPage === 0) && (_options.numNonHeadersAllowedAtTop <= _numNonHeadersSeenOnPage)) {
           return
         }
         _ignoreHeadersUntilNextPage = true
@@ -144,8 +140,8 @@ let MonolithicPdfReader = function (params) {
     }
 
     _currPage++
-    log('--------------------------------------------------------------------------------')
-    log('PAGE ' + item.page)
+    _logger.debug('--------------------------------------------------------------------------------')
+    _logger.debug('PAGE ' + item.page)
     _currLine = {
       file: _options.src,
       page: _currPage,
@@ -187,16 +183,21 @@ let MonolithicPdfReader = function (params) {
       _onParseFail = reject
     })
 
-    console.log('[MonolithicPdfReader]] reading ' + _options.src)
+    _logger.debug('[MonolithicPdfReader]] reading ' + _options.src)
 
     if (_options.performOCR) {
       let pi = path.parse(_options.src)
-      _pdf.ocr(_options.src, path.join(_ocrDir, pi.name))
-      _options.src = path.join(_ocrDir, pi.base)
-      console.log('[parseNext] parsing ' + _options.src)
-    }
 
-    _pdf.toText(_options.src, onPdfItem)
+      _logger.debug('[parseNext] OCR-ing ' + _options.src)
+      _pdf.ocr(_options.src, path.join(_ocrDir, pi.name), function () {
+        _options.src = path.join(_ocrDir, pi.base)
+        _logger.debug('[parseNext] extracting text from ' + _options.src)
+        _pdf.toText(_options.src, onPdfItem)
+      })
+    } else {
+      _logger.debug('[parseNext] extracting text from ' + _options.src)
+      _pdf.toText(_options.src, onPdfItem)
+    }
 
     return p
   }

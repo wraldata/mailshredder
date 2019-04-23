@@ -10,10 +10,6 @@ export function updateSelected (state, selected) {
   state.selected = selected
 }
 
-export function updateInputFileWritten (state, inputFileWritten) {
-  state.inputFileWritten = inputFileWritten
-}
-
-export function updateInputFileWrittenAt (state, inputFileWrittenAt) {
-  state.inputFileWrittenAt = inputFileWrittenAt
+export function updateLastJob (state, lastJob) {
+  state.lastJob = lastJob
 }
