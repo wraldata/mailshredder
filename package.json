@@ -13,10 +13,8 @@
   "dependencies": {
     "aws-sdk": "^2.436.0",
     "buffertools": "^2.1.6",
-    "command-exists": "^1.2.8",
     "documentcloud": "^0.1.0",
     "moment": "^2.24.0",
-    "node-pdftk": "^2.0.2",
     "pathinfo": "^0.1.0",
     "q-flat": "^1.0.7",
     "tempnam": "^1.1.0",

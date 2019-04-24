@@ -72,11 +72,14 @@
 
 <script>
 
-var commandExistsSync = require('command-exists').sync
+var path = require('path')
+var fs = require('fs')
 
 import StepSetup from '../components/StepSetup.vue'
 import StepFilter from '../components/StepFilter.vue'
 import StepUpload from '../components/StepUpload.vue'
+
+const { dialog } = require('electron').remote
 
 export default {
   name: 'PageIndex',
@@ -86,10 +89,43 @@ export default {
     StepUpload
   },
   mounted () {
+    function ucFirst (string) {
+      return string.charAt(0).toUpperCase() + string.slice(1)
+    }
+
+    let store = this.$store
+
+    // FIXME -- this is a total hack:
+    //    - it has a hard-coded list of directories
+    //    - it won't work on windows
+    //    - it doesn't even check to see if a file is executable
+    //
+    // I tried using the command-exists npm module, but when the app is compiled and
+    // run from the finder, the PATH is apparently not set, so commnd-exists can't find
+    // any of the executables (and I suspect we wouldn't be able to run the commands, either)
     function checkPrereq (executable, name) {
-      if (commandExistsSync(executable)) {
-        return true
+      let dirs = [
+        '/bin',
+        '/usr/bin',
+        '/usr/local/bin',
+        '/opt/local/bin'
+      ]
+      for (let i = 0; i < dirs.length; i++) {
+        let dir = dirs[i]
+        let fullPath = path.join(dir, executable)
+        if (fs.existsSync(fullPath)) {
+          let key = 'commands/update' + ucFirst(executable)
+          store.commit(key, fullPath)
+          console.log(`found ${executable}: ${fullPath}`)
+          return true
+        }
       }
+      console.log(`could not find ${executable}`)
+      dialog.showMessageBox({
+        type: 'error',
+        title: 'Error',
+        message: `Could not find ${executable}`
+      })
       return false
     }
 

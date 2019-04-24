@@ -1,13 +1,20 @@
 const { spawn } = require('child_process')
 const os = require('os')
 const path = require('path')
-const pdftk = require('node-pdftk')
 import Logger from '../utils/Logger'
+import store from '../../store'
 
 let PDFUtils = function () {
+  let s = store()
+  let pdftk = s.state.commands.pdftk
+  let pdftotext = s.state.commands.pdftotext
+  let convert = s.state.commands.convert
+  let tesseract = s.state.commands.tesseract
+
   this.unpackPortfolio = function (pdf, outDir, callback) {
-    pdftk.input(pdf).unpackFiles(outDir).then(() => {
-      callback(pdftk.error)
+    let proc = spawn(pdftk, [pdf, 'unpack_files', 'output', outDir])
+    proc.on('close', (code) => {
+      callback(code)
     })
   }
 
@@ -17,10 +24,10 @@ let PDFUtils = function () {
     // convert PDF to a multipage TIFF
     let tiff = path.join(os.tmpdir(), 'PDFOCR.tiff')
     logger.debug(`[PDFUtils.ocr] converting to tiff: ${tiff}`)
-    let proc = spawn('convert', ['-density', 300, pdf, '-depth', 8, '-strip', '-background', 'white', '-alpha', 'off', tiff])
+    let proc = spawn(convert, ['-density', 300, pdf, '-depth', 8, '-strip', '-background', 'white', '-alpha', 'off', tiff])
     proc.on('close', (code) => {
       logger.debug(`[PDFUtils.ocr] calling tesseract on ${tiff}`)
-      let proc2 = spawn('tesseract', [tiff, newpdf, 'pdf'])
+      let proc2 = spawn(tesseract, [tiff, newpdf, 'pdf'])
       proc2.on('close', (code) => {
         callback()
       })
@@ -32,14 +39,12 @@ let PDFUtils = function () {
     let _items = []
     let pageNum = 0
 
-    let cmd = `pdftotext -htmlmeta -bbox '${pdf}' -`
-    logger.debug(cmd)
-    let pdftotext = spawn('pdftotext', ['-htmlmeta', '-bbox', pdf, '-'])
-    pdftotext.on('close', (code) => {
+    let proc = spawn(pdftotext, ['-htmlmeta', '-bbox', pdf, '-'])
+    proc.on('close', (code) => {
       logger.debug(`child process exited with code ${code}`)
       callback(null, null)
     })
-    pdftotext.stdout.on('data', function (data) {
+    proc.stdout.on('data', function (data) {
       let results = data.toString().split('\n')
 
       for (let i = 0; i < results.length; i++) {

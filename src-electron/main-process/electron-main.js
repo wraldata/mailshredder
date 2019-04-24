@@ -1,5 +1,4 @@
-import { app, BrowserWindow } from 'electron'
-const Menu = require('electron').Menu
+import { app, BrowserWindow, Menu } from 'electron'
 
 const debug = require('electron-debug')
 debug()
@@ -15,12 +14,14 @@ if (process.env.PROD) {
 let mainWindow
 
 function createWindow () {
+  createMenu()
+
   /**
    * Initial window options
    */
   mainWindow = new BrowserWindow({
     width: 1400,
-    height: 1000,
+    height: 1020,
     useContentSize: false,
     resizable: false
   })
@@ -40,13 +41,6 @@ app.on('window-all-closed', () => {
   }
 })
 
-app.on('activate', () => {
-  if (mainWindow === null) {
-    createWindow()
-    createMenu()
-  }
-})
-
 function createMenu () {
   const application = {
     label: 'Application',
@@ -57,6 +51,12 @@ function createMenu () {
       },
       {
         type: 'separator'
+      },
+      {
+        label: 'Debug',
+        click: () => {
+          mainWindow.webContents.openDevTools()
+        }
       },
       {
         label: 'Quit',

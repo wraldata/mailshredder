@@ -1,7 +1,8 @@
+const { spawn } = require('child_process')
 const fs = require('fs')
 const path = require('path')
-const pdftk = require('node-pdftk')
 import Logger from '../utils/Logger'
+import store from '../../store'
 
 const ensureDirectoryExists = require('../utils/Filesystem').ensureDirectoryExists
 
@@ -14,6 +15,9 @@ let MultiplePdfWriter = function (params) {
     emails: [],
     verbose: false
   }
+
+  let s = store()
+  let pdftk = s.state.commands.pdftk
 
   let _logger = Logger.getLogger()
 
@@ -85,11 +89,19 @@ let MultiplePdfWriter = function (params) {
       input.push(p)
     }
 
-    pdftk.input(input).cat().output(outPdf).then(() => {
+    let args = input.concat()
+    args.push('cat')
+    args.push('output')
+    args.push(outPdf)
+    let proc = spawn(pdftk, args)
+    proc.on('close', (code) => {
+      if (code) {
+        _onWriteFail(new Error('Error writing email with pdftk'))
+        return
+      }
+
       _currIdx++
       writeNextUsingPageBoundaries.call(this)
-    }, (err) => {
-      _onWriteFail(err)
     })
 
     _files.push(outPdf)
@@ -102,14 +114,18 @@ let MultiplePdfWriter = function (params) {
     // it's assumed that each is an individual email.  In such a case, we can skip all the writing and just
     // use the originals (or the OCR-ed version) as the emails that we upload to Document Cloud
     this.emit('start-burst', { output: output })
-    pdftk.input(_options.src).burst(output).then(() => {
+
+    let proc = spawn(pdftk, [_options.src, 'burst', 'output', output])
+    proc.on('close', (code) => {
+      if (code) {
+        throw new Error('Error bursting into individual pages')
+      }
+
       this.emit('start-email-write', {})
 
       _files = []
       _currIdx = 0
       writeNextUsingPageBoundaries.call(this)
-    }).catch(err => {
-      throw new Error('Error bursting into individual pages: ' + err.message)
     })
   }
 
