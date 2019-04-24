@@ -1,6 +1,7 @@
 - get OCR working faster/more reliably; currently the conversion from PDF to 300dpi TIFF and then running tesseract on the result takes about 6.8s per page.
 
-- make log available in the UI for diagnostics
+- make DocumentCloud optional -- you should be able to just use the tool to split up the PDF and build you a directory 
+  of filtered PDFs and their metadata files
 
 - auto-detection so you don't need user-specified options
    - scanned PDFs
@@ -19,9 +20,6 @@
 - support for other input types:
   - eml
   - pst
-
-- make DocumentCloud optional -- you should be able to just use the tool to split up the PDF and build you a directory 
-  of filtered PDFs and their metadata files
 
 - MonolithicPdfReader: allow control of numNonHeadersAllowedAtTop (would we encounter email tranches with
   a multi-line "masthead" at the top of each page? we currently allow for a single line at the top; the more you

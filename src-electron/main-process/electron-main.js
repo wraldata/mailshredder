@@ -16,6 +16,12 @@ let mainWindow
 function createWindow () {
   createMenu()
 
+  app.setAboutPanelOptions({
+    applicationName: 'mailshredder',
+    applicationVersion: 0.9,
+    copyright: '2019 Capitol Broadcasting Company'
+  })
+
   /**
    * Initial window options
    */
@@ -46,7 +52,7 @@ function createMenu () {
     label: 'Application',
     submenu: [
       {
-        label: 'About Application',
+        label: 'About mailshredder',
         selector: 'orderFrontStandardAboutPanel:'
       },
       {

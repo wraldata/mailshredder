@@ -8,6 +8,13 @@ Running in dev mode:
  quasar dev -m electron
 ```
 
+Building an electron app:
+
+```
+ quasar build -m electron
+```
+
+
 ## requirements
 
 You must install the following before using mailshredder:

@@ -2,9 +2,10 @@ const path = require('path')
 const winston = require('winston')
 
 let _logger = null
+let _logfile = ''
 
 function init (dir) {
-  let logfile = path.join(dir, 'mailshredder.log')
+  _logfile = path.join(dir, 'mailshredder.log')
 
   _logger = winston.createLogger({
     level: 'debug',
@@ -19,7 +20,7 @@ function init (dir) {
     ),
     transports: [
       new winston.transports.File({
-        filename: logfile
+        filename: _logfile
       })
     ]
   })
@@ -29,7 +30,12 @@ function getLogger () {
   return _logger
 }
 
+function getLogfile () {
+  return _logfile
+}
+
 module.exports = {
   init: init,
-  getLogger: getLogger
+  getLogger: getLogger,
+  getLogfile: getLogfile
 }

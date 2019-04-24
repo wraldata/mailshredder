@@ -142,10 +142,11 @@ module.exports = function (ctx) {
       },
       packager: {
         // https://github.com/electron-userland/electron-packager/blob/master/docs/api.md#options
+        appCopyright: '2019 Capitol Broadcasting Company',
 
         // OS X / Mac App Store
         // appBundleId: '',
-        // appCategoryType: '',
+        appCategoryType: 'public.app-category.utilities'
         // osxSign: '',
         // protocol: 'myapp://path',
 

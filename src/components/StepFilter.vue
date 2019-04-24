@@ -65,6 +65,18 @@
           v-if="!globalButtonsDisabled"
           :disabled="globalButtonsDisabled"
         />
+        <div class="float-right">
+          <q-btn
+            label="Log"
+            color="tertiary"
+            @click="showLog()"
+          />&nbsp;
+          <q-btn
+            label="Working Dir"
+            color="tertiary"
+            @click="showDir()"
+          />
+        </div>
     </div>
 </template>
 
@@ -167,7 +179,8 @@ export default {
         }
       ],
       paginationControl: { rowsPerPage: 25 },
-      emailFilter: ''
+      emailFilter: '',
+      outputDir: ''
     }
   },
   computed: {
@@ -235,6 +248,13 @@ export default {
         newTableData.push(this.selected[i])
       }
       this.tableData = newTableData
+    },
+    showLog: function () {
+      let logfile = Logger.getLogfile()
+      spawn('open', [logfile])
+    },
+    showDir: function () {
+      spawn('open', [this.outputDir])
     },
     preview: function (row) {
       console.log('[preview] row: ', row)
