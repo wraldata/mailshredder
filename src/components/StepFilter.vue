@@ -352,8 +352,16 @@ export default {
         for (let i = 0; i < emails.length; i++) {
           let e = emails[i]
           let datestr = ''
+          let rawdatestr = ''
+          if (e.headers.Sent) {
+            rawdatestr = e.headers.Sent.value
+          }
           if (e.headers.Date) {
-            let d = new Date(e.headers.Date.value)
+            rawdatestr = e.headers.Date.value
+          }
+
+          if (rawdatestr) {
+            let d = new Date(rawdatestr)
             if (d && !isNaN(d.getTime())) {
               datestr = moment(d).format('ddd MMM DD, YYYY hh:mm a')
             }
