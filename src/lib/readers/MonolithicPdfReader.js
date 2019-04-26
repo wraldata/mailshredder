@@ -15,7 +15,7 @@ let MonolithicPdfReader = function (params) {
     numNonHeadersAllowedAtTop: 1,
     // some email PDF dumps have slight variation in the y-position of the components of the header, e.g. "To:" and "foo@example.com"; this is usually between 0.01 and 0.25 mm
     yPosTolerance: 0.5,
-    // convert image-based PDF to text before parsing, using pdftotext; currently, the caller has to indicate whether to
+    // convert image-based PDF to text before parsing; currently, the caller has to indicate whether to
     // perform this OCR; if the PDF is not image based and performOCR is true, you will get bad results.  If the PDF
     // is image based, and performOCR is false, you won't get any results
     performOCR: false,
@@ -63,7 +63,7 @@ let MonolithicPdfReader = function (params) {
       return
     }
 
-    _logger.debug(`[[${line.x}, ${line.y}]] ${line.text}`)
+    _logger.debug(`[${line.x}, ${line.y}] ${line.text}`)
 
     if (_ignoreHeadersUntilNextPage) {
       return
@@ -120,6 +120,8 @@ let MonolithicPdfReader = function (params) {
   }
 
   function processText (item) {
+    _logger.debug(`<${item.x}, ${item.y}> ${item.text}`)
+
     let delta = Math.abs(item.y - _currLine.y)
 
     if (delta > _options.yPosTolerance) {
