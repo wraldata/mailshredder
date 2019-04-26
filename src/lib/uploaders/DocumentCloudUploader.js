@@ -96,8 +96,8 @@ let DocumentCloudUploader = function (params) {
     let minPage = Number.POSITIVE_INFINITY
     if (json) {
       let rawData = JSON.parse(json)
-      for (let k in rawData) {
-        let header = rawData[k]
+      for (let k in rawData.headers) {
+        let header = rawData.headers[k]
         data[header.header] = header.value
 
         if (header.line.page < minPage) {
