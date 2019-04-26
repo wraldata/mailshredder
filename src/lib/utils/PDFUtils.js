@@ -39,13 +39,17 @@ let PDFUtils = function () {
     let _items = []
     let pageNum = 0
 
+    let buffer = ''
+
     let proc = spawn(pdftotext, ['-htmlmeta', '-bbox', pdf, '-'])
-    proc.on('close', (code) => {
-      logger.debug(`child process exited with code ${code}`)
-      callback(null, null)
-    })
     proc.stdout.on('data', function (data) {
-      let results = data.toString().split('\n')
+      buffer += data
+    })
+    proc.on('close', (code) => {
+      logger.debug(`[PDFUtils.toText] child process exited with code ${code}`)
+      logger.debug('[PDFUtils.toText] buffer size: ' + buffer.length)
+
+      let results = buffer.toString().split('\n')
 
       for (let i = 0; i < results.length; i++) {
         let line = results[i].trim()
@@ -72,7 +76,10 @@ let PDFUtils = function () {
           })
           continue
         }
+        logger.debug('[PDFUtils.toText] no match')
       }
+
+      callback(null, null)
     })
   }
 }
