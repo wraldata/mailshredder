@@ -81,23 +81,24 @@
 </template>
 
 <style>
+/*
+NOTE: the table will look kind of small in a dev build.  This is intentional, because I was getting
+a weird situation where everything is larger in the production build.  You can trace this down to
+window.devicePixelRatio, which is ~1.8 in a dev build, but 2.0 in a production build.  Can't find an
+explanation for that, so I just sized things to fit in the window in the production build, leaving
+it a tad bit small in the dev build.
+*/
 table.q-table {
   table-layout: fixed;
 }
-.q-table-dense .q-table td {
+.q-table-dense .q-table tbody td {
   padding: 2px 8px;
   font-size: 12px;
-  height: 17px;
-}
-
-.q-table-dense .q-table td {
-  padding: 2px 8px;
-  font-size: 12px;
-  height: 17px;
+  height: 26px;
 }
 
 .q-table-dense .q-table thead tr {
-  height: 24px;
+  height: 26px;
 }
 
 .q-table-dense .q-table-top {
@@ -106,6 +107,13 @@ table.q-table {
 
 .q-table-top {
   padding: 0px 24px;
+}
+
+.q-checkbox-icon {
+    height: 18px;
+    width: 18px;
+    font-size: 18px;
+    opacity: 0;
 }
 </style>
 
@@ -119,6 +127,7 @@ const ensureDirectoryExists = require('../lib/utils/Filesystem').ensureDirectory
 
 import MonolithicPdfReader from '../lib/readers/MonolithicPdfReader'
 import MultiplePdfReader from '../lib/readers/MultiplePdfReader'
+import MultipleEmlReader from '../lib/readers/MultipleEmlReader'
 import MultiplePdfWriter from '../lib/writers/MultiplePdfWriter'
 
 import Logger from '../lib/utils/Logger'
@@ -312,11 +321,18 @@ export default {
         inputType = MultiplePdfWriter.INPUT_TYPE_DIRECTORY_FILE_PER_EMAIL
       } else {
         if (fs.lstatSync(this.$store.state.setup.inputFile).isDirectory()) {
-          r = new MultiplePdfReader({
-            src: this.$store.state.setup.inputFile,
-            outDir: this.outputDir,
-            performOCR: this.$store.state.setup.performOCR
-          })
+          if (containsEml(this.$store.state.setup.inputFile)) {
+            r = new MultipleEmlReader({
+              src: this.$store.state.setup.inputFile,
+              outDir: this.outputDir
+            })
+          } else {
+            r = new MultiplePdfReader({
+              src: this.$store.state.setup.inputFile,
+              outDir: this.outputDir,
+              performOCR: this.$store.state.setup.performOCR
+            })
+          }
           inputType = MultiplePdfWriter.INPUT_TYPE_DIRECTORY_FILE_PER_EMAIL
         } else {
           r = new MonolithicPdfReader({
@@ -333,6 +349,18 @@ export default {
         outDir: this.outputDir,
         baseName: this.baseName
       })
+
+      function containsEml (dir) {
+        let items = fs.readdirSync(dir)
+
+        for (let i = 0; i < items.length; i++) {
+          if (items[i].match(/\.eml$/)) {
+            return true
+          }
+        }
+
+        return false
+      }
 
       // decodes HTML entities (our pdf reading code is getting entities, and quasar/vue is double-encoding them);
       // we often see HTML entities like &apos; in the subject lines
@@ -405,7 +433,7 @@ export default {
         dialog.showMessageBox({
           type: 'error',
           title: 'Error',
-          message: err.message
+          message: err
         })
       })
     }
