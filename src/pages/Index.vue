@@ -103,7 +103,7 @@ export default {
     // I tried using the command-exists npm module, but when the app is compiled and
     // run from the finder, the PATH is apparently not set, so commnd-exists can't find
     // any of the executables (and I suspect we wouldn't be able to run the commands, either)
-    function checkPrereq (executable, name) {
+    function checkPrereq (executable, key, name) {
       let dirs = [
         '/bin',
         '/usr/bin',
@@ -114,7 +114,7 @@ export default {
         let dir = dirs[i]
         let fullPath = path.join(dir, executable)
         if (fs.existsSync(fullPath)) {
-          let key = 'commands/update' + ucFirst(executable)
+          key = 'commands/update' + ucFirst(key)
           store.commit(key, fullPath)
           console.log(`found ${executable}: ${fullPath}`)
           return true
@@ -129,10 +129,10 @@ export default {
       return false
     }
 
-    if (checkPrereq('convert', 'ImageMagick') &&
-        checkPrereq('pdftk', 'PDFtk') &&
-        checkPrereq('pdftotext', 'pdftotext (poppler)') &&
-        checkPrereq('tesseract', 'tesseract')
+    if (checkPrereq('convert', 'convert', 'ImageMagick') &&
+        checkPrereq('pdftk', 'pdftk', 'PDFtk') &&
+        checkPrereq('pdftotext', 'pdftotext', 'pdftotext (poppler)') &&
+        checkPrereq('tesseract', 'tesseract', 'tesseract')
     ) {
       this.showStepper = true
       return
