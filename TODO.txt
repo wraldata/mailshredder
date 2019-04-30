@@ -1,4 +1,12 @@
+- MultiplePdfReader could possibly misidentify an embedded email as a separate email if the page breaks are just right
+  and the embedded message's headers start at the top of a page.  This class probably needs to be more definitive
+  about "1 email per pdf" and parse accordingly to minimize the chance of such errors.  I don't know that there's a
+  good reason to keep any logic that might allow for more than one email per PDF.
+
 - get OCR working faster/more reliably; currently the conversion from PDF to 300dpi TIFF and then running tesseract on the result takes about 6.8s per page.
+
+- build a test suite -- use the tranches we have and run them through the tests, comparing the output JSON
+  (maybe we could write all the email JSON to a single JSON for ease of running these tests?)
 
 - make DocumentCloud optional -- you should be able to just use the tool to split up the PDF and build you a directory 
   of filtered PDFs and their metadata files
