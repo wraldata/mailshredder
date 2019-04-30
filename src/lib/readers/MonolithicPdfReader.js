@@ -13,6 +13,9 @@ let MonolithicPdfReader = function (params) {
     newPageForEachMessage: true,
     // some email PDF dumps have a "masthead" line at the top of the page, with somebody's name in it
     numNonHeadersAllowedAtTop: 1,
+    // some emails have multi-line headers where it is very difficult to identify the second line as a header; this causes us to bail out
+    // of parsing the headers too early, and we never find all the important headers
+    numNonHeadersAllowedBetweenHeaders: 1,
     // some email PDF dumps have slight variation in the y-position of the components of the header, e.g. "To:" and "foo@example.com"; this is usually between 0.01 and 0.25 mm
     yPosTolerance: 0.5,
     // convert image-based PDF to text before parsing; currently, the caller has to indicate whether to
@@ -32,7 +35,8 @@ let MonolithicPdfReader = function (params) {
   let _onParseFail = null
   let _numHeadersSeenOnPage = 0
   let _numNonHeadersSeenOnPage = 0
-  let _ignoreHeadersUntilNextPage = false
+  let _numNonHeadersSeenSinceHeader = 0
+  let _ignoreHeaders = false
   let _currPage = 0
   let _currLine = {
     page: -1,
@@ -65,7 +69,7 @@ let MonolithicPdfReader = function (params) {
 
     _logger.debug(`[${line.x}, ${line.y}] ${line.text}`)
 
-    if (_ignoreHeadersUntilNextPage) {
+    if (_ignoreHeaders) {
       return
     }
 
@@ -101,20 +105,28 @@ let MonolithicPdfReader = function (params) {
       })
 
       if (_options.newPageForEachMessage) {
-        _ignoreHeadersUntilNextPage = true
+        _ignoreHeaders = true
       }
     }
 
     if (scanResult[0] === 'header') {
       _numHeadersSeenOnPage++
+      _numNonHeadersSeenSinceHeader = 0
     } else {
       _numNonHeadersSeenOnPage++
+      _numNonHeadersSeenSinceHeader++
 
       if (_options.newPageForEachMessage) {
-        if ((_numHeadersSeenOnPage === 0) && (_options.numNonHeadersAllowedAtTop <= _numNonHeadersSeenOnPage)) {
-          return
+        if (_numHeadersSeenOnPage === 0) {
+          if (_numNonHeadersSeenOnPage <= _options.numNonHeadersAllowedAtTop) {
+            return
+          }
+        } else {
+          if (_numNonHeadersSeenSinceHeader <= _options.numNonHeadersAllowedBetweenHeaders) {
+            return
+          }
         }
-        _ignoreHeadersUntilNextPage = true
+        _ignoreHeaders = true
       }
     }
   }
@@ -153,7 +165,8 @@ let MonolithicPdfReader = function (params) {
     }
     _numHeadersSeenOnPage = 0
     _numNonHeadersSeenOnPage = 0
-    _ignoreHeadersUntilNextPage = false
+    _numNonHeadersSeenSinceHeader = 0
+    _ignoreHeaders = false
   }
 
   function finishParsing () {
@@ -185,19 +198,19 @@ let MonolithicPdfReader = function (params) {
       _onParseFail = reject
     })
 
-    _logger.debug('[MonolithicPdfReader]] reading ' + _options.src)
+    _logger.debug('[MonolithicPdfReader] reading ' + _options.src)
 
     if (_options.performOCR) {
       let pi = path.parse(_options.src)
 
-      _logger.debug('[parseNext] OCR-ing ' + _options.src)
+      _logger.debug('[read] OCR-ing ' + _options.src)
       _pdf.ocr(_options.src, path.join(_ocrDir, pi.name), function () {
         _options.src = path.join(_ocrDir, pi.base)
-        _logger.debug('[parseNext] extracting text from ' + _options.src)
+        _logger.debug('[read] extracting text from ' + _options.src)
         _pdf.toText(_options.src, onPdfItem)
       })
     } else {
-      _logger.debug('[parseNext] extracting text from ' + _options.src)
+      _logger.debug('[read] extracting text from ' + _options.src)
       _pdf.toText(_options.src, onPdfItem)
     }
 
