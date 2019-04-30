@@ -9,6 +9,9 @@ let MultiplePdfReader = function (params) {
   let _options = {
     // some email PDF dumps have a "masthead" line at the top of the page, with somebody's name in it
     numNonHeadersAllowedAtTop: 1,
+    // some emails have multi-line headers where it is very difficult to identify the second line as a header; this causes us to bail out
+    // of parsing the headers too early, and we never find all the important headers
+    numNonHeadersAllowedBetweenHeaders: 1,
     // some email PDF dumps have slight variation in the y-position of the components of the header, e.g. "To:" and "foo@example.com"; this is usually between 0.01 and 0.25 mm
     yPosTolerance: 0.5,
     verbose: true,
@@ -27,6 +30,7 @@ let MultiplePdfReader = function (params) {
   let _onParseFail = null
   let _numHeadersSeenOnPage = 0
   let _numNonHeadersSeenOnPage = 0
+  let _numNonHeadersSeenSinceHeader = 0
   let _ignoreHeaders = false
   let _currPage = 0
   let _currLine = {
@@ -67,7 +71,7 @@ let MultiplePdfReader = function (params) {
       return
     }
 
-    _logger.debug(`[[${line.x}, ${line.y}]] ${line.text}`)
+    _logger.debug(`[${line.x}, ${line.y}] ${line.text}`)
 
     if (_ignoreHeaders) {
       return
@@ -98,11 +102,19 @@ let MultiplePdfReader = function (params) {
 
     if (scanResult[0] === 'header') {
       _numHeadersSeenOnPage++
+      _numNonHeadersSeenSinceHeader = 0
     } else {
       _numNonHeadersSeenOnPage++
+      _numNonHeadersSeenSinceHeader++
 
-      if ((_numHeadersSeenOnPage === 0) && (_options.numNonHeadersAllowedAtTop <= _numNonHeadersSeenOnPage)) {
-        return
+      if (_numHeadersSeenOnPage === 0) {
+        if (_numNonHeadersSeenOnPage <= _options.numNonHeadersAllowedAtTop) {
+          return
+        }
+      } else {
+        if (_numNonHeadersSeenSinceHeader <= _options.numNonHeadersAllowedBetweenHeaders) {
+          return
+        }
       }
       _ignoreHeaders = true
     }
@@ -122,7 +134,9 @@ let MultiplePdfReader = function (params) {
   }
 
   function processPage (item) {
-    processLine(_currLine)
+    if (_currPage > 0) {
+      processLine(_currLine)
+    }
 
     _ehs.reset()
 
@@ -142,6 +156,8 @@ let MultiplePdfReader = function (params) {
   }
 
   function finishParsing () {
+    processLine(_currLine)
+
     if (_emails.length > 0) {
       _emails[_emails.length - 1].end = {
         file: _files[_currIdx],
@@ -149,7 +165,13 @@ let MultiplePdfReader = function (params) {
       }
     }
     _currIdx++
-    parseNext()
+
+    if (_currIdx > _files.length - 1) {
+      _onParseComplete(_emails)
+      return
+    }
+
+    setTimeout(parseNext, 0)
   }
 
   function onPdfItem (err, item) {
@@ -165,11 +187,6 @@ let MultiplePdfReader = function (params) {
   }
 
   function parseNext () {
-    if (_currIdx > _files.length - 1) {
-      _onParseComplete(_emails)
-      return
-    }
-
     _ignoreHeaders = false
     _currPage = 0
 
