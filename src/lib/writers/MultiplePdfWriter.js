@@ -80,7 +80,7 @@ let MultiplePdfWriter = function (params) {
       json: outJson
     }
 
-    fs.writeFileSync(outJson, JSON.stringify(e))
+    fs.writeFileSync(outJson, JSON.stringify(e, null, 2))
 
     let input = []
     for (let j = e.start.page; j <= e.end.page; j++) {
@@ -144,7 +144,7 @@ let MultiplePdfWriter = function (params) {
         json: outJson
       }
 
-      fs.writeFileSync(outJson, JSON.stringify(e))
+      fs.writeFileSync(outJson, JSON.stringify(e, null, 2))
       _files.push(outPdf)
     }
   }
