@@ -91,34 +91,26 @@ window.devicePixelRatio, which is ~1.8 in a dev build, but 2.0 in a production b
 explanation for that, so I just sized things to fit in the window in the production build, leaving
 it a tad bit small in the dev build.
 */
-/*
+
 table.q-table {
   table-layout: fixed;
 }
-.q-table-dense .q-table tbody td {
+
+.q-table--dense .q-table tbody tr {
+  height: 25px;
+}
+
+.q-table--dense .q-table tbody td {
   padding: 2px 8px;
   font-size: 12px;
-  height: 26px;
+  height: 25px;
 }
 
-.q-table-dense .q-table thead tr {
-  height: 26px;
+.q-table--dense .q-table thead th .q-checkbox__bg,
+.q-table--dense .q-table tbody td .q-checkbox__bg {
+    height: 14px;
+    width: 14px;
 }
-
-.q-table-dense .q-table-top {
-  min-height: 36px;
-}
-
-.q-table-top {
-  padding: 0px 24px;
-}
-
-.q-checkbox__bg {
-    height: 16px;
-    width: 16px;
-    font-size: 16px;
-}
-*/
 
 </style>
 

@@ -17,7 +17,7 @@
       <q-step
         name="step-setup"
         title="Setup"
-        caption="Choose a file and log into Document Cloud"
+        caption="Choose file(s) and log into Document Cloud"
       >
           <step-setup
             ref="stepSetup"
@@ -81,8 +81,6 @@ import StepSetup from '../components/StepSetup.vue'
 import StepFilter from '../components/StepFilter.vue'
 import StepUpload from '../components/StepUpload.vue'
 
-const { dialog } = require('electron').remote
-
 export default {
   name: 'PageIndex',
   components: {
@@ -123,11 +121,6 @@ export default {
         }
       }
       console.log(`could not find ${executable}`)
-      dialog.showMessageBox({
-        type: 'error',
-        title: 'Error',
-        message: `Could not find ${executable}`
-      })
       return false
     }
 
