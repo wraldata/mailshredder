@@ -1,60 +1,51 @@
 <template>
-    <div>
-      <br />
-      <br />
-      <br />
-       <q-field
-          label="Document Cloud Username"
+    <div style="max-width: 480px">
+        <q-input
+          v-model="dcUsername"
           :error="$v.dcUsername.$error"
-          error-label="Document Cloud username is required"
-        >
-          <q-input
-            v-model="dcUsername"
-          />
-        </q-field><br />
-        <q-field
-          label="Document Cloud Password"
+          label="Document Cloud Username"
+          error-message="Document Cloud username is required"
+        />
+        <br /><br />
+        <q-input
+          v-model="dcPassword"
           :error="$v.dcPassword.$error"
-          error-label="Document Cloud password is required"
-        >
-          <q-input
-            v-model="dcPassword"
-            type="password"
-          />
-        </q-field><br />
-        <q-field
-          label="Document Cloud Project ID"
+          label="Document Cloud Password"
+          error-message="Document Cloud password is required"
+          type="password"
+        />
+        <br /><br />
+        <q-input
+          v-model="dcProjectId"
           :error="$v.dcProjectId.$error"
-          error-label="Document Cloud project ID is required and must be a positive integer"
-        >
-          <q-input
-            v-model="dcProjectId"
-          />
-        </q-field><br />
-        <q-field
-          label="Input file or directory"
+          label="Document Cloud Project ID"
+          error-message="Document Cloud project ID is required and must be a positive integer"
+        />
+        <br /><br />
+        <q-input
+          v-model="inputFile"
           :error="$v.inputFile.$error"
-          error-label="Input file is required"
-        >
-          <q-input
-            v-model="inputFile"
-          /><br />
-          <q-btn
-            color="primary"
-            @click="browseForFile"
-            label="Browse..."
-          />
-        </q-field>
-        <q-field
+          label="Input file or directory"
+          error-message="Input file is required"
+        />
+        <br /><br />
+        <q-btn
+          color="primary"
+          @click="browseForFile"
+          label="Browse..."
+        />
+        <br />
+        <br />
+        <br />
+        <q-checkbox
+          v-model="performOCR"
           label="Perform OCR"
-        >
-          <q-checkbox v-model="performOCR" />
-        </q-field>
-        <q-field
+        />
+        <br />
+        <q-checkbox
+          v-model="unpackPortfolio"
           label="Unpack PDF Portfolio"
-        >
-          <q-checkbox v-model="unpackPortfolio" />
-        </q-field>
+         />
     </div>
 </template>
 

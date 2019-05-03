@@ -16,11 +16,13 @@ let mainWindow
 function createWindow () {
   createMenu()
 
-  app.setAboutPanelOptions({
-    applicationName: 'mailshredder',
-    applicationVersion: 0.9,
-    copyright: '2019 Capitol Broadcasting Company'
-  })
+  if (process.platform === 'darwin') {
+    app.setAboutPanelOptions({
+      applicationName: 'mailshredder',
+      applicationVersion: 0.9,
+      copyright: '2019 Capitol Broadcasting Company'
+    })
+  }
 
   /**
    * Initial window options

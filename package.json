@@ -1,9 +1,9 @@
 {
   "name": "mailshredder",
   "version": "0.0.1",
-  "description": "Application for processing public records email tranches",
+  "description": "Application for breaking up e-mail tranches and sending to Document Cloud",
   "productName": "mailshredder",
-  "cordovaId": "org.cordova.quasar.app",
+  "cordovaId": "com.cbcnewmedia.mailshredder",
   "author": "Jason Priebe <jpriebe@cbcnewmedia.com>",
   "private": true,
   "scripts": {
@@ -11,29 +11,29 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "aws-sdk": "^2.436.0",
-    "buffertools": "^2.1.6",
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.0",
     "documentcloud": "^0.1.0",
     "eml-format": "^0.5.0",
     "moment": "^2.24.0",
     "pathinfo": "^0.1.0",
     "q-flat": "^1.0.7",
+    "quasar": "^1.0.0-beta.0",
     "tempnam": "^1.1.0",
     "vuelidate": "^0.7.4",
     "winston": "^3.2.1"
   },
   "devDependencies": {
+    "@quasar/app": "^1.0.0-beta.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
-    "devtron": "^1.4.0",
-    "electron": "^4.0.5",
-    "electron-debug": "^2.2.0",
-    "electron-devtools-installer": "^2.2.4",
-    "electron-packager": "^13.1.1",
+    "devtron": "1.4.0",
+    "electron": "4.0.5",
+    "electron-debug": "2.1.0",
+    "electron-devtools-installer": "2.2.4",
     "eslint": "^5.10.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^5.0.0",
-    "quasar-cli": "^0.17.0",
     "strip-ansi": "=3.0.1"
   },
   "engines": {
@@ -42,9 +42,7 @@
     "yarn": ">= 1.6.0"
   },
   "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 10"
+    "last 1 version, not dead, ie >= 11"
   ],
   "resolutions": {
     "ajv": "6.8.1"

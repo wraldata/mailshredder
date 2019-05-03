@@ -17,7 +17,7 @@
       <q-step
         name="step-setup"
         title="Setup"
-        subtitle="Choose a file and log into Document Cloud"
+        caption="Choose a file and log into Document Cloud"
       >
           <step-setup
             ref="stepSetup"
@@ -28,7 +28,7 @@
       <q-step
         name="step-filter"
         title="Filter"
-        subtitle="Filter your results"
+        caption="Filter your results"
       >
           <step-filter
             ref="stepFilter"
@@ -38,33 +38,35 @@
       <q-step
         name="step-upload"
         title="Upload"
-        subtitle="Send to DocumentCloud"
+        caption="Send to DocumentCloud"
       >
           <step-upload
             ref="stepUpload"
           />
       </q-step>
 
-      <q-page-sticky position="bottom-right" :offset="[10, 10]">
-      <q-stepper-navigation>
-        <q-btn
-          v-if="currentStep !== 'step-setup'"
-          color="primary"
-          flat
-          @click="$refs.stepper.previous()"
+      <template slot="navigation" slot-scope="{}">
+        <q-page-sticky position="bottom-right" :offset="[10, 10]">
+        <q-stepper-navigation>
+          <q-btn
+            v-if="currentStep !== 'step-setup'"
+            color="primary"
+            flat
+            @click="$refs.stepper.previous()"
         >
-          Back
-        </q-btn>
+            Back
+          </q-btn>
 
-        <q-btn
-          color="primary"
-          @click="onNextClick"
-          v-if="currentStep !== 'step-upload'"
-        >
-          {{ currentStep === 'step-done' ? 'Finalize' : 'Next' }}
-        </q-btn>
-      </q-stepper-navigation>
-      </q-page-sticky>
+          <q-btn
+            color="primary"
+            @click="onNextClick"
+            v-if="currentStep !== 'step-upload'"
+          >
+            {{ currentStep === 'step-done' ? 'Finalize' : 'Next' }}
+          </q-btn>
+        </q-stepper-navigation>
+        </q-page-sticky>
+      </template>
 
     </q-stepper>
   </q-page>

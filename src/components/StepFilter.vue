@@ -9,12 +9,11 @@
           :selected.sync="selected"
           :pagination.sync="paginationControl"
           :rows-per-page-options=[]
-          style="top: 0px; left: 0px; right: 0px; bottom: 0px;"
           row-key="emailId"
         >
           <q-tr :id="props.row.id" slot="body" slot-scope="props" :props="props" @dblclick.native="preview(props.row)" class="cursor-pointer">
             <q-td auto-width>
-              <q-checkbox color="primary" v-model="props.selected" />
+              <q-checkbox dense color="primary" v-model="props.selected" />
             </q-td>
             <q-td
               v-for="col in props.cols"
@@ -28,12 +27,16 @@
         <!-- MUST have a slot-scope, or the q-search won't display; if we set it to "props", we get an error at compile time
             about props not being used; set it to "{}" instead  - https://github.com/vuejs/eslint-plugin-vue/issues/781 -->
           <template slot="top-left" slot-scope="{}">
-            <q-search
-              hide-underline
-              color="secondary"
+            <q-input
+              borderless
+              dense
+              debounce="300"
               v-model="emailFilter"
-              class="col-6"
-            />
+              placeholder="Search">
+              <template v-slot:prepend>
+                <q-icon name="search" />
+              </template>
+            </q-input>
           </template>
         </q-table>
         <br />
@@ -68,12 +71,12 @@
         <div class="float-right">
           <q-btn
             label="Log"
-            color="tertiary"
+            color="teal-8"
             @click="showLog()"
           />&nbsp;
           <q-btn
             label="Working Dir"
-            color="tertiary"
+            color="teal-8"
             @click="showDir()"
           />
         </div>
@@ -88,6 +91,7 @@ window.devicePixelRatio, which is ~1.8 in a dev build, but 2.0 in a production b
 explanation for that, so I just sized things to fit in the window in the production build, leaving
 it a tad bit small in the dev build.
 */
+/*
 table.q-table {
   table-layout: fixed;
 }
@@ -109,12 +113,13 @@ table.q-table {
   padding: 0px 24px;
 }
 
-.q-checkbox-icon {
-    height: 18px;
-    width: 18px;
-    font-size: 18px;
-    opacity: 0;
+.q-checkbox__bg {
+    height: 16px;
+    width: 16px;
+    font-size: 16px;
 }
+*/
+
 </style>
 
 <script>

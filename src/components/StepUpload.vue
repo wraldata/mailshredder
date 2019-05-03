@@ -1,9 +1,8 @@
 <template>
     <div>
         <br /><br /><strong>Upload progress:</strong><br /><br />
-        <q-progress
-          :percentage="uploadProgress"
-          animate
+        <q-linear-progress
+          :value="uploadProgress"
           style="height: 16px"
         />
     </div>
