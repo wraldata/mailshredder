@@ -1,8 +1,7 @@
-const { spawn } = require('child_process')
 const fs = require('fs')
 const path = require('path')
 import Logger from '../utils/Logger'
-import store from '../../store'
+import PDFUtils from '../utils/PDFUtils'
 
 const ensureDirectoryExists = require('../utils/Filesystem').ensureDirectoryExists
 
@@ -16,10 +15,8 @@ let MultiplePdfWriter = function (params) {
     verbose: false
   }
 
-  let s = store()
-  let pdftk = s.state.commands.pdftk
-
   let _logger = Logger.getLogger()
+  let _pdf = new PDFUtils()
 
   let _onWriteSuccess = null
   let _onWriteFail = null
@@ -89,22 +86,16 @@ let MultiplePdfWriter = function (params) {
       input.push(p)
     }
 
-    let args = input.concat()
-    args.push('cat')
-    args.push('output')
-    args.push(outPdf)
-    let proc = spawn(pdftk, args)
-    proc.on('close', (code) => {
-      if (code) {
+    _pdf.concat(input, outPdf, (success) => {
+      if (!success) {
         _onWriteFail(new Error('Error writing email with pdftk'))
         return
       }
 
       _currIdx++
       writeNextUsingPageBoundaries.call(this)
+      _files.push(outPdf)
     })
-
-    _files.push(outPdf)
   }
 
   function writeUsingPageBoundaries () {
@@ -115,9 +106,8 @@ let MultiplePdfWriter = function (params) {
     // use the originals (or the OCR-ed version) as the emails that we upload to Document Cloud
     this.emit('start-burst', { output: output })
 
-    let proc = spawn(pdftk, [_options.src, 'burst', 'output', output])
-    proc.on('close', (code) => {
-      if (code) {
+    _pdf.burst(_options.src, output, (success) => {
+      if (!success) {
         throw new Error('Error bursting into individual pages')
       }
 

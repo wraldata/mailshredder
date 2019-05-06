@@ -1,0 +1,4727 @@
+[
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Amazon may have dropped a clue about its new he....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Amazon may have dropped a clue about its new he....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Johnson, Scott",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Amazon may have dropped a clue about its new he....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Johnson, Scott"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Brown, Matt (Coliseum)",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Amazon may have dropped a clue about its new he....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Brown, Matt (Coliseum)"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Amazon may have dropped a clue about its new headquarters",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Amazon may have dropped a clue about its new he....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: Amazon may have dropped a clue about its new headquarters"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Friday, January 12, 2018 9:47:54 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Amazon may have dropped a clue about its new he....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Friday, January 12, 2018 9:47:54 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Amazon may have dropped a clue about its new he....pdf",
+      "page": 1
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/COMMENT ADDED TO A CLOSED REQUEST (PIRT # 7436).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/COMMENT ADDED TO A CLOSED REQUEST (PIRT # 7436).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Email, Inforequests",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/COMMENT ADDED TO A CLOSED REQUEST (PIRT # 7436).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Email, Inforequests"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/COMMENT ADDED TO A CLOSED REQUEST (PIRT # 7436).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Cole, Tim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "COMMENT ADDED TO A CLOSED REQUEST (PIRT # 7436)",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/COMMENT ADDED TO A CLOSED REQUEST (PIRT # 7436).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: COMMENT ADDED TO A CLOSED REQUEST (PIRT # 7436)"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Wednesday, December 6, 2017 2:55:15 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/COMMENT ADDED TO A CLOSED REQUEST (PIRT # 7436).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Wednesday, December 6, 2017 2:55:15 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/COMMENT ADDED TO A CLOSED REQUEST (PIRT # 7436).pdf",
+      "page": 2
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7384.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7384.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7384.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Cole, Tim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "cjarvis@newsobserver.com",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7384.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: cjarvis@newsobserver.com"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "City of Greensboro Public Records Request # 7384",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7384.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: City of Greensboro Public Records Request # 7384"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Saturday, November 25, 2017 1:00:43 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7384.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Saturday, November 25, 2017 1:00:43 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7384.pdf",
+      "page": 1
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7436.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7436.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7436.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Cole, Tim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "edalesio@ap.org",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7436.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: edalesio@ap.org"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "City of Greensboro Public Records Request # 7436",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7436.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: City of Greensboro Public Records Request # 7436"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Saturday, November 25, 2017 12:57:45 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7436.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Saturday, November 25, 2017 12:57:45 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7436.pdf",
+      "page": 1
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7495.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7495.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7495.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Cole, Tim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "steven@stevenbuccini.com",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7495.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: steven@stevenbuccini.com"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "City of Greensboro Public Records Request # 7495",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7495.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: City of Greensboro Public Records Request # 7495"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Thursday, November 30, 2017 10:11:25 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7495.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Thursday, November 30, 2017 10:11:25 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/City of Greensboro Public Records Request # 7495.pdf",
+      "page": 1
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(1).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(1).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Critical Mention",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(1).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 54.899965,
+          "text": "From: Critical Mention"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Danielsen, Susan",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(1).pdf",
+          "page": 1,
+          "x": 73.33296,
+          "y": 64.233345,
+          "text": "To: Danielsen, Susan"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Critical Mention Digest Alert: Greensboro Police Department Online News",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(1).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 73.566565,
+          "text": "Subject: Critical Mention Digest Alert: Greensboro Police Department Online News"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Wednesday, November 22, 2017 5:01:02 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(1).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 82.899945,
+          "text": "Date: Wednesday, November 22, 2017 5:01:02 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(1).pdf",
+      "page": 67
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(2).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(2).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Critical Mention",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(2).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 54.899965,
+          "text": "From: Critical Mention"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Danielsen, Susan",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(2).pdf",
+          "page": 1,
+          "x": 73.33296,
+          "y": 64.233345,
+          "text": "To: Danielsen, Susan"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Critical Mention Digest Alert: Greensboro Police Department Online News",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(2).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 73.566565,
+          "text": "Subject: Critical Mention Digest Alert: Greensboro Police Department Online News"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Friday, November 10, 2017 5:00:47 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(2).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 82.899945,
+          "text": "Date: Friday, November 10, 2017 5:00:47 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic...(2).pdf",
+      "page": 19
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Critical Mention",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic....pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 54.899965,
+          "text": "From: Critical Mention"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Danielsen, Susan",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic....pdf",
+          "page": 1,
+          "x": 73.33296,
+          "y": 64.233345,
+          "text": "To: Danielsen, Susan"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Critical Mention Digest Alert: Greensboro Police Department Online News",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic....pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 73.566565,
+          "text": "Subject: Critical Mention Digest Alert: Greensboro Police Department Online News"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Wednesday, November 29, 2017 5:00:50 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic....pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 82.899945,
+          "text": "Date: Wednesday, November 29, 2017 5:00:50 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Critical Mention Digest Alert_ Greensboro Polic....pdf",
+      "page": 51
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_  Press Release Regarding Amazon Headquarters.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_  Press Release Regarding Amazon Headquarters.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Vaughan, Nancy (Mayor)",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_  Press Release Regarding Amazon Headquarters.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Vaughan, Nancy (Mayor)"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_  Press Release Regarding Amazon Headquarters.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: Press Release Regarding Amazon Headquarters",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_  Press Release Regarding Amazon Headquarters.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: Press Release Regarding Amazon Headquarters"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Thursday, January 18, 2018 11:50:55 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_  Press Release Regarding Amazon Headquarters.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Thursday, January 18, 2018 11:50:55 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_  Press Release Regarding Amazon Headquarters.pdf",
+      "page": 1
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ ANSI UASSC leadership roles.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ ANSI UASSC leadership roles.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "James McCabe",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ ANSI UASSC leadership roles.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: James McCabe"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "UASSC@MAILLIST.ANSI.ORG",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ ANSI UASSC leadership roles.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: UASSC@MAILLIST.ANSI.ORG"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: ANSI UASSC leadership roles",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ ANSI UASSC leadership roles.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: ANSI UASSC leadership roles"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Thursday, December 21, 2017 12:37:02 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ ANSI UASSC leadership roles.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Thursday, December 21, 2017 12:37:02 PM"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "UASSC_WG_Sign-Up_Sheet.docx",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ ANSI UASSC leadership roles.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 103.0125,
+          "text": "Attachments: UASSC_WG_Sign-Up_Sheet.docx"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ ANSI UASSC leadership roles.pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Amazon's HQ2_ How a Rale....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Amazon's HQ2_ How a Rale....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Vaughan, Nancy (Mayor)",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Amazon's HQ2_ How a Rale....pdf",
+          "page": 1,
+          "x": 73.2822,
+          "y": 55.457185,
+          "text": "From: Vaughan, Nancy (Mayor)"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Amazon's HQ2_ How a Rale....pdf",
+          "page": 1,
+          "x": 73.2822,
+          "y": 64.432585,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: Afternoon Edition: Amazon&quot;s HQ2: How a Raleigh win could benefit the Triad",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Amazon's HQ2_ How a Rale....pdf",
+          "page": 1,
+          "x": 73.2822,
+          "y": 73.407885,
+          "text": "Subject: FW: Afternoon Edition: Amazon&quot;s HQ2: How a Raleigh win could benefit the Triad"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Thursday, January 18, 2018 3:28:40 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Amazon's HQ2_ How a Rale....pdf",
+          "page": 1,
+          "x": 73.2822,
+          "y": 82.383285,
+          "text": "Date: Thursday, January 18, 2018 3:28:40 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Amazon's HQ2_ How a Rale....pdf",
+      "page": 4
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Printer eyes big growth ....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Printer eyes big growth ....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "McCollough, Mary",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Printer eyes big growth ....pdf",
+          "page": 1,
+          "x": 78.3501,
+          "y": 60.035044,
+          "text": "From: McCollough, Mary"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "CMO",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Printer eyes big growth ....pdf",
+          "page": 1,
+          "x": 78.3501,
+          "y": 68.925044,
+          "text": "To: CMO"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: Afternoon Edition: Printer eyes big growth w/sock packaging; cyber firm inks fed contract",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Printer eyes big growth ....pdf",
+          "page": 1,
+          "x": 78.3501,
+          "y": 77.815144,
+          "text": "Subject: FW: Afternoon Edition: Printer eyes big growth w/sock packaging; cyber firm inks fed contract"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Friday, December 15, 2017 3:19:28 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Printer eyes big growth ....pdf",
+          "page": 1,
+          "x": 78.3501,
+          "y": 86.705284,
+          "text": "Date: Friday, December 15, 2017 3:19:28 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Printer eyes big growth ....pdf",
+      "page": 4
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Triad firm to renovate n....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Triad firm to renovate n....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "McCollough, Mary",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Triad firm to renovate n....pdf",
+          "page": 1,
+          "x": 78.3501,
+          "y": 60.035044,
+          "text": "From: McCollough, Mary"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "CMO",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Triad firm to renovate n....pdf",
+          "page": 1,
+          "x": 78.3501,
+          "y": 68.925044,
+          "text": "To: CMO"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: Afternoon Edition: Triad firm to renovate new HQ; Fed economist offers Triad forecast",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Triad firm to renovate n....pdf",
+          "page": 1,
+          "x": 78.3501,
+          "y": 77.815144,
+          "text": "Subject: FW: Afternoon Edition: Triad firm to renovate new HQ; Fed economist offers Triad forecast"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Thursday, November 30, 2017 3:29:55 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Triad firm to renovate n....pdf",
+          "page": 1,
+          "x": 78.3501,
+          "y": 86.705284,
+          "text": "Date: Thursday, November 30, 2017 3:29:55 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Afternoon Edition_ Triad firm to renovate n....pdf",
+      "page": 4
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #...(1).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #...(1).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Dalesio, Emery",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Dalesio, Emery"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Westmoreland, Jim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Westmoreland, Jim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: City of Greensboro Public Records Request # 7436",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: City of Greensboro Public Records Request # 7436"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, December 5, 2017 5:19:59 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, December 5, 2017 5:19:59 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #...(1).pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Westmoreland, Jim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Westmoreland, Jim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Harris, Barbara; Blanton, Brigitte",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Harris, Barbara; Blanton, Brigitte"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: City of Greensboro Public Records Request # 7436",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: City of Greensboro Public Records Request # 7436"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Wednesday, December 6, 2017 2:29:06 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Wednesday, December 6, 2017 2:29:06 PM"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "Digital Greensboro Flyer.pdf",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 103.0125,
+          "text": "Attachments: Digital Greensboro Flyer.pdf"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ City of Greensboro Public Records Request #....pdf",
+      "page": 4
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(1).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(1).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Danielsen, Susan",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(1).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 54.899965,
+          "text": "From: Danielsen, Susan"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Glenn Jr, Ronald",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(1).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 64.233265,
+          "text": "To: Glenn Jr, Ronald"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: Critical Mention Digest Alert: Greensboro Police Department Online News",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(1).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 73.566565,
+          "text": "Subject: FW: Critical Mention Digest Alert: Greensboro Police Department Online News"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Wednesday, November 22, 2017 5:01:04 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(1).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 82.899945,
+          "text": "Date: Wednesday, November 22, 2017 5:01:04 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(1).pdf",
+      "page": 67
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(2).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(2).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Danielsen, Susan",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(2).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 54.899965,
+          "text": "From: Danielsen, Susan"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Glenn Jr, Ronald",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(2).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 64.233265,
+          "text": "To: Glenn Jr, Ronald"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: Critical Mention Digest Alert: Greensboro Police Department Online News",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(2).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 73.566565,
+          "text": "Subject: FW: Critical Mention Digest Alert: Greensboro Police Department Online News"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Friday, November 10, 2017 5:00:48 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(2).pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 82.899945,
+          "text": "Date: Friday, November 10, 2017 5:00:48 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P...(2).pdf",
+      "page": 19
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Danielsen, Susan",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P....pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 54.899965,
+          "text": "From: Danielsen, Susan"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Glenn Jr, Ronald",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P....pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 64.233265,
+          "text": "To: Glenn Jr, Ronald"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: Critical Mention Digest Alert: Greensboro Police Department Online News",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P....pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 73.566565,
+          "text": "Subject: FW: Critical Mention Digest Alert: Greensboro Police Department Online News"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Wednesday, November 29, 2017 5:00:52 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P....pdf",
+          "page": 1,
+          "x": 73.3333,
+          "y": 82.899945,
+          "text": "Date: Wednesday, November 29, 2017 5:00:52 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Critical Mention Digest Alert_ Greensboro P....pdf",
+      "page": 51
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf...(1).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf...(1).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Outling, Justin",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Outling, Justin"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: GCEDA Leadership Group -- new members, draft minutes",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: GCEDA Leadership Group -- new members, draft minutes"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Friday, December 8, 2017 2:28:49 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Friday, December 8, 2017 2:28:49 PM"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "10-26-2017 -- minutes for GCEDA Leadership Group.pdf",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 103.0125,
+          "text": "Attachments: 10-26-2017 -- minutes for GCEDA Leadership Group.pdf"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf...(1).pdf",
+      "page": 2
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Vaughan, Nancy (Mayor)",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Vaughan, Nancy (Mayor)"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: GCEDA Leadership Group -- new members, draft minutes",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: GCEDA Leadership Group -- new members, draft minutes"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Friday, December 8, 2017 2:28:50 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Friday, December 8, 2017 2:28:50 PM"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "10-26-2017 -- minutes for GCEDA Leadership Group.pdf",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 103.0125,
+          "text": "Attachments: 10-26-2017 -- minutes for GCEDA Leadership Group.pdf"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ GCEDA Leadership Group -- new members, draf....pdf",
+      "page": 2
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Lots of Coverage of Gun Stoppers.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Lots of Coverage of Gun Stoppers.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Scott, Wayne",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Lots of Coverage of Gun Stoppers.pdf",
+          "page": 1,
+          "x": 78.6102,
+          "y": 60.688937,
+          "text": "From: Scott, Wayne"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Caviness, Jenny",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Lots of Coverage of Gun Stoppers.pdf",
+          "page": 1,
+          "x": 78.6102,
+          "y": 69.943237,
+          "text": "To: Caviness, Jenny"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: Lots of Coverage of Gun Stoppers",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Lots of Coverage of Gun Stoppers.pdf",
+          "page": 1,
+          "x": 78.6102,
+          "y": 79.197437,
+          "text": "Subject: FW: Lots of Coverage of Gun Stoppers"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Wednesday, November 29, 2017 3:47:10 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Lots of Coverage of Gun Stoppers.pdf",
+          "page": 1,
+          "x": 78.6102,
+          "y": 88.451717,
+          "text": "Date: Wednesday, November 29, 2017 3:47:10 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ Lots of Coverage of Gun Stoppers.pdf",
+      "page": 49
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles .pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles .pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Vaughan, Nancy (Mayor)",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles .pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Vaughan, Nancy (Mayor)"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles .pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: MMC News Articles",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles .pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: MMC News Articles"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, December 5, 2017 2:58:15 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles .pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, December 5, 2017 2:58:15 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles .pdf",
+      "page": 4
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles 11_9_17.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles 11_9_17.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Vaughan, Nancy (Mayor)",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles 11_9_17.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Vaughan, Nancy (Mayor)"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles 11_9_17.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: MMC News Articles 11/9/17",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles 11_9_17.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: MMC News Articles 11/9/17"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Thursday, November 9, 2017 10:54:22 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles 11_9_17.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Thursday, November 9, 2017 10:54:22 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles 11_9_17.pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles_ 12_18_17.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles_ 12_18_17.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Vaughan, Nancy (Mayor)",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles_ 12_18_17.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Vaughan, Nancy (Mayor)"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles_ 12_18_17.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: MMC News Articles: 12/18/17",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles_ 12_18_17.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: MMC News Articles: 12/18/17"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, December 18, 2017 11:33:59 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles_ 12_18_17.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, December 18, 2017 11:33:59 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ MMC News Articles_ 12_18_17.pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ SPECIAL INVITATION_  2018 Chamber Leadershi....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ SPECIAL INVITATION_  2018 Chamber Leadershi....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Vaughan, Nancy (Mayor)",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ SPECIAL INVITATION_  2018 Chamber Leadershi....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Vaughan, Nancy (Mayor)"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ SPECIAL INVITATION_  2018 Chamber Leadershi....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: SPECIAL INVITATION: 2018 Chamber Leadership Retreat",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ SPECIAL INVITATION_  2018 Chamber Leadershi....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: SPECIAL INVITATION: 2018 Chamber Leadership Retreat"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, January 16, 2018 3:53:20 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ SPECIAL INVITATION_  2018 Chamber Leadershi....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, January 16, 2018 3:53:20 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ SPECIAL INVITATION_  2018 Chamber Leadershi....pdf",
+      "page": 2
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(1).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(1).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Harris, Barbara",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Harris, Barbara"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Dubel, Kathi K",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Dubel, Kathi K"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 3:29:32 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 3:29:32 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(1).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(2).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(2).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "McCollough, Mary",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: McCollough, Mary"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "CMO",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: CMO"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 3:08:40 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 3:08:40 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(2).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(3).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(3).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Cole, Tim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Smith-Sutphin, Jennifer; McCollough, Mary",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Smith-Sutphin, Jennifer; McCollough, Mary"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 3:05:12 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 3:05:12 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater...(3).pdf",
+      "page": 4
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "McCollough, Mary",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: McCollough, Mary"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Harris, Barbara",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Harris, Barbara"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 2:09:54 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, November 21, 2017 2:09:54 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ WRAL request for Triad Amazon-related mater....pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(1).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(1).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Hoffmann, Nancy",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Hoffmann, Nancy"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 11:04:46 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 101.5125,
+          "text": "Date: Tuesday, November 21, 2017 11:04:46 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(1).pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(2).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(2).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Hightower, Sharon",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Hightower, Sharon"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 11:04:46 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 101.5125,
+          "text": "Date: Tuesday, November 21, 2017 11:04:46 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(2).pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(3).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(3).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Abuzuaiter, Marikay",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Abuzuaiter, Marikay"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 11:04:46 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 101.5125,
+          "text": "Date: Tuesday, November 21, 2017 11:04:46 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(3).pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(4).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(4).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Wilkins, Tony",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Wilkins, Tony"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 11:04:46 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 101.5125,
+          "text": "Date: Tuesday, November 21, 2017 11:04:46 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(4).pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(5).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(5).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Barber, Mike",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(5).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Barber, Mike"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(5).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(5).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 11:04:46 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(5).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 101.5125,
+          "text": "Date: Tuesday, November 21, 2017 11:04:46 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(5).pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(6).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(6).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Johnson, Yvonne",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(6).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Johnson, Yvonne"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(6).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(6).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 11:04:45 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(6).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 101.5125,
+          "text": "Date: Tuesday, November 21, 2017 11:04:45 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks...(6).pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Vaughan, Nancy (Mayor)",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Vaughan, Nancy (Mayor)"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "newsmedia",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: newsmedia"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: FW: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 11:04:47 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 101.5125,
+          "text": "Date: Tuesday, November 21, 2017 11:04:47 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/FW_ _Greensboro-High Point area gets high marks....pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Fwd_ SPECIAL INVITATION_  2018 Chamber Leadersh....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Fwd_ SPECIAL INVITATION_  2018 Chamber Leadersh....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Vaughan, Nancy (Mayor)",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Fwd_ SPECIAL INVITATION_  2018 Chamber Leadersh....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Vaughan, Nancy (Mayor)"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Bell, Sharon",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Fwd_ SPECIAL INVITATION_  2018 Chamber Leadersh....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Bell, Sharon"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Fwd: SPECIAL INVITATION: 2018 Chamber Leadership Retreat",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Fwd_ SPECIAL INVITATION_  2018 Chamber Leadersh....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: Fwd: SPECIAL INVITATION: 2018 Chamber Leadership Retreat"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, January 16, 2018 3:55:51 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Fwd_ SPECIAL INVITATION_  2018 Chamber Leadersh....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, January 16, 2018 3:55:51 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Fwd_ SPECIAL INVITATION_  2018 Chamber Leadersh....pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi...(1).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi...(1).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Loren Hill",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Loren Hill"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Abranson@myguilford.com; Cfoster@myguilford.com; Vaughan, Nancy (Mayor); JAY WAGNER; Outling, Justin; JEFFREY GOLDEN; Marty Lawing (mlawing@myguilford.com); terry.akin@conehealth.com; Westmoreland, Jim; GREG DEMKO; Ken Smith; Darlene Leonard (dleonard@smithleonardcpas.com); Brent Christensen",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Abranson@myguilford.com; Cfoster@myguilford.com; Vaughan, Nancy (Mayor); JAY WAGNER; Outling, Justin;"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Harris, Barbara; Sandy Dunbeck; David Ramsey (DRamsey@greensboro.org); Bell, Sharon; Nancy Vanstory",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 100.0125,
+          "text": "Cc: Harris, Barbara; Sandy Dunbeck; David Ramsey (DRamsey@greensboro.org); Bell, Sharon; Nancy Vanstory"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "GCEDA Leadership Group -- new members, draft minutes",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 119.5125,
+          "text": "Subject: GCEDA Leadership Group -- new members, draft minutes"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Friday, December 8, 2017 2:28:48 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 130.0125,
+          "text": "Date: Friday, December 8, 2017 2:28:48 PM"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "10-26-2017 -- minutes for GCEDA Leadership Group.pdf",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 140.5125,
+          "text": "Attachments: 10-26-2017 -- minutes for GCEDA Leadership Group.pdf"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi...(1).pdf",
+      "page": 2
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Loren Hill",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Loren Hill"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Abranson@myguilford.com; Cfoster@myguilford.com; Vaughan, Nancy (Mayor); JAY WAGNER; Outling, Justin; JEFFREY GOLDEN; Marty Lawing (mlawing@myguilford.com); terry.akin@conehealth.com; Westmoreland, Jim; GREG DEMKO; Ken Smith; Darlene Leonard (dleonard@smithleonardcpas.com); Brent Christensen",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Abranson@myguilford.com; Cfoster@myguilford.com; Vaughan, Nancy (Mayor); JAY WAGNER; Outling, Justin;"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Harris, Barbara; Sandy Dunbeck; David Ramsey (DRamsey@greensboro.org); Bell, Sharon; Nancy Vanstory",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 100.0125,
+          "text": "Cc: Harris, Barbara; Sandy Dunbeck; David Ramsey (DRamsey@greensboro.org); Bell, Sharon; Nancy Vanstory"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "GCEDA Leadership Group -- new members, draft minutes",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 119.5125,
+          "text": "Subject: GCEDA Leadership Group -- new members, draft minutes"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Friday, December 8, 2017 2:28:48 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 130.0125,
+          "text": "Date: Friday, December 8, 2017 2:28:48 PM"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "10-26-2017 -- minutes for GCEDA Leadership Group.pdf",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 140.5125,
+          "text": "Attachments: 10-26-2017 -- minutes for GCEDA Leadership Group.pdf"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/GCEDA Leadership Group -- new members, draft mi....pdf",
+      "page": 2
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Lots of Coverage of Gun Stoppers.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Lots of Coverage of Gun Stoppers.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Danielsen, Susan",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Lots of Coverage of Gun Stoppers.pdf",
+          "page": 1,
+          "x": 78.6102,
+          "y": 60.688937,
+          "text": "From: Danielsen, Susan"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Scott, Wayne; James, Brian L.; Davis, N.; Moore, James W. (Police); Schultheis, Chris M.; Finch, Stacey",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Lots of Coverage of Gun Stoppers.pdf",
+          "page": 1,
+          "x": 78.6102,
+          "y": 69.943237,
+          "text": "To: Scott, Wayne; James, Brian L.; Davis, N.; Moore, James W. (Police); Schultheis, Chris M.; Finch, Stacey"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Lots of Coverage of Gun Stoppers",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Lots of Coverage of Gun Stoppers.pdf",
+          "page": 1,
+          "x": 78.6102,
+          "y": 79.197437,
+          "text": "Subject: Lots of Coverage of Gun Stoppers"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Wednesday, November 29, 2017 1:40:05 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Lots of Coverage of Gun Stoppers.pdf",
+          "page": 1,
+          "x": 78.6102,
+          "y": 88.451717,
+          "text": "Date: Wednesday, November 29, 2017 1:40:05 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Lots of Coverage of Gun Stoppers.pdf",
+      "page": 47
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Morning news.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Morning news.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Vincent Henrich",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Morning news.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Vincent Henrich"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Nickles, Jane",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Morning news.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Nickles, Jane"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Morning news",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Morning news.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: Morning news"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 8:47:56 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Morning news.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 8:47:56 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Morning news.pdf",
+      "page": 1
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/My Additions to the Public Input Spreadsheet.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/My Additions to the Public Input Spreadsheet.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Hobbie, Rachel",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/My Additions to the Public Input Spreadsheet.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Hobbie, Rachel"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Cockburn, Hanna",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/My Additions to the Public Input Spreadsheet.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Cockburn, Hanna"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "My Additions to the Public Input Spreadsheet",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/My Additions to the Public Input Spreadsheet.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: My Additions to the Public Input Spreadsheet"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, January 9, 2018 2:54:46 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/My Additions to the Public Input Spreadsheet.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, January 9, 2018 2:54:46 PM"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "Public Input April 17 to RH edits.xlsx",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/My Additions to the Public Input Spreadsheet.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 103.0125,
+          "text": "Attachments: Public Input April 17 to RH edits.xlsx"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/My Additions to the Public Input Spreadsheet.pdf",
+      "page": 1
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article (1).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article (1).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Cheryl NcQueary",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article (1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Cheryl NcQueary"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Bryson Richard T; Wallace Janet; Carroll Adam; McGuire Wesley; Grier Brantley; Hampsten David; Adams, Bruce;",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article (1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Bryson Richard T; Wallace Janet; Carroll Adam; McGuire Wesley; Grier Brantley; Hampsten David; Adams, Bruce;"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Nice article",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article (1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 91.0125,
+          "text": "Subject: Nice article"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 11:03:02 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article (1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 101.5125,
+          "text": "Date: Tuesday, November 21, 2017 11:03:02 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article (1).pdf",
+      "page": 1
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article .pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article .pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Cheryl NcQueary",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article .pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Cheryl NcQueary"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Bryson Richard T; Wallace Janet; Carroll Adam; McGuire Wesley; Grier Brantley; Hampsten David; Adams, Bruce;",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article .pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Bryson Richard T; Wallace Janet; Carroll Adam; McGuire Wesley; Grier Brantley; Hampsten David; Adams, Bruce;"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Nice article",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article .pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 91.0125,
+          "text": "Subject: Nice article"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 11:03:02 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article .pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 101.5125,
+          "text": "Date: Tuesday, November 21, 2017 11:03:02 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Nice article .pdf",
+      "page": 1
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/OED Think Tank - Updates 12.12.2017.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/OED Think Tank - Updates 12.12.2017.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Croft, Katherine",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/OED Think Tank - Updates 12.12.2017.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Croft, Katherine"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Brown, Tiffany",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/OED Think Tank - Updates 12.12.2017.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Brown, Tiffany"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Good, Irish; Gray, Gloria M; Armond, Robert; Comer, Sharline",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/OED Think Tank - Updates 12.12.2017.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Cc: Good, Irish; Gray, Gloria M; Armond, Robert; Comer, Sharline"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "OED Think Tank - Updates 12.12.2017",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/OED Think Tank - Updates 12.12.2017.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Subject: OED Think Tank - Updates 12.12.2017"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, December 12, 2017 4:25:56 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/OED Think Tank - Updates 12.12.2017.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 103.0125,
+          "text": "Date: Tuesday, December 12, 2017 4:25:56 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/OED Think Tank - Updates 12.12.2017.pdf",
+      "page": 2
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(1).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(1).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Westmoreland, Jim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Westmoreland, Jim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "&quot;Dalesio, Emery&quot;",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: &quot;Dalesio, Emery&quot;"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Carruthers, Tom; Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Cc: Carruthers, Tom; Cole, Tim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: City of Greensboro Public Records Request # 7436",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Subject: RE: City of Greensboro Public Records Request # 7436"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Wednesday, December 6, 2017 5:07:32 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 103.0125,
+          "text": "Date: Wednesday, December 6, 2017 5:07:32 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(1).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(2).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(2).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Dalesio, Emery",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Dalesio, Emery"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Westmoreland, Jim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Westmoreland, Jim"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Carruthers, Tom; Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Cc: Carruthers, Tom; Cole, Tim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: City of Greensboro Public Records Request # 7436",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Subject: RE: City of Greensboro Public Records Request # 7436"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Wednesday, December 6, 2017 2:57:23 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 103.0125,
+          "text": "Date: Wednesday, December 6, 2017 2:57:23 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(2).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(3).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(3).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Cole, Tim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Westmoreland, Jim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Westmoreland, Jim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: City of Greensboro Public Records Request # 7436",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: City of Greensboro Public Records Request # 7436"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Wednesday, December 6, 2017 2:56:37 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Wednesday, December 6, 2017 2:56:37 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(3).pdf",
+      "page": 4
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(4).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(4).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Westmoreland, Jim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Westmoreland, Jim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "&quot;Dalesio, Emery&quot;",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: &quot;Dalesio, Emery&quot;"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Carruthers, Tom; Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Cc: Carruthers, Tom; Cole, Tim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: City of Greensboro Public Records Request # 7436",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Subject: RE: City of Greensboro Public Records Request # 7436"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Wednesday, December 6, 2017 2:28:38 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 103.0125,
+          "text": "Date: Wednesday, December 6, 2017 2:28:38 PM"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "Digital Greensboro Flyer.pdf",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 113.5125,
+          "text": "Attachments: Digital Greensboro Flyer.pdf"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(4).pdf",
+      "page": 4
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(5).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(5).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Dalesio, Emery",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(5).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Dalesio, Emery"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(5).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Cole, Tim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: City of Greensboro Public Records Request # 7436",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(5).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: City of Greensboro Public Records Request # 7436"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Sunday, November 26, 2017 6:13:53 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(5).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Sunday, November 26, 2017 6:13:53 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ City of Greensboro Public Records Request #...(5).pdf",
+      "page": 2
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ Morning news.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ Morning news.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Nickles, Jane",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ Morning news.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Nickles, Jane"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Vincent Henrich",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ Morning news.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Vincent Henrich"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: Morning news",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ Morning news.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: Morning news"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 2:19:56 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ Morning news.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 2:19:56 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ Morning news.pdf",
+      "page": 1
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ OED Think Tank - Updates 12.12.2017.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ OED Think Tank - Updates 12.12.2017.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Comer, Sharline",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ OED Think Tank - Updates 12.12.2017.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Comer, Sharline"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Croft, Katherine",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ OED Think Tank - Updates 12.12.2017.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Croft, Katherine"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: OED Think Tank - Updates 12.12.2017",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ OED Think Tank - Updates 12.12.2017.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: OED Think Tank - Updates 12.12.2017"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Wednesday, December 13, 2017 9:37:53 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ OED Think Tank - Updates 12.12.2017.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Wednesday, December 13, 2017 9:37:53 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ OED Think Tank - Updates 12.12.2017.pdf",
+      "page": 2
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(1).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(1).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Cole, Tim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Westmoreland, Jim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Westmoreland, Jim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 27, 2017 11:27:13 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 27, 2017 11:27:13 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(1).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(10).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(10).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Harris, Barbara",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(10).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Harris, Barbara"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "McCollough, Mary",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(10).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: McCollough, Mary"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(10).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 2:10:21 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(10).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, November 21, 2017 2:10:21 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(10).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(11).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(11).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Harris, Barbara",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(11).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Harris, Barbara"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Dubel, Kathi K",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(11).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Dubel, Kathi K"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(11).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 4:09:45 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(11).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 4:09:45 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(11).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(12).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(12).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Dubel, Kathi K",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(12).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Dubel, Kathi K"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Harris, Barbara",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(12).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Harris, Barbara"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(12).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 4:09:05 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(12).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 4:09:05 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(12).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(13).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(13).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Harris, Barbara",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(13).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Harris, Barbara"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Westmoreland, Jim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(13).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Westmoreland, Jim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(13).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 3:27:56 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(13).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 3:27:56 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(13).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(14).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(14).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Westmoreland, Jim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(14).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Westmoreland, Jim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "McCollough, Mary; Harris, Barbara",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(14).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: McCollough, Mary; Harris, Barbara"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "CMO",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(14).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Cc: CMO"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(14).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 3:15:07 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(14).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 103.0125,
+          "text": "Date: Monday, November 20, 2017 3:15:07 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(14).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(15).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(15).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Dukes, Tyler",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(15).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Dukes, Tyler"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(15).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Cole, Tim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(15).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 1:23:07 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(15).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 1:23:07 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(15).pdf",
+      "page": 4
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(16).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(16).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(16).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Cole, Tim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Dukes, Tyler",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(16).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Dukes, Tyler"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(16).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 1:22:20 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(16).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 1:22:20 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(16).pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(17).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(17).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Keys, Jake",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(17).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Keys, Jake"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Dukes, Tyler",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(17).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Dukes, Tyler"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(17).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 12:01:35 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(17).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 12:01:35 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(17).pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(18).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(18).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Dukes, Tyler",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(18).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Dukes, Tyler"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Keys, Jake",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(18).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Keys, Jake"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(18).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 11:49:50 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(18).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 11:49:50 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(18).pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(19).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(19).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Keys, Jake",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(19).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Keys, Jake"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Dukes, Tyler",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(19).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Dukes, Tyler"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(19).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 11:47:52 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(19).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 11:47:52 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(19).pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(2).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(2).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Westmoreland, Jim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Westmoreland, Jim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Cole, Tim"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Harris, Barbara; Dubel, Kathi K",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Cc: Harris, Barbara; Dubel, Kathi K"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 27, 2017 11:16:20 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(2).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 103.0125,
+          "text": "Date: Monday, November 27, 2017 11:16:20 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(2).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(20).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(20).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Dukes, Tyler",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(20).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Dukes, Tyler"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Keys, Jake",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(20).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Keys, Jake"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(20).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 10:19:26 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(20).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 10:19:26 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(20).pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(21).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(21).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Keys, Jake",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(21).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Keys, Jake"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Dukes, Tyler",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(21).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Dukes, Tyler"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(21).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 7, 2017 11:54:36 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(21).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, November 7, 2017 11:54:36 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(21).pdf",
+      "page": 2
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(3).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(3).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Cole, Tim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Westmoreland, Jim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Westmoreland, Jim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 27, 2017 11:04:48 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(3).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 27, 2017 11:04:48 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(3).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(4).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(4).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Dukes, Tyler",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Dukes, Tyler"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Cole, Tim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 3:28:32 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(4).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, November 21, 2017 3:28:32 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(4).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(5).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(5).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(5).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Cole, Tim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Dukes, Tyler",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(5).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Dukes, Tyler"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(5).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 3:00:49 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(5).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, November 21, 2017 3:00:49 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(5).pdf",
+      "page": 4
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(6).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(6).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Dukes, Tyler",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(6).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Dukes, Tyler"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(6).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Cole, Tim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(6).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 2:36:58 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(6).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, November 21, 2017 2:36:58 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(6).pdf",
+      "page": 4
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(7).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(7).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(7).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Cole, Tim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Dukes, Tyler",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(7).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Dukes, Tyler"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(7).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 2:34:19 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(7).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, November 21, 2017 2:34:19 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(7).pdf",
+      "page": 4
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(8).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(8).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(8).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Cole, Tim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "McCollough, Mary",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(8).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: McCollough, Mary"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(8).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 2:19:30 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(8).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, November 21, 2017 2:19:30 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(8).pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(9).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(9).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "McCollough, Mary",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(9).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: McCollough, Mary"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(9).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Cole, Tim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(9).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 2:15:47 PM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(9).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Tuesday, November 21, 2017 2:15:47 PM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater...(9).pdf",
+      "page": 4
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Westmoreland, Jim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Westmoreland, Jim"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Cole, Tim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: RE: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 27, 2017 11:33:30 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 27, 2017 11:33:30 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/RE_ WRAL request for Triad Amazon-related mater....pdf",
+      "page": 5
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Re_ When is the next GTA Board meeting_(1).pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Re_ When is the next GTA Board meeting_(1).pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "david hampsten",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Re_ When is the next GTA Board meeting_(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: david hampsten"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Bryson Richard T; Wallace Janet; Carroll Adam; McGuire Wesley; Grier Brantley; Adams, Bruce; High, Sherria D.",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Re_ When is the next GTA Board meeting_(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Bryson Richard T; Wallace Janet; Carroll Adam; McGuire Wesley; Grier Brantley; Adams, Bruce; High, Sherria D."
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: When is the next GTA Board meeting?",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Re_ When is the next GTA Board meeting_(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 91.0125,
+          "text": "Subject: Re: When is the next GTA Board meeting?"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 11:49:59 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Re_ When is the next GTA Board meeting_(1).pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 101.5125,
+          "text": "Date: Tuesday, November 21, 2017 11:49:59 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Re_ When is the next GTA Board meeting_(1).pdf",
+      "page": 1
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Re_ When is the next GTA Board meeting_.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Re_ When is the next GTA Board meeting_.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "david hampsten",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Re_ When is the next GTA Board meeting_.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: david hampsten"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Bryson Richard T; Wallace Janet; Carroll Adam; McGuire Wesley; Grier Brantley; Adams, Bruce; High, Sherria D.",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Re_ When is the next GTA Board meeting_.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Bryson Richard T; Wallace Janet; Carroll Adam; McGuire Wesley; Grier Brantley; Adams, Bruce; High, Sherria D."
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: When is the next GTA Board meeting?",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Re_ When is the next GTA Board meeting_.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 91.0125,
+          "text": "Subject: Re: When is the next GTA Board meeting?"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 11:50:00 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/Re_ When is the next GTA Board meeting_.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 101.5125,
+          "text": "Date: Tuesday, November 21, 2017 11:50:00 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/SPECIAL INVITATION_  2018 Chamber Leadership Re....pdf",
+      "page": 2
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Amazon records - resubmission.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Amazon records - resubmission.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Dukes, Tyler",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Amazon records - resubmission.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Dukes, Tyler"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Amazon records - resubmission.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Cole, Tim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "WRAL request for Amazon records - resubmission",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Amazon records - resubmission.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: WRAL request for Amazon records - resubmission"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Thursday, January 18, 2018 10:44:18 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Amazon records - resubmission.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Thursday, January 18, 2018 10:44:18 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Amazon records - resubmission.pdf",
+      "page": 2
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Triad Amazon-related materials.pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Triad Amazon-related materials.pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Dukes, Tyler",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Triad Amazon-related materials.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Dukes, Tyler"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Cole, Tim",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Triad Amazon-related materials.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: Cole, Tim"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "WRAL request for Triad Amazon-related materials",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Triad Amazon-related materials.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: WRAL request for Triad Amazon-related materials"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Monday, November 20, 2017 11:53:27 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Triad Amazon-related materials.pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 92.5125,
+          "text": "Date: Monday, November 20, 2017 11:53:27 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/WRAL request for Triad Amazon-related materials.pdf",
+      "page": 3
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/[Greensboro News & Record] Greensboro-High Poin....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/[Greensboro News & Record] Greensboro-High Poin....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Lucas, Len",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/[Greensboro News & Record] Greensboro-High Poin....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Lucas, Len"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "awrenn@myguilford.com",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/[Greensboro News & Record] Greensboro-High Poin....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "To: awrenn@myguilford.com"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "[Greensboro News &amp; Record] Greensboro-High Point area gets high marks in Amazon HQ2 competition from",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/[Greensboro News & Record] Greensboro-High Poin....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Subject: [Greensboro News &amp; Record] Greensboro-High Point area gets high marks in Amazon HQ2 competition from"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 10:33:52 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/[Greensboro News & Record] Greensboro-High Poin....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 101.5125,
+          "text": "Date: Tuesday, November 21, 2017 10:33:52 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/[Greensboro News & Record] Greensboro-High Poin....pdf",
+      "page": 1
+    }
+  },
+  {
+    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/_Greensboro-High Point area gets high marks in ....pdf",
+    "start": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/_Greensboro-High Point area gets high marks in ....pdf",
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Loren Hill",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/_Greensboro-High Point area gets high marks in ....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 61.0125,
+          "text": "From: Loren Hill"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "&quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini honored",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/_Greensboro-High Point area gets high marks in ....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 71.5125,
+          "text": "Subject: &quot;Greensboro-High Point area gets high marks in Amazon HQ2 competition from CNBC&quot; / Mayor Bencini honored"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, November 21, 2017 11:04:45 AM",
+        "line": {
+          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/_Greensboro-High Point area gets high marks in ....pdf",
+          "page": 1,
+          "x": 79.5,
+          "y": 82.0125,
+          "text": "Date: Tuesday, November 21, 2017 11:04:45 AM"
+        }
+      }
+    },
+    "end": {
+      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/unpack/_Greensboro-High Point area gets high marks in ....pdf",
+      "page": 3
+    }
+  }
+]

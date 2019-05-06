@@ -2,21 +2,13 @@ const { spawn, spawnSync } = require('child_process')
 const os = require('os')
 const path = require('path')
 import Logger from '../utils/Logger'
-import store from '../../store'
-// const ElectronPDF = require('electron-pdf')
-const { BrowserWindow } = require('electron').remote
 const fs = require('fs')
 
-let PDFUtils = function () {
-  let s = store()
-  let pdftk = s.state.commands.pdftk
-  let pdftotext = s.state.commands.pdftotext
-  let convert = s.state.commands.convert
-  let tesseract = s.state.commands.tesseract
-  let chrome = s.state.commands.chrome
+let _commands = []
 
+let PDFUtils = function () {
   this.unpackPortfolio = function (pdf, outDir, callback) {
-    let proc = spawn(pdftk, [pdf, 'unpack_files', 'output', outDir])
+    let proc = spawn(_commands['pdftk'], [pdf, 'unpack_files', 'output', outDir])
     proc.on('close', (code) => {
       callback(code)
     })
@@ -53,10 +45,10 @@ let PDFUtils = function () {
     // convert PDF to a multipage TIFF
     let tiff = path.join(os.tmpdir(), 'PDFOCR.tiff')
     logger.debug(`[PDFUtils.ocr] converting to tiff: ${tiff}`)
-    let proc = spawn(convert, ['-density', 300, pdf, '-depth', 8, '-strip', '-background', 'white', '-alpha', 'off', tiff])
+    let proc = spawn(_commands['convert'], ['-density', 300, pdf, '-depth', 8, '-strip', '-background', 'white', '-alpha', 'off', tiff])
     proc.on('close', (code) => {
       logger.debug(`[PDFUtils.ocr] calling tesseract on ${tiff}`)
-      let proc2 = spawn(tesseract, [tiff, newpdf, 'pdf'])
+      let proc2 = spawn(_commands['tesseract'], [tiff, newpdf, 'pdf'])
       proc2.on('close', (code) => {
         callback()
       })
@@ -64,8 +56,7 @@ let PDFUtils = function () {
   }
 
   this.htmlToPdf = function (html, pdf, callback) {
-    let logger = Logger.getLogger()
-    logger.debug('chrome path: ' + chrome)
+    const { BrowserWindow } = require('electron').remote
 
     let htmlUrl = pathToFileURL(html).href
     let win = new BrowserWindow({ show: false })
@@ -119,7 +110,7 @@ let PDFUtils = function () {
   }
 
   this.countPages = function (pdf) {
-    let proc = spawnSync(pdftk, [pdf, 'dump_data'])
+    let proc = spawnSync(_commands['pdftk'], [pdf, 'dump_data'])
     if (proc.error) {
       throw (proc.error)
     }
@@ -139,7 +130,7 @@ let PDFUtils = function () {
 
     let buffer = ''
 
-    let proc = spawn(pdftotext, ['-htmlmeta', '-bbox', pdf, '-'])
+    let proc = spawn(_commands['pdftotext'], ['-htmlmeta', '-bbox', pdf, '-'])
     proc.stdout.on('data', function (data) {
       buffer += data
     })
@@ -178,6 +169,63 @@ let PDFUtils = function () {
 
       callback(null, null)
     })
+  }
+
+  this.concat = function (inputFiles, outputFile, onClose) {
+    let args = inputFiles.concat()
+    args.push('cat')
+    args.push('output')
+    args.push(outputFile)
+    let proc = spawn(_commands['pdftk'], args)
+    proc.on('close', (code) => {
+      onClose(!code)
+    })
+  }
+
+  this.burst = function (inputFile, output, onClose) {
+    let proc = spawn(_commands['pdftk'], [inputFile, 'burst', 'output', output])
+    proc.on('close', (code) => {
+      onClose(!code)
+    })
+  }
+
+  // FIXME -- this is a total hack:
+  //    - it has a hard-coded list of directories
+  //    - it won't work on windows
+  //    - it doesn't even check to see if a file is executable
+  //
+  // I tried using the command-exists npm module, but when the app is compiled and
+  // run from the finder, the PATH is apparently not set, so commnd-exists can't find
+  // any of the executables (and I suspect we wouldn't be able to run the commands, either)
+  function findExecutable (executable, key) {
+    let dirs = [
+      '/bin',
+      '/usr/bin',
+      '/usr/local/bin',
+      '/opt/local/bin'
+    ]
+    for (let i = 0; i < dirs.length; i++) {
+      let dir = dirs[i]
+      let fullPath = path.join(dir, executable)
+      if (fs.existsSync(fullPath)) {
+        _commands[key] = fullPath
+        console.log(`found ${executable}: ${fullPath}`)
+        return true
+      }
+    }
+    console.log(`could not find ${executable}`)
+    return false
+  }
+
+  this.init = function () {
+    if (findExecutable('convert', 'convert') &&
+        findExecutable('pdftk', 'pdftk') &&
+        findExecutable('pdftotext', 'pdftotext') &&
+        findExecutable('tesseract', 'tesseract')) {
+      return true
+    }
+
+    return false
   }
 }
 

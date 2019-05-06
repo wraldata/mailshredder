@@ -1,0 +1,5612 @@
+[
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 1
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 1,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 1,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Temple Sloan",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 1,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Temple Sloan"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 1,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 1
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 2
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 2,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 2,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Darrell Allison",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 2,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Darrell Allison"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 2,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 2
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 3
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 3,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 3,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Thom Goolsby",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 3,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Thom Goolsby"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 3,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 3
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 4
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 4,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 4,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Alex Mitchell",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 4,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Alex Mitchell"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 4,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 4
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 5
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 5,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 5,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Tom Fetzer",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 5,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Tom Fetzer"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 5,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 5
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 6
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 6,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 6,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Kellie Hunt Blue",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 6,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Kellie Hunt Blue"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 6,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 6
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 7
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "The Chronicle &lt;daily-html@chronicle.com&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 7,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: The Chronicle &lt;daily-html@chronicle.com&gt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 4:20 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 7,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 4:20 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Marty Kotis",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 7,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Marty Kotis"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Academe Today: The Humanities as We Know Them Are Doomed. Now What?",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 7,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Academe Today: The Humanities as We Know Them Are Doomed. Now What?"
+        }
+      }
+    },
+    "end": {
+      "page": 10
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 11
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "The Chronicle &lt;solutions@chronicle.com&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 11,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: The Chronicle &lt;solutions@chronicle.com&gt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 6:06 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 11,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 6:06 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Marty Kotis",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 11,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Marty Kotis"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Your Daily Briefing",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 11,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Your Daily Briefing"
+        }
+      }
+    },
+    "end": {
+      "page": 51
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 52
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Kimberly van Noort",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 52,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Kimberly van Noort"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 7:50 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 52,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 7:50 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Phil Byers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 52,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Phil Byers"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Accepted: Andrea Poole has created calendar event &apos;Special Committee to Review UNC",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 52,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Accepted: Andrea Poole has created calendar event &apos;Special Committee to Review UNC"
+        }
+      }
+    },
+    "end": {
+      "page": 52
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 53
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "currentbog2017-19-bounces@lists.northcarolina.edu on behalf of Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 53,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: currentbog2017-19-bounces@lists.northcarolina.edu on behalf of Andrea R. Poole"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 8:24 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 53,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 8:24 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "CurrentBoG2017-19@lists.northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 53,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: CurrentBoG2017-19@lists.northcarolina.edu"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "[CurrentBoG2017-19] Call-in information",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 53,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: [CurrentBoG2017-19] Call-in information"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "ATT00001.c",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 53,
+          "x": 46.58028,
+          "y": 141.761897,
+          "text": "Attachments: ATT00001.c"
+        }
+      }
+    },
+    "end": {
+      "page": 53
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 54
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 54,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Randy Ramsey"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 8:26 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 54,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 8:26 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 54,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Randy Ramsey"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Fwd: [CurrentBoG2017-19] Call-in information",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 54,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Fwd: [CurrentBoG2017-19] Call-in information"
+        }
+      }
+    },
+    "end": {
+      "page": 54
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 55
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Debbie R. Robertson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 55,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Debbie R. Robertson"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 8:28 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 55,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 8:28 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Byers Phil Byers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 55,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Byers Phil Byers"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Wednesdays Reception",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 55,
+          "x": 46.58028,
+          "y": 129.021993,
+          "text": "Subject: Wednesdays Reception"
+        }
+      }
+    },
+    "end": {
+      "page": 59
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 60
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Wendy Murphy",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 60,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Wendy Murphy"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 8:41 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 60,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 8:41 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "wendy murphy",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 60,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: wendy murphy"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Fwd: Draft P&amp;T script",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 60,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Fwd: Draft P&amp;T script"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "image001.jpg; ATT00001.htm; Script plus Closed Session Motion.doc; ATT00002.htm",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 60,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Attachments: image001.jpg; ATT00001.htm; Script plus Closed Session Motion.doc; ATT00002.htm"
+        }
+      }
+    },
+    "end": {
+      "page": 60
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 61
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Harry Smith &lt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 61,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Harry Smith &lt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 9:19 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 61,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 9:19 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Randy Ramsey; Pearl Burris-Floyd; Wendy Murphy; Anna Nelson; Temple Sloan",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 61,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Randy Ramsey; Pearl Burris-Floyd; Wendy Murphy; Anna Nelson; Temple Sloan"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "harry smith",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 61,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: harry smith"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Presidential assessment committee",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 61,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Presidential assessment committee"
+        }
+      }
+    },
+    "end": {
+      "page": 61
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 62
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 62,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Randy Ramsey"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 9:22 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 62,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 9:22 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Harry Smith",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 62,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Harry Smith"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Pearl Burris-Floyd; Wendy Murphy; Anna Nelson; Temple Sloan",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 62,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Pearl Burris-Floyd; Wendy Murphy; Anna Nelson; Temple Sloan"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: Presidential assessment committee",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 62,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Re: Presidential assessment committee"
+        }
+      }
+    },
+    "end": {
+      "page": 62
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 63
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Jason Tyson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 63,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Jason Tyson"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 9:37 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 63,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 9:37 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Jason Tyson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 63,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Jason Tyson"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Daily News Clips for July 9, 2018",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 63,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Daily News Clips for July 9, 2018"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "Former BCBSNC chief to join Triad university as executive in residence.docx",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 63,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Attachments: Former BCBSNC chief to join Triad university as executive in residence.docx"
+        }
+      }
+    },
+    "end": {
+      "page": 68
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 69
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Marla Locklear &lt;marla.locklear@uncp.edu&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 69,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Marla Locklear &lt;marla.locklear@uncp.edu&gt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 10:03 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 69,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 10:03 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Phil Byers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 69,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Phil Byers"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Accepted: Andrea Poole has created calendar event &apos;Special Committee to Review UNC",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 69,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Accepted: Andrea Poole has created calendar event &apos;Special Committee to Review UNC"
+        }
+      }
+    },
+    "end": {
+      "page": 71
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 72
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "The Chronicle of Higher Education &lt;solutions@chronicleaccounts.com&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 72,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: The Chronicle of Higher Education &lt;solutions@chronicleaccounts.com&gt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 10:15 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 72,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 10:15 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Marty Kotis",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 72,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Marty Kotis"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Prepare for the Changes Ahead with The Chronicle",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 72,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Prepare for the Changes Ahead with The Chronicle"
+        }
+      }
+    },
+    "end": {
+      "page": 74
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 75
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Pearl Burris-Floyd",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 75,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Pearl Burris-Floyd"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 11:50 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 75,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 11:50 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Harry Smith",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 75,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Harry Smith"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Randy Ramsey; Wendy Murphy; Anna Nelson; Temple Sloan",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 75,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Randy Ramsey; Wendy Murphy; Anna Nelson; Temple Sloan"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: Presidential assessment committee",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 75,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Re: Presidential assessment committee"
+        }
+      }
+    },
+    "end": {
+      "page": 78
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 79
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Ruth A. Brill",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 79,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Ruth A. Brill"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 11:51 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 79,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 11:51 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Phil Byers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 79,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Phil Byers"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Automatic reply: Andrea Poole has created calendar event &apos;Special Committee to",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 79,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Automatic reply: Andrea Poole has created calendar event &apos;Special Committee to"
+        }
+      }
+    },
+    "end": {
+      "page": 87
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 88
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "UNC-GA Helpdesk",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 88,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: UNC-GA Helpdesk"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 11:51 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 88,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 11:51 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Phil Byers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 88,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Phil Byers"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: Canceled: Andrea Poole has created calendar event &apos;Special Committee to Revi",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 88,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: RE: Canceled: Andrea Poole has created calendar event &apos;Special Committee to Revi"
+        }
+      }
+    },
+    "end": {
+      "page": 89
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 90
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Karrie Dixon",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 90,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Karrie Dixon"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 11:51 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 90,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 11:51 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Phil Byers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 90,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Phil Byers"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Automatic reply: Andrea Poole has created calendar event &apos;Special Committee to",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 90,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Automatic reply: Andrea Poole has created calendar event &apos;Special Committee to"
+        }
+      }
+    },
+    "end": {
+      "page": 91
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 92
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Debbie R. Robertson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 92,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Debbie R. Robertson"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 12:25 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 92,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 12:25 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Philip Byers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 92,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Philip Byers"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Andrew G. Moretz; Phil Byers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 92,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Andrew G. Moretz; Phil Byers"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Public Affairs Committee",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 92,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Public Affairs Committee"
+        }
+      }
+    },
+    "end": {
+      "page": 92
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 93
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "UNC-GA Helpdesk",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 93,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: UNC-GA Helpdesk"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 1:04 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 93,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 1:04 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Phil Byers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 93,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Phil Byers"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: Canceled: Andrea Poole has created calendar event &apos;Special Committee to Review",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 93,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: RE: Canceled: Andrea Poole has created calendar event &apos;Special Committee to Review"
+        }
+      }
+    },
+    "end": {
+      "page": 93
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 94
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Frank Grainger",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 94,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Frank Grainger"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 4:59 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 94,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 4:59 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 94,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Andrea R. Poole"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: Andrea Poole has created calendar event &apos;Special Committee to Review UNC Health",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 94,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Re: Andrea Poole has created calendar event &apos;Special Committee to Review UNC Health"
+        }
+      }
+    },
+    "end": {
+      "page": 94
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 95
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 95,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Andrea R. Poole"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 5:00 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 95,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 5:00 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Frank Grainger",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 95,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Frank Grainger"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: Andrea Poole has created calendar event &apos;Special Committee to Review UNC Health",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 95,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Re: Andrea Poole has created calendar event &apos;Special Committee to Review UNC Health"
+        }
+      }
+    },
+    "end": {
+      "page": 96
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 97
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Frank Grainger",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 97,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Frank Grainger"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 5:07 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 97,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 5:07 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 97,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Andrea R. Poole"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: Andrea Poole has created calendar event &apos;Special Committee to Review UNC Health",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 97,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Re: Andrea Poole has created calendar event &apos;Special Committee to Review UNC Health"
+        }
+      }
+    },
+    "end": {
+      "page": 99
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 100
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 100,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Andrea R. Poole"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 5:31 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 100,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 5:31 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Harry Smith; Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 100,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Harry Smith; Randy Ramsey"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Margaret Spellings; Meredith B. Didier",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 100,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Margaret Spellings; Meredith B. Didier"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Materials for Tuesday morning",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 100,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Materials for Tuesday morning"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "Agenda for 710 at 9 am.pdf",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 100,
+          "x": 46.589907,
+          "y": 154.501993,
+          "text": "Attachments: Agenda for 710 at 9 am.pdf"
+        }
+      }
+    },
+    "end": {
+      "page": 109
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 110
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Steven Long",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 110,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Steven Long"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 7:03 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 110,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 7:03 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Steven B. Long Esq.",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 110,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Steven B. Long Esq."
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Fwd: Meeting of the ECSU Chancellor&apos;s Search Committee",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 110,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Fwd: Meeting of the ECSU Chancellor&apos;s Search Committee"
+        }
+      }
+    },
+    "end": {
+      "page": 110
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 111
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 111,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Randy Ramsey"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 7:07 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 111,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 7:07 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 111,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Andrea R. Poole"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Harry Smith; Margaret Spellings; Meredith B. Didier",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 111,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Harry Smith; Margaret Spellings; Meredith B. Didier"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: Materials for Tuesday morning",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 111,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Re: Materials for Tuesday morning"
+        }
+      }
+    },
+    "end": {
+      "page": 111
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 112
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 112,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Randy Ramsey"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 7:07 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 112,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 7:07 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 112,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Randy Ramsey"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Fwd: Materials for Tuesday morning",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 112,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Fwd: Materials for Tuesday morning"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "image001.png; ATT00001.htm; Agenda for 710 at 9 am.pdf; ATT00002.htm",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 112,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Attachments: image001.png; ATT00001.htm; Agenda for 710 at 9 am.pdf; ATT00002.htm"
+        }
+      }
+    },
+    "end": {
+      "page": 122
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 123
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Phil Byers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 123,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Phil Byers"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 8:16 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 123,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 8:16 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Meredith B. Didier",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 123,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Meredith B. Didier"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Akura Anderson; Elizabeth A Morra",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 123,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Akura Anderson; Elizabeth A Morra"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: Capitol Reception Invitation",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 123,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Re: Capitol Reception Invitation"
+        }
+      }
+    },
+    "end": {
+      "page": 126
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 127
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 127,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Andrea R. Poole"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 8:29 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 127,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 8:29 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 127,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Randy Ramsey"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Harry Smith; Margaret Spellings; Meredith B. Didier",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 127,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Harry Smith; Margaret Spellings; Meredith B. Didier"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: Materials for Tuesday morning",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 127,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Re: Materials for Tuesday morning"
+        }
+      }
+    },
+    "end": {
+      "page": 128
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 129
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Darrell Allison",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 129,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Darrell Allison"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 8:35 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 129,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 8:35 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Sue A. Carpenter",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 129,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Sue A. Carpenter"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Meredith M Steadman",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 129,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Meredith M Steadman"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Fw: UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 129,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Fw: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 129
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 130
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Darrell Allison",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 130,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Darrell Allison"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 8:40 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 130,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 8:40 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Julie B. Smith",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 130,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Julie B. Smith"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: Lumbee Homecoming",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 130,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Re: Lumbee Homecoming"
+        }
+      }
+    },
+    "end": {
+      "page": 130
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 131
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Julie B. Smith &lt;Julie.Smith@uncp.edu&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 131,
+          "x": 46.588235,
+          "y": 66.302071,
+          "text": "From: Julie B. Smith &lt;Julie.Smith@uncp.edu&gt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Thursday, June 28, 2018 10:19 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 131,
+          "x": 46.588235,
+          "y": 79.215012,
+          "text": "Sent: Thursday, June 28, 2018 10:19 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Darrell Allison",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 131,
+          "x": 46.598784,
+          "y": 92.127472,
+          "text": "To: Darrell Allison"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Lumbee Homecoming",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 131,
+          "x": 46.598784,
+          "y": 105.039933,
+          "text": "Subject: Lumbee Homecoming"
+        }
+      }
+    },
+    "end": {
+      "page": 132
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 133
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Harry Smith &lt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 133,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Harry Smith &lt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 9:33 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 133,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 9:33 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 133,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Randy Ramsey"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: Materials for Tuesday morning",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 133,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Re: Materials for Tuesday morning"
+        }
+      }
+    },
+    "end": {
+      "page": 133
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 134
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Harry Smith &lt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 134,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Harry Smith &lt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 9:34 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 134,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 9:34 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 134,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Andrea R. Poole"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Margaret Spellings; Meredith B. Didier; Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 134,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Margaret Spellings; Meredith B. Didier; Randy Ramsey"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: Materials for Tuesday morning",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 134,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Re: Materials for Tuesday morning"
+        }
+      }
+    },
+    "end": {
+      "page": 134
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 135
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 135,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Randy Ramsey"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Monday, July 09, 2018 10:00 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 135,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Monday, July 09, 2018 10:00 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Harry Smith",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 135,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Harry Smith"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: [SPAM ALERT] Re: Materials for Tuesday morning",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 135,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Re: [SPAM ALERT] Re: Materials for Tuesday morning"
+        }
+      }
+    },
+    "end": {
+      "page": 135
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 136
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 136,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 136,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Temple Sloan",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 136,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Temple Sloan"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 136,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 136
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 137
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 137,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 137,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Alex Mitchell",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 137,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Alex Mitchell"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 137,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 137
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 138
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 138,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 138,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Thom Goolsby",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 138,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Thom Goolsby"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 138,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 138
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 139
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 139,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 139,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Tom Fetzer",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 139,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Tom Fetzer"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 139,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 139
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 140
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 140,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 140,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Kellie Hunt Blue",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 140,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Kellie Hunt Blue"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 140,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 140
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 141
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 141,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 141,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Darrell Allison",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 141,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Darrell Allison"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 141,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 141
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 142
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "The Chronicle &lt;daily-html@chronicle.com&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 142,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: The Chronicle &lt;daily-html@chronicle.com&gt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 4:14 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 142,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 4:14 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Marty Kotis",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 142,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Marty Kotis"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Academe Today: Higher Ed’s Real Productivity Problem (Opinion)",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 142,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Academe Today: Higher Ed’s Real Productivity Problem (Opinion)"
+        }
+      }
+    },
+    "end": {
+      "page": 145
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 146
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "PODS For Business &lt;businesssolutions@pods.com&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 146,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: PODS For Business &lt;businesssolutions@pods.com&gt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 5:03 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 146,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 5:03 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "jholmes@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 146,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: jholmes@northcarolina.edu"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "So how much can PODS® do for my campus?",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 146,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: So how much can PODS® do for my campus?"
+        }
+      }
+    },
+    "end": {
+      "page": 148
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 149
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "PODS For Business &lt;businesssolutions@pods.com&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 149,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: PODS For Business &lt;businesssolutions@pods.com&gt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 5:08 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 149,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 5:08 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "slong@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 149,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: slong@northcarolina.edu"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "How can smart storage help to maximize our bookstore&apos;s sales?",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 149,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: How can smart storage help to maximize our bookstore&apos;s sales?"
+        }
+      }
+    },
+    "end": {
+      "page": 151
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 152
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "The Chronicle &lt;solutions@chronicle.com&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 152,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: The Chronicle &lt;solutions@chronicle.com&gt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 6:13 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 152,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 6:13 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Marty Kotis",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 152,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Marty Kotis"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Your Daily Briefing",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 152,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Your Daily Briefing"
+        }
+      }
+    },
+    "end": {
+      "page": 169
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 170
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Sue A. Carpenter",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 170,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Sue A. Carpenter"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 8:17 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 170,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 8:17 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Darrell Allison",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 170,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Darrell Allison"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 170,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: RE: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 189
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 190
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Jason Tyson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 190,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Jason Tyson"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 9:40 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 190,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 9:40 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Jason Tyson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 190,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Jason Tyson"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Daily News Clips for July 10, 2018",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 190,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Daily News Clips for July 10, 2018"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "POLITICO PRO Kavanaugh.docx",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 190,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Attachments: POLITICO PRO Kavanaugh.docx"
+        }
+      }
+    },
+    "end": {
+      "page": 192
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 193
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "William Webb",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 193,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: William Webb"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 9:42 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 193,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 9:42 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Kathie B. Sidner",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 193,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Kathie B. Sidner"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Office Address",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 193,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Office Address"
+        }
+      }
+    },
+    "end": {
+      "page": 202
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 203
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Kathie B. Sidner",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 203,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Kathie B. Sidner"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 10:03 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 203,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 10:03 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "William Webb",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 203,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: William Webb"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "RE: Office Address",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 203,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: RE: Office Address"
+        }
+      }
+    },
+    "end": {
+      "page": 203
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 204
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "currentbog2017-19-bounces@lists.northcarolina.edu on behalf of Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 204,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: currentbog2017-19-bounces@lists.northcarolina.edu on behalf of Andrea R. Poole"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 10:40 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 204,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 10:40 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "CurrentBoG2017-19@lists.northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 204,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: CurrentBoG2017-19@lists.northcarolina.edu"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "[CurrentBoG2017-19] Schedule update",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 204,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: [CurrentBoG2017-19] Schedule update"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "ATT00001.c",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 204,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Attachments: ATT00001.c"
+        }
+      }
+    },
+    "end": {
+      "page": 207
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 208
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 208,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Randy Ramsey"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 10:57 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 208,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 10:57 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Harry Smith; Wendy Murphy; Pearl Burris-Floyd; Temple Sloan; Anna Nelson; Randy",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 208,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Harry Smith; Wendy Murphy; Pearl Burris-Floyd; Temple Sloan; Anna Nelson; Randy"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: PAC",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 208,
+          "x": 46.589907,
+          "y": 141.758534,
+          "text": "Subject: Re: PAC"
+        }
+      }
+    },
+    "end": {
+      "page": 215
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 216
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Matthew S. Brody",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 216,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Matthew S. Brody"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 11:19 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 216,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 11:19 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Kellie Hunt Blue",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 216,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Kellie Hunt Blue"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Wendy Murphy",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 216,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Wendy Murphy"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "HR orientation",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 216,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: HR orientation"
+        }
+      }
+    },
+    "end": {
+      "page": 240
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 241
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 241,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Andrea R. Poole"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 12:42 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 241,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 12:42 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Darrell Allison",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 241,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Darrell Allison"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Timothy A. Minor; Kimberly van Noort",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 241,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Timothy A. Minor; Kimberly van Noort"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Draft Schedule/Topics",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 241,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Draft Schedule/Topics"
+        }
+      }
+    },
+    "end": {
+      "page": 242
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 243
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "currentbog2017-19-bounces@lists.northcarolina.edu on behalf of Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 243,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: currentbog2017-19-bounces@lists.northcarolina.edu on behalf of Andrea R. Poole"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 12:47 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 243,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 12:47 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "CurrentBoG2017-19@lists.northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 243,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: CurrentBoG2017-19@lists.northcarolina.edu"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Andrew G. Moretz; Joanna Carey Cleveland; Joshua N Ellis; Matthew S. Brody; Thomas",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 243,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Andrew G. Moretz; Joanna Carey Cleveland; Joshua N Ellis; Matthew S. Brody; Thomas"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "[CurrentBoG2017-19] FW: UNC Equal Opportunity/Diversity Report",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 243,
+          "x": 46.589907,
+          "y": 154.498438,
+          "text": "Subject: [CurrentBoG2017-19] FW: UNC Equal Opportunity/Diversity Report"
+        }
+      }
+    },
+    "end": {
+      "page": 333
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 334
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Debbie R. Robertson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 334,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Debbie R. Robertson"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 1:18 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 334,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 1:18 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Phil Byers; kellydockham@unc.edu; rachelle_feldman@unc.edu; ahelms35@uncc.edu; lherndon@unca.edu; clayton@unc.edu; Kyle T Villemain; Thomas C. Shanahan",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 334,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Phil Byers; kellydockham@unc.edu; rachelle_feldman@unc.edu; ahelms35@uncc.edu;"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC System Reception",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 334,
+          "x": 46.589907,
+          "y": 141.758534,
+          "text": "Subject: UNC System Reception"
+        }
+      }
+    },
+    "end": {
+      "page": 337
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 338
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 338,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Randy Ramsey"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 1:35 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 338,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 1:35 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 338,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Randy Ramsey"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Fwd: Materials for July 9 P&amp;T Meeting",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 338,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Fwd: Materials for July 9 P&amp;T Meeting"
+        }
+      }
+    },
+    "end": {
+      "page": 341
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 342
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Nathan Knuffman",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 342,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Nathan Knuffman"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 2:33 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 342,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 2:33 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Margaret Spellings; Harry Smith",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 342,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Margaret Spellings; Harry Smith"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Fwd: R&amp;R",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 342,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Fwd: R&amp;R"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "R_R.pdf",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 342,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Attachments: R_R.pdf"
+        }
+      }
+    },
+    "end": {
+      "page": 343
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 344
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "currentbog2017-19-bounces@lists.northcarolina.edu on behalf of Margaret Spellings",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 344,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: currentbog2017-19-bounces@lists.northcarolina.edu on behalf of Margaret Spellings"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 2:40 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 344,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 2:40 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "&apos;CurrentBoG2017-19@lists.northcarolina.edu&apos;; &apos;unc_chancellors@northcarolina.edu&apos;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 344,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: &apos;CurrentBoG2017-19@lists.northcarolina.edu&apos;; &apos;unc_chancellors@northcarolina.edu&apos;"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Kimberly van Noort; Andrew G. Moretz; Andrew P. Kelly; &apos;unccos@lists.northcarolina.edu&apos;; Nathan Knuffman; Matthew S. Brody; cfo@lists.northcarolina.edu; Thomas C. Shanahan; &apos;unc_ea_chancellors@northcarolina.edu&apos;; Meredith B. Didier",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 344,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Kimberly van Noort; Andrew G. Moretz; Andrew P. Kelly;"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "[CurrentBoG2017-19] Announcing New CFO for the UNC System",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 344,
+          "x": 46.589907,
+          "y": 179.971616,
+          "text": "Subject: [CurrentBoG2017-19] Announcing New CFO for the UNC System"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "Clinton Carter named SVP of Finance.pdf; ATT00001.c",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 344,
+          "x": 46.589907,
+          "y": 192.721992,
+          "text": "Attachments: Clinton Carter named SVP of Finance.pdf; ATT00001.c"
+        }
+      }
+    },
+    "end": {
+      "page": 346
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 347
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Jason Tyson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 347,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Jason Tyson"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 2:42 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 347,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 2:42 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Jason Tyson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 347,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Jason Tyson"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "NEWS RELEASE: Clinton Carter named Senior Vice President for Finance and",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 347,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: NEWS RELEASE: Clinton Carter named Senior Vice President for Finance and"
+        }
+      }
+    },
+    "end": {
+      "page": 348
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 349
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "bog_public_notice-bounces@lists.northcarolina.edu on behalf of Jason Tyson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 349,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: bog_public_notice-bounces@lists.northcarolina.edu on behalf of Jason Tyson"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 2:42 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 349,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 2:42 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Jason Tyson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 349,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Jason Tyson"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "[BoG_Public_Notice] NEWS RELEASE: Clinton Carter named Senior Vice President for",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 349,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: [BoG_Public_Notice] NEWS RELEASE: Clinton Carter named Senior Vice President for"
+        }
+      }
+    },
+    "end": {
+      "page": 350
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 351
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Lou Bissette",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 351,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Lou Bissette"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 2:57 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 351,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 2:57 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Margaret Spellings",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 351,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Margaret Spellings"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: [CurrentBoG2017-19] Announcing New CFO for the UNC System",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 351,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Re: [CurrentBoG2017-19] Announcing New CFO for the UNC System"
+        }
+      }
+    },
+    "end": {
+      "page": 351
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 352
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Jason Tyson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 352,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Jason Tyson"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 3:37 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 352,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 3:37 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Jason Tyson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 352,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Jason Tyson"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Meeting notice",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 352,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Meeting notice"
+        }
+      }
+    },
+    "end": {
+      "page": 352
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 353
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "bog_public_notice-bounces@lists.northcarolina.edu on behalf of Jason Tyson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 353,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: bog_public_notice-bounces@lists.northcarolina.edu on behalf of Jason Tyson"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 3:37 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 353,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 3:37 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Jason Tyson",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 353,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Jason Tyson"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "[BoG_Public_Notice] Meeting notice",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 353,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: [BoG_Public_Notice] Meeting notice"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "ATT00001.c",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 353,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Attachments: ATT00001.c"
+        }
+      }
+    },
+    "end": {
+      "page": 353
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 354
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Kimberly L Mitchell",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 354,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Kimberly L Mitchell"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 3:44 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 354,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 3:44 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Betty Njaramba",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 354,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Betty Njaramba"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "July BOG Meeting",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 354,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: July BOG Meeting"
+        }
+      }
+    },
+    "end": {
+      "page": 354
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 355
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "David Powers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 355,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: David Powers"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 4:08 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 355,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 4:08 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "David Powers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 355,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: David Powers"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Fwd: Trustees",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 355,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Fwd: Trustees"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "image001.png; ATT00001.htm; UNC System BOTs as of 62918.pdf; ATT00002.htm; UNC",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 355,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Attachments: image001.png; ATT00001.htm; UNC System BOTs as of 62918.pdf; ATT00002.htm; UNC"
+        }
+      }
+    },
+    "end": {
+      "page": 364
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 365
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "David Powers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 365,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: David Powers"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 4:10 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 365,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 4:10 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "David Powers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 365,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: David Powers"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Fwd: [CurrentBoG2017-19] 2018-2019 Committee Assignments (sent on behalf of",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 365,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Fwd: [CurrentBoG2017-19] 2018-2019 Committee Assignments (sent on behalf of"
+        }
+      }
+    },
+    "end": {
+      "page": 371
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 372
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Matthew S. Brody",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 372,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Matthew S. Brody"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 4:10 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 372,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 4:10 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Wendy Murphy",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 372,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Wendy Murphy"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "BOG salary consults",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 372,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: BOG salary consults"
+        }
+      }
+    },
+    "end": {
+      "page": 372
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 373
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "David Powers &lt;david.powers83@gmail.com&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 373,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: David Powers &lt;david.powers83@gmail.com&gt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 4:31 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 373,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 4:31 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "David Powers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 373,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: David Powers"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: Trustees",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 373,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Re: Trustees"
+        }
+      }
+    },
+    "end": {
+      "page": 374
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 375
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 375,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Andrea R. Poole"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 4:51 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 375,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 4:51 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Darrell Allison",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 375,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Darrell Allison"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Timothy A. Minor; Kimberly van Noort",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 375,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Timothy A. Minor; Kimberly van Noort"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: Draft Schedule/Topics",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 375,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Re: Draft Schedule/Topics"
+        }
+      }
+    },
+    "end": {
+      "page": 377
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 378
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Wendy Murphy",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 378,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Wendy Murphy"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 6:06 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 378,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 6:06 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Matthew S. Brody",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 378,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Matthew S. Brody"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: BOG salary consults",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 378,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Re: BOG salary consults"
+        }
+      }
+    },
+    "end": {
+      "page": 378
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 379
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "William Webb",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 379,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: William Webb"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 7:28 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 379,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 7:28 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Doctor Tran",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 379,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Doctor Tran"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Fwd: SECOME Summer 18 Newsletter",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 379,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Fwd: SECOME Summer 18 Newsletter"
+        }
+      }
+    },
+    "end": {
+      "page": 387
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 388
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Darrell Allison",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 388,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Darrell Allison"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 7:35 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 388,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 7:35 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "darrellallison1990@gmail.com",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 388,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: darrellallison1990@gmail.com"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Fwd: Draft Schedule/Topics",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 388,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Fwd: Draft Schedule/Topics"
+        }
+      }
+    },
+    "end": {
+      "page": 389
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 390
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Nathan Knuffman",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 390,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Nathan Knuffman"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 7:44 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 390,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 7:44 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Temple Sloan; Temple Sloan",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 390,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Temple Sloan; Temple Sloan"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "FW: R&amp;R Allocation Options",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 390,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: FW: R&amp;R Allocation Options"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "RR Allocation Modeling 2018-19 Ver 7-10-18.pdf",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 390,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Attachments: RR Allocation Modeling 2018-19 Ver 7-10-18.pdf"
+        }
+      }
+    },
+    "end": {
+      "page": 390
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 391
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Nathan Knuffman",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 391,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Nathan Knuffman"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 8:09 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 391,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 8:09 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Darrell Allison",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 391,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Darrell Allison"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 391,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Andrea R. Poole"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Follow Up to Capital Conversation",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 391,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Follow Up to Capital Conversation"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "UNC Buildings Not in Operation Exec Summary.pdf; UNC Acquisitions Not in Operation",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 391,
+          "x": 46.589907,
+          "y": 154.501993,
+          "text": "Attachments: UNC Buildings Not in Operation Exec Summary.pdf; UNC Acquisitions Not in Operation"
+        }
+      }
+    },
+    "end": {
+      "page": 396
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 397
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Matthew S. Brody",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 397,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Matthew S. Brody"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Tuesday, July 10, 2018 10:50 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 397,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Tuesday, July 10, 2018 10:50 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Wendy Murphy",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 397,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Wendy Murphy"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Kellie Hunt Blue; Harry Smith; Margaret Spellings; Meredith B. Didier; Thomas C.",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 397,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Kellie Hunt Blue; Harry Smith; Margaret Spellings; Meredith B. Didier; Thomas C."
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: BOG salary consults",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 397,
+          "x": 46.589907,
+          "y": 154.498438,
+          "text": "Subject: Re: BOG salary consults"
+        }
+      }
+    },
+    "end": {
+      "page": 398
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 399
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Lacky Barnes",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 399,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Lacky Barnes"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 12:08 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 399,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 12:08 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Darrell Allison",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 399,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Darrell Allison"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Follow-up from Lacky Barnes (NCCU class mate)",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 399,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Follow-up from Lacky Barnes (NCCU class mate)"
+        }
+      }
+    },
+    "end": {
+      "page": 399
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 400
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 400,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 400,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Temple Sloan",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 400,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Temple Sloan"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 400,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 400
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 401
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 401,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 401,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Kellie Hunt Blue",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 401,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Kellie Hunt Blue"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 401,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 401
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 402
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 402,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 402,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Tom Fetzer",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 402,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Tom Fetzer"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 402,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 402
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 403
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 403,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 403,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Thom Goolsby",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 403,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Thom Goolsby"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 403,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 403
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 404
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 404,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 404,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Darrell Allison",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 404,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Darrell Allison"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 404,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 404
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 405
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "sysadmingrp@northcarolina.edu",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 405,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: sysadmingrp@northcarolina.edu"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 4:04 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 405,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 4:04 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Alex Mitchell",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 405,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Alex Mitchell"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "UNC - System Password Expiration Notification",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 405,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: UNC - System Password Expiration Notification"
+        }
+      }
+    },
+    "end": {
+      "page": 405
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 406
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "The Chronicle &lt;daily-html@chronicle.com&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 406,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: The Chronicle &lt;daily-html@chronicle.com&gt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 4:09 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 406,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 4:09 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Marty Kotis",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 406,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Marty Kotis"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Academe Today: His College Said to Build an Emoji-Themed Parade Float. Then It Fired",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 406,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Academe Today: His College Said to Build an Emoji-Themed Parade Float. Then It Fired"
+        }
+      }
+    },
+    "end": {
+      "page": 423
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 424
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "The Chronicle &lt;solutions@chronicle.com&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 424,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: The Chronicle &lt;solutions@chronicle.com&gt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 6:20 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 424,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 6:20 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Marty Kotis",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 424,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Marty Kotis"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Your Daily Briefing",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 424,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Your Daily Briefing"
+        }
+      }
+    },
+    "end": {
+      "page": 427
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 428
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Harry Smith &lt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 428,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Harry Smith &lt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 6:57 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 428,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 6:57 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Margaret Spellings; Randy Ramsey",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 428,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Margaret Spellings; Randy Ramsey"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Fwd: August Power Lunch",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 428,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Fwd: August Power Lunch"
+        }
+      }
+    },
+    "end": {
+      "page": 434
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 435
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Harry Smith &lt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 435,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Harry Smith &lt;"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 8:29 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 435,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 8:29 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Matthew S. Brody",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 435,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Matthew S. Brody"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Harry Smith",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 435,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Harry Smith"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: FW: BOG salary consults",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 435,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Re: FW: BOG salary consults"
+        }
+      }
+    },
+    "end": {
+      "page": 435
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 436
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "&quot;Matthew S. Brody&quot; &lt;msbrody@northcarolina.edu&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 436,
+          "x": 51.199999,
+          "y": 54.314365,
+          "text": "From: &quot;Matthew S. Brody&quot; &lt;msbrody@northcarolina.edu&gt;"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, July 10, 2018 at 10:49 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 436,
+          "x": 51.199999,
+          "y": 67.573188,
+          "text": "Date: Tuesday, July 10, 2018 at 10:49 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Wendy Murphy &lt;wmurphy@bog.northcarolina.edu&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 436,
+          "x": 51.199999,
+          "y": 80.832012,
+          "text": "To: Wendy Murphy &lt;wmurphy@bog.northcarolina.edu&gt;"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Kellie Hunt Blue &lt;kblue@bog.northcarolina.edu&gt;, Harry Smith &lt;hsmith@bog.northcarolina.edu&gt;, Margaret Spellings &lt;margaret.spellings@northcarolina.edu&gt;, &quot;Meredith B. Didier&quot; &lt;mbdidier@northcarolina.edu&gt;, &quot;Thomas C. Shanahan&quot; &lt;tcshanahan@northcarolina.edu&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 436,
+          "x": 51.199999,
+          "y": 94.090835,
+          "text": "Cc: Kellie Hunt Blue &lt;kblue@bog.northcarolina.edu&gt;, Harry Smith &lt;hsmith@bog.northcarolina.edu&gt;,"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: BOG salary consults",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 436,
+          "x": 51.199999,
+          "y": 133.924856,
+          "text": "Subject: Re: BOG salary consults"
+        }
+      }
+    },
+    "end": {
+      "page": 436
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 437
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Wendy Murphy &lt;wmurphy@bog.northcarolina.edu&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 437,
+          "x": 51.199999,
+          "y": 54.314365,
+          "text": "From: Wendy Murphy &lt;wmurphy@bog.northcarolina.edu&gt;"
+        }
+      },
+      "Date": {
+        "header": "Date",
+        "value": "Tuesday, July 10, 2018 at 6:05 PM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 437,
+          "x": 51.199999,
+          "y": 67.573188,
+          "text": "Date: Tuesday, July 10, 2018 at 6:05 PM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "&quot;Matthew S. Brody&quot; &lt;msbrody@northcarolina.edu&gt;",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 437,
+          "x": 51.199999,
+          "y": 80.832012,
+          "text": "To: &quot;Matthew S. Brody&quot; &lt;msbrody@northcarolina.edu&gt;"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: BOG salary consults",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 437,
+          "x": 51.199999,
+          "y": 94.148482,
+          "text": "Subject: Re: BOG salary consults"
+        }
+      }
+    },
+    "end": {
+      "page": 437
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 438
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Matthew S. Brody",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 438,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Matthew S. Brody"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 8:43 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 438,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 8:43 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Harry Smith",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 438,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Harry Smith"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Harry Smith",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 438,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Harry Smith"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: BOG salary consults",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 438,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: Re: BOG salary consults"
+        }
+      }
+    },
+    "end": {
+      "page": 440
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 441
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Andrea R. Poole",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 441,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Andrea R. Poole"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 9:23 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 441,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 9:23 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "David Powers",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 441,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: David Powers"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "Re: [CurrentBoG2017-19] Upcoming BOG meetings",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 441,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Subject: Re: [CurrentBoG2017-19] Upcoming BOG meetings"
+        }
+      }
+    },
+    "end": {
+      "page": 446
+    }
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": {
+      "page": 447
+    },
+    "headers": {
+      "From": {
+        "header": "From",
+        "value": "Minda L. Watkins",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 447,
+          "x": 46.588235,
+          "y": 90.805356,
+          "text": "From: Minda L. Watkins"
+        }
+      },
+      "Sent": {
+        "header": "Sent",
+        "value": "Wednesday, July 11, 2018 10:02 AM",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 447,
+          "x": 46.589907,
+          "y": 103.541993,
+          "text": "Sent: Wednesday, July 11, 2018 10:02 AM"
+        }
+      },
+      "To": {
+        "header": "To",
+        "value": "Harry Smith; Harry Smith",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 447,
+          "x": 46.589907,
+          "y": 116.281993,
+          "text": "To: Harry Smith; Harry Smith"
+        }
+      },
+      "Cc": {
+        "header": "Cc",
+        "value": "Margaret Spellings",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 447,
+          "x": 46.589907,
+          "y": 129.021993,
+          "text": "Cc: Margaret Spellings"
+        }
+      },
+      "Subject": {
+        "header": "Subject",
+        "value": "State of the University",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 447,
+          "x": 46.589907,
+          "y": 141.761897,
+          "text": "Subject: State of the University"
+        }
+      },
+      "Attachments": {
+        "header": "Attachments",
+        "value": "SOTU_Triangle_final.docx",
+        "line": {
+          "file": "./test/data/tranche-004/unc_system.pdf",
+          "page": 447,
+          "x": 46.589907,
+          "y": 154.501993,
+          "text": "Attachments: SOTU_Triangle_final.docx"
+        }
+      }
+    },
+    "end": {
+      "page": 500
+    }
+  }
+]

@@ -56,6 +56,15 @@ Building an electron app:
  quasar build -m electron
 ```
 
+Running tests:
+
+```
+ quasar test --unit=jest
+```
+
+NOTE: the tests are running code in the electron app's main process; since most of the code we're using
+runs in the renderer process, there are references to electron.remote that don't work in the tests;
+for example, the PDFUtils.htmlToPdf() doesn't work in the tests yet.  So we can't test any EML tranches.
 
 ## requirements
 

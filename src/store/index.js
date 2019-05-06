@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import commands from './commands'
 import setup from './setup'
 import filter from './filter'
 
@@ -15,7 +14,6 @@ Vue.use(Vuex)
 export default function (/* { ssrContext } */) {
   const Store = new Vuex.Store({
     modules: {
-      commands,
       setup,
       filter
     }
