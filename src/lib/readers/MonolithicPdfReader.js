@@ -7,17 +7,9 @@ import Logger from '../utils/Logger'
 
 let MonolithicPdfReader = function (params) {
   let _options = {
-    // FIXME: our multipage PDF parsing currently requires that each message start a new page;
-    // if you set this to false, you'll get some bad results; it's here for future extensibility
-    // (although I have no idea how to properly parse a "run-on" multi-email PDF)
-    newPageForEachMessage: true,
-    // some email PDF dumps have a "masthead" line at the top of the page, with somebody's name in it
-    numNonHeadersAllowedAtTop: 1,
-    // some emails have multi-line headers where it is very difficult to identify the second line as a header; this causes us to bail out
-    // of parsing the headers too early, and we never find all the important headers
-    numNonHeadersAllowedBetweenHeaders: 1,
     // some email PDF dumps have slight variation in the y-position of the components of the header, e.g. "To:" and "foo@example.com"; this is usually between 0.01 and 0.25 mm
     yPosTolerance: 0.5,
+    headerJustification: 'left',
     // convert image-based PDF to text before parsing; currently, the caller has to indicate whether to
     // perform this OCR; if the PDF is not image based and performOCR is true, you will get bad results.  If the PDF
     // is image based, and performOCR is false, you won't get any results
@@ -34,10 +26,6 @@ let MonolithicPdfReader = function (params) {
   let _emails = []
   let _onParseComplete = null
   let _onParseFail = null
-  let _numHeadersSeenOnPage = 0
-  let _numNonHeadersSeenOnPage = 0
-  let _numNonHeadersSeenSinceHeader = 0
-  let _ignoreHeaders = false
   let _currPage = 0
   let _currLine = {
     page: -1,
@@ -64,88 +52,19 @@ let MonolithicPdfReader = function (params) {
   let _ehs = new EmailHeaderScanner()
   let _pdf = new PDFUtils()
 
-  function processLine (line) {
-    if (line.text === '') {
-      return
-    }
-
-    _logger.debug(`[${line.x}, ${line.y}] ${line.text}`)
-
-    if (_ignoreHeaders) {
-      return
-    }
-
-    let scanResult = _ehs.scanLine(line)
-    _logger.debug('SCAN RESULT: ' + scanResult[0])
-
-    if (scanResult[0] === 'email_start') {
-      _logger.debug('EMAIL START: ', scanResult[1], scanResult[2])
-
-      let end = scanResult[1]
-      let start = scanResult[1]
-      let headers = scanResult[2]
-
-      if (_options.newPageForEachMessage) {
-        end = {
-          page: scanResult[1].page - 1
-        }
-        start = {
-          page: scanResult[1].page
-        }
-      }
-
-      // add an "end" to the previous email
-      if (_emails.length > 0) {
-        _emails[_emails.length - 1].end = end
-      }
-
-      // add a new email to the list
-      _emails.push({
-        file: _options.src,
-        start: start,
-        end: JSON.parse(JSON.stringify(start)),
-        headers: headers
-      })
-
-      if (_options.newPageForEachMessage) {
-        _ignoreHeaders = true
-      }
-    }
-
-    if (scanResult[0] === 'header') {
-      _numHeadersSeenOnPage++
-      _numNonHeadersSeenSinceHeader = 0
-    } else {
-      _numNonHeadersSeenOnPage++
-      _numNonHeadersSeenSinceHeader++
-
-      if (_options.newPageForEachMessage) {
-        if (_numHeadersSeenOnPage === 0) {
-          if (_numNonHeadersSeenOnPage <= _options.numNonHeadersAllowedAtTop) {
-            return
-          }
-        } else {
-          if (_numNonHeadersSeenSinceHeader <= _options.numNonHeadersAllowedBetweenHeaders) {
-            return
-          }
-        }
-        _ignoreHeaders = true
-      }
-    }
-  }
-
   function processPage () {
-    let headers = _ehs.scanForRightJustifiedHeaders(_pageLines)
-    if (headers) {
-      _logger.debug('found right-justified email headers on page; assuming these are the proper headers')
-      // add an "end" to the previous email
-      if (_emails.length > 0) {
-        if (!_emails[_emails.length - 1]) {
-          console.log('WTF?')
-        }
-        _emails[_emails.length - 1].end.page = _currPage - 1
+    for (let i = 0; i < _pageLines.length; i++) {
+      let line = _pageLines[i]
+      _logger.debug(`[${line.x.toFixed(2)}, ${line.y.toFixed(2)}] ${line.text}`)
+      for (let j = 0; j < line.items.length; j++) {
+        let item = line.items[j]
+        _logger.debug(`  <${item.x.toFixed(2)}, ${item.y.toFixed(2)}] ${item.text}`)
       }
+    }
 
+    let headers = _ehs.scanForHeaders(_pageLines, (_options.headerJustification === 'right'))
+    if (headers) {
+      _logger.debug('found email headers on page')
       _emails.push({
         file: _options.src,
         start: {
@@ -156,19 +75,14 @@ let MonolithicPdfReader = function (params) {
         },
         headers: headers
       })
-
-      return
-    }
-
-    _logger.debug('no right-justified email headers; scanning for left-justified headers...')
-    for (let i = 0; i < _pageLines.length; i++) {
-      processLine(_pageLines[i])
+    } else {
+      if (_emails.length > 0) {
+        _emails[_emails.length - 1].end.page = _currPage
+      }
     }
   }
 
   function processText (item) {
-    _logger.debug(`<${item.x}, ${item.y}> ${item.text}`)
-
     let delta = Math.abs(item.y - _currLine.y)
 
     if (delta > _options.yPosTolerance) {
@@ -194,10 +108,6 @@ let MonolithicPdfReader = function (params) {
   }
 
   function processPageStart (item) {
-    if (_options.newPageForEachMessage) {
-      _ehs.reset()
-    }
-
     _currPage++
     _pageLines = []
     _logger.debug('--------------------------------------------------------------------------------')
@@ -210,10 +120,6 @@ let MonolithicPdfReader = function (params) {
       items: [],
       text: ''
     }
-    _numHeadersSeenOnPage = 0
-    _numNonHeadersSeenOnPage = 0
-    _numNonHeadersSeenSinceHeader = 0
-    _ignoreHeaders = false
   }
 
   function finishParsing () {

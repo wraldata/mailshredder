@@ -37,6 +37,12 @@
         <br />
         <br />
         <br />
+        <q-select
+          v-model="headerJustification"
+          label="Header Justification"
+          :options="headerJustificationOptions"
+        ></q-select>
+        <br />
         <q-checkbox
           v-model="performOCR"
           label="Perform OCR"
@@ -60,6 +66,7 @@ export default {
   props: {
   },
   data: () => ({
+    headerJustificationOptions: ['left', 'right']
   }),
   validations: {
     dcUsername: { required },
@@ -98,6 +105,14 @@ export default {
       },
       set (val) {
         this.$store.commit('setup/updateInputFile', val)
+      }
+    },
+    headerJustification: {
+      get () {
+        return this.$store.state.setup.headerJustification
+      },
+      set (val) {
+        this.$store.commit('setup/updateHeaderJustification', val)
       }
     },
     performOCR: {

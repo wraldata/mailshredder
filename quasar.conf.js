@@ -54,6 +54,7 @@ module.exports = function (ctx) {
         'QField',
         'QInput',
         'QCheckbox',
+        'QSelect',
         'QPageSticky',
 
         'QLinearProgress'

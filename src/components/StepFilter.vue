@@ -276,6 +276,7 @@ export default {
       let newJob = {
         inputFile: this.$store.state.setup.inputFile,
         inputFileModTime: fs.statSync(this.$store.state.setup.inputFile).mtime,
+        justification: this.$store.state.setup.headerJustification,
         performOCR: this.$store.state.setup.performOCR,
         unpackPortfolio: this.$store.state.setup.unpackPortfolio
       }
@@ -312,6 +313,7 @@ export default {
         r = new MultiplePdfReader({
           src: this.$store.state.setup.inputFile,
           outDir: this.outputDir,
+          headerJustification: this.$store.state.setup.headerJustification,
           performOCR: this.$store.state.setup.performOCR,
           unpackPortfolio: true
         })
@@ -327,6 +329,7 @@ export default {
             r = new MultiplePdfReader({
               src: this.$store.state.setup.inputFile,
               outDir: this.outputDir,
+              headerJustification: this.$store.state.setup.headerJustification,
               performOCR: this.$store.state.setup.performOCR
             })
           }
@@ -335,6 +338,7 @@ export default {
           r = new MonolithicPdfReader({
             src: this.$store.state.setup.inputFile,
             outDir: this.outputDir,
+            headerJustification: this.$store.state.setup.headerJustification,
             performOCR: this.$store.state.setup.performOCR
           })
         }

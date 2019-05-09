@@ -20,13 +20,35 @@
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000002.pdf",
     "start": 1,
-    "end": 7,
+    "end": 1,
     "From": "Hawco, Stephanie G",
     "To": "Vandervaart, Donald; Feldman, Crystal M; Evans, John; Reeder, Tom",
     "Cc": "Kritzer, Jamie; Rusher, Mike J",
     "Subject": "3/11 evening news clips",
     "Date": "Friday, March 11, 2016 8:20:29 PM",
     "Attachments": "image003.png"
+  },
+  {
+    "file": "test/data/tranche-001/Reeder, Tom.pdf-000002.pdf",
+    "start": 2,
+    "end": 4,
+    "From": "Rob Gelblum",
+    "To": "Doorn, Peter",
+    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Jesneck, Charlotte; Woosley, Julie; Kritzer, Jamie; Nancy Dunn; Osborne, Jay L; Lorscheider, Ellen; Reeder, Tom; Daly, Caroline B; Knott, Brad; Evans, John",
+    "Subject": "RE: Risk Based Remediation Documents - Review Requested",
+    "Date": "Friday, March 11, 2016 6:50:23 PM",
+    "Attachments": "image002.png"
+  },
+  {
+    "file": "test/data/tranche-001/Reeder, Tom.pdf-000002.pdf",
+    "start": 5,
+    "end": 7,
+    "From": "Rob Gelblum",
+    "To": "Doorn, Peter",
+    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Jesneck, Charlotte; Woosley, Julie; Kritzer, Jamie; Nancy Dunn; Osborne, Jay L; Lorscheider, Ellen; Reeder, Tom; Daly, Caroline B; Knott, Brad; Evans, John",
+    "Subject": "RE: Risk Based Remediation Documents - Review Requested",
+    "Date": "Friday, March 11, 2016 6:17:11 PM",
+    "Attachments": "image002.png"
   },
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000003.pdf",
@@ -132,11 +154,21 @@
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000013.pdf",
     "start": 1,
-    "end": 2,
+    "end": 1,
     "From": "Feldman, Crystal M",
     "Subject": "March 14-18 communications scan",
     "Date": "Friday, March 11, 2016 3:36:07 PM",
     "Attachments": "March 14-18 Comm Scan.docx"
+  },
+  {
+    "file": "test/data/tranche-001/Reeder, Tom.pdf-000013.pdf",
+    "start": 2,
+    "end": 2,
+    "From": "scanner.5th_floor.gs@ncdenr.gov",
+    "To": "Reeder, Tom",
+    "Subject": "Message from KM_454e",
+    "Date": "Friday, March 11, 2016 3:32:31 PM",
+    "Attachments": "SKM_454e16031116410.pdf"
   },
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000014.pdf",
@@ -172,7 +204,7 @@
     "end": 1,
     "From": "Doorn, Peter",
     "To": "Benne Hutson (bhutson@mcguirewoods.com); Franchina, Dave (Dave.Franchina@klgates.com); Charles Case; Steve Weber (steveweber@parkerpoe.com); Rob Gelblum (Rob@attybryanbrice.com); maxjustice@parkerpoe.com; Stukes, Mary Katherine H. (marykatherinestukes@parkerpoe.com); Joe Starr (jstarr@harthickman.com); David Duncklee; Conan Fitzgerald (conan.fitzgerald@aecom.com); Rick Catlin (rick.catlin@catlinusa.com); Rick Kolb; preston.howard@myncma.org; Tom McKittrick; grady@ncconservationnetwork.org; jamie@ncconservationnetwork.org",
-    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Jaclynne; Charlene Moody; Wahl, Tracy; John Rybak; Telfer, Philip; Seth Palmer (spalmer@ncrealtors.org);",
+    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Jesneck, Charlotte; Woosley, Julie; Kritzer, Jamie; Nancy Dunn; Osborne, Jay L; Lorscheider, Ellen; Drummond, Jaclynne; Charlene Moody; Wahl, Tracy; John Rybak; Telfer, Philip; Seth Palmer (spalmer@ncrealtors.org); Reeder, Tom; Evans, John; Daly, Caroline B",
     "Subject": "Meeting follow-up",
     "Date": "Friday, March 11, 2016 2:55:25 PM",
     "Attachments": "image003.png"
@@ -282,7 +314,7 @@
     "start": 1,
     "end": 3,
     "From": "Reeder, Tom",
-    "To": "Zimmerman, Jay; Poupart, Jeff; Chernikov, Sergei; Risgaard, Jon; Watts, Debra; Lanter, Steven; Davis, Tracy; (Mike.Rusher@ncdenr.gov)",
+    "To": "Zimmerman, Jay; Poupart, Jeff; Chernikov, Sergei; Risgaard, Jon; Watts, Debra; Lanter, Steven; Davis, Tracy; Vinson, Toby; cook, Shane; Scott, Michael; Mussler, Ed; Lorscheider, Ellen; Rusher, Mike J (Mike.Rusher@ncdenr.gov)",
     "Cc": "Bennett, Bradley",
     "Subject": "FW: Agenda for tomorrows call",
     "Date": "Friday, March 11, 2016 12:42:00 PM",
@@ -291,11 +323,22 @@
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000029.pdf",
     "start": 1,
-    "end": 5,
+    "end": 3,
     "From": "NASTT&quot;s 2016 No-Dig Show",
     "To": "Reeder, Tom",
     "Subject": "Network And Learn At The World&quot;s Largest Trenchless Event",
     "Date": "Friday, March 11, 2016 12:17:27 PM"
+  },
+  {
+    "file": "test/data/tranche-001/Reeder, Tom.pdf-000029.pdf",
+    "start": 4,
+    "end": 5,
+    "From": "Rob Gelblum",
+    "To": "Doorn, Peter; Benne Hutson (bhutson@mcguirewoods.com); Franchina, Dave (Dave.Franchina@klgates.com); Charles Case; Steve Weber (steveweber@parkerpoe.com); Joe Starr (jstarr@harthickman.com); Leo Moretz; David Duncklee; Rick Kolb; Conan Fitzgerald (conan.fitzgerald@aecom.com); Rick Catlin (rick.catlin@catlinusa.com); preston.howard@myncma.org; grady@ncconservationnetwork.org; tom@forsiteinc.com",
+    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Jesneck, Charlotte; Woosley, Julie; Kritzer, Jamie; Nancy Dunn; Osborne, Jay L; Lorscheider, Ellen; Reeder, Tom; Daly, Caroline B; Knott, Brad; Evans, John",
+    "Subject": "RE: Risk Based Remediation Documents - Review Requested",
+    "Date": "Friday, March 11, 2016 11:36:18 AM",
+    "Attachments": "image002.png"
   },
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000030.pdf",
@@ -360,7 +403,7 @@
     "start": 1,
     "end": 1,
     "From": "Holman, Sheila",
-    "To": "NCDENR.DENR.DAQ.Managers_Supervisors; Jordan, Bonnie; Woods, Vickie; Reeder, Tom; Thomas, Caroline S;",
+    "To": "NCDENR.DENR.DAQ.Managers_Supervisors; Jordan, Bonnie; Woods, Vickie; Reeder, Tom; Thomas, Caroline S; Daly, Caroline B; Young, Mollie J; Minich, Wendy K; Hughes, Wanda",
     "Subject": "Acting Director",
     "Date": "Friday, March 11, 2016 10:30:48 AM"
   },
@@ -398,7 +441,7 @@
     "end": 1,
     "From": "Higgins, Karen [mailto:karen.higgins@ncdenr.gov]",
     "Sent": "Friday, March 11, 2016 8:02 AM",
-    "To": "McLendon, Scott C SAW &lt;Scott.C.McLendon@usace.army.mil&gt;; Wicker, Henry M JR SAW",
+    "To": "McLendon, Scott C SAW &lt;Scott.C.McLendon@usace.army.mil&gt;; Wicker, Henry M JR SAW &lt;Henry.M.Wicker.JR@usace.army.mil&gt;",
     "Subject": "[EXTERNAL] NW permit renewal timeline"
   },
   {
@@ -433,13 +476,23 @@
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000044.pdf",
     "start": 1,
-    "end": 4,
+    "end": 2,
     "From": "May, David",
-    "To": "Reeder, Tom; Zimmerman, Jay; Davis, Tracy; Munger, Bridget; Rusher, Mike J; Young, Sarah; Kritzer, Jamie;",
+    "To": "Reeder, Tom; Zimmerman, Jay; Davis, Tracy; Munger, Bridget; Rusher, Mike J; Young, Sarah; Kritzer, Jamie; Scott, Michael",
     "Cc": "Watts, Debra; Smith, Eric; Lanter, Steven; Luben, Dyk; Tankard, Robert; Risgaard, Jon",
     "Subject": "H.F. Lee Public Meeting - Goldsboro - Thursday March 10",
     "Date": "Friday, March 11, 2016 9:30:05 AM",
     "Attachments": "image002.png"
+  },
+  {
+    "file": "test/data/tranche-001/Reeder, Tom.pdf-000044.pdf",
+    "start": 3,
+    "end": 4,
+    "From": "Davis, Dorothy H",
+    "To": "DENR.Division-Directors.and.Deputies.and.Admins@lists.ncmail.net; Akroyd, Cathy R; Feldman, Crystal M; Odom, Kelly; Kritzer, Jamie; Wiggins, Marty; Mather, Tom; Rusher, Mike J; Munger, Bridget; Smith, Tricia; Hawco, Stephanie G; Tolley, Lisa; Walker, Michele; Young, Sarah; Norton, Andrew; Knott, Brad; Daly, Caroline B; Thomas, Caroline S; Bromby, Craig A; Davis, Dorothy H; Evans, John; Kelvington, Jenny; Harrison, John W; Ellis, Joshua N; Thomas, Lois; Walker, Michele; Whaley, Rex A; Hayes, Sam M; Reeder, Tom; Vandervaart, Donald; Morris, Mallori G",
+    "Subject": "DEQ-related news is at...",
+    "Date": "Friday, March 11, 2016 9:15:54 AM",
+    "Attachments": "image001.png"
   },
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000045.pdf",
@@ -447,7 +500,7 @@
     "end": 2,
     "From": "Holley, John",
     "To": "Reeder, Tom; Thomas, Caroline S; crystal.felman@ncdenr.gov; Rusher, Mike J; Kritzer, Jamie; Davis, Tracy",
-    "Cc": "Vinson, Toby; Cole, Brad; Munger, Bridget; cook, Shane; Pickle, Ken; Denton, Bill; Sharif, Yusuf A; Turgeon,",
+    "Cc": "Vinson, Toby; Cole, Brad; Munger, Bridget; cook, Shane; Pickle, Ken; Denton, Bill; Sharif, Yusuf A; Turgeon, Stephanie; Adams, Diane",
     "Subject": "Coal Ash Public Meeting - Cape Fear Plant",
     "Date": "Friday, March 11, 2016 9:13:56 AM"
   },
@@ -476,7 +529,7 @@
     "end": 5,
     "From": "Doorn, Peter",
     "To": "Benne Hutson (bhutson@mcguirewoods.com); Franchina, Dave (Dave.Franchina@klgates.com); Charles Case; Steve Weber (steveweber@parkerpoe.com); Rob Gelblum (Rob@attybryanbrice.com); Joe Starr (jstarr@harthickman.com); Leo Moretz; David Duncklee; Rick Kolb; Conan Fitzgerald (conan.fitzgerald@aecom.com); Rick Catlin (rick.catlin@catlinusa.com); preston.howard@myncma.org; grady@ncconservationnetwork.org; tom@forsiteinc.com; maxjustice@parkerpoe.com",
-    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Tom; Daly, Caroline B; Knott, Brad; Evans, John; Charlene Moody; Seth Palmer (spalmer@ncrealtors.org); Wahl,",
+    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Jesneck, Charlotte; Woosley, Julie; Kritzer, Jamie; Nancy Dunn; Osborne, Jay L; Lorscheider, Ellen; Reeder, Tom; Daly, Caroline B; Knott, Brad; Evans, John; Charlene Moody; Seth Palmer (spalmer@ncrealtors.org); Wahl, Tracy; John Rybak; Telfer, Philip",
     "Subject": "RE: Risk Based Remediation Mtg Reminder",
     "Date": "Friday, March 11, 2016 8:38:53 AM",
     "Attachments": "image003.png"
@@ -487,7 +540,7 @@
     "end": 11,
     "From": "Morning Consult",
     "To": "Reeder, Tom",
-    "Subject": "Morning Consult Energy: U.S, Canada Announce Methane Emission Regulations; TransCanada in Takeover Talks",
+    "Subject": "Morning Consult Energy: U.S, Canada Announce Methane Emission Regulations; TransCanada in Takeover Talks With U.S. Pipeline Company",
     "Date": "Friday, March 11, 2016 7:45:38 AM"
   },
   {
@@ -580,7 +633,7 @@
     "end": 1,
     "From": "Rusher, Mike J",
     "To": "Davis, Dorothy H",
-    "Cc": "Feldman, Crystal M; Hawco, Stephanie G; Young, Sarah; Munger, Bridget; Kritzer, Jamie; Vandervaart, Donald;",
+    "Cc": "Feldman, Crystal M; Hawco, Stephanie G; Young, Sarah; Munger, Bridget; Kritzer, Jamie; Vandervaart, Donald; Reeder, Tom; Evans, John",
     "Subject": "Re: Evening TV clips re coal ash",
     "Date": "Thursday, March 10, 2016 10:20:53 PM"
   },
@@ -631,7 +684,7 @@
     "end": 5,
     "From": "Rob Gelblum",
     "To": "Franchina, Dave; Case, Charles D.; Doorn, Peter",
-    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Tom; Steve Weber (steveweber@parkerpoe.com); Joe Starr (jstarr@harthickman.com); Leo Moretz; David Duncklee; Rick Kolb; Conan Fitzgerald (conan.fitzgerald@aecom.com); Rick Catlin (rick.catlin@catlinusa.com); preston.howard@myncma.org; grady@ncconservationnetwork.org; tom@forsiteinc.com; Daly, Caroline B; Knott,",
+    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Jesneck, Charlotte; Woosley, Julie; Kritzer, Jamie; Nancy Dunn; Osborne, Jay L; Lorscheider, Ellen; Reeder, Tom; Steve Weber (steveweber@parkerpoe.com); Joe Starr (jstarr@harthickman.com); Leo Moretz; David Duncklee; Rick Kolb; Conan Fitzgerald (conan.fitzgerald@aecom.com); Rick Catlin (rick.catlin@catlinusa.com); preston.howard@myncma.org; grady@ncconservationnetwork.org; tom@forsiteinc.com; Daly, Caroline B; Knott, Brad; Hutson, Benne C.; Evans, John",
     "Subject": "RE: Risk Based Remediation Documents - Review Requested",
     "Date": "Thursday, March 10, 2016 9:17:48 PM",
     "Attachments": "image006.png"
@@ -794,13 +847,23 @@
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000081.pdf",
     "start": 1,
-    "end": 5,
+    "end": 2,
     "From": "Dunn, Nancy",
     "To": "Franchina, Dave; Case, Charles D.; Doorn, Peter",
-    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Weber (steveweber@parkerpoe.com); Rob Gelblum (Rob@attybryanbrice.com); Joe Starr (jstarr@harthickman.com); Leo Moretz; David Duncklee; Rick Kolb; Conan Fitzgerald (conan.fitzgerald@aecom.com); Rick Catlin (rick.catlin@catlinusa.com); preston.howard@myncma.org; grady@ncconservationnetwork.org; tom@forsiteinc.com; Daly, Caroline B; Knott, Brad; Hutson, Benne C.;",
+    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Jesneck, Charlotte; Woosley, Julie; Kritzer, Jamie; Osborne, Jay L; Lorscheider, Ellen; Reeder, Tom; Steve Weber (steveweber@parkerpoe.com); Rob Gelblum (Rob@attybryanbrice.com); Joe Starr (jstarr@harthickman.com); Leo Moretz; David Duncklee; Rick Kolb; Conan Fitzgerald (conan.fitzgerald@aecom.com); Rick Catlin (rick.catlin@catlinusa.com); preston.howard@myncma.org; grady@ncconservationnetwork.org; tom@forsiteinc.com; Daly, Caroline B; Knott, Brad; Hutson, Benne C.; Evans, John",
     "Subject": "RE: Risk Based Remediation Documents - Review Requested",
     "Date": "Thursday, March 10, 2016 4:10:25 PM",
     "Attachments": "image003.png"
+  },
+  {
+    "file": "test/data/tranche-001/Reeder, Tom.pdf-000081.pdf",
+    "start": 3,
+    "end": 5,
+    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Jesneck, Charlotte; Woosley, Julie; Kritzer, Jamie; Nancy Dunn; Osborne, Jay L; Lorscheider, Ellen; Reeder, Tom; Daly, Caroline B; Knott, Brad; Evans, John",
+    "Subject": "RE: Risk Based Remediation Documents - Review Requested Pete: Thanks for the opportunity. Except for March 15, I can make the other times work (either in person or by phone.) Benne Benne C. Hutson T: +1 704.343.2060 | M: +1 704.965.6555",
+    "From": "Doorn, Peter [mailto:peter.doorn@ncdenr.gov]",
+    "Sent": "Thursday, March 03, 2016 4:03 PM",
+    "To": "Charles Case; Steve Weber Hutson, Benne C.; Franchina, Dave (Dave.Franchina@klgates.com);"
   },
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000082.pdf",
@@ -830,7 +893,7 @@
     "end": 4,
     "From": "Franchina, Dave",
     "To": "Case, Charles D.; Doorn, Peter",
-    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Tom; Steve Weber (steveweber@parkerpoe.com); Rob Gelblum (Rob@attybryanbrice.com); Joe Starr (jstarr@harthickman.com); Leo Moretz; David Duncklee; Rick Kolb; Conan Fitzgerald (conan.fitzgerald@aecom.com); Rick Catlin (rick.catlin@catlinusa.com); preston.howard@myncma.org; grady@ncconservationnetwork.org; tom@forsiteinc.com; Daly, Caroline B; Knott, Brad; Hutson, Benne C.;",
+    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Jesneck, Charlotte; Woosley, Julie; Kritzer, Jamie; Nancy Dunn; Osborne, Jay L; Lorscheider, Ellen; Reeder, Tom; Steve Weber (steveweber@parkerpoe.com); Rob Gelblum (Rob@attybryanbrice.com); Joe Starr (jstarr@harthickman.com); Leo Moretz; David Duncklee; Rick Kolb; Conan Fitzgerald (conan.fitzgerald@aecom.com); Rick Catlin (rick.catlin@catlinusa.com); preston.howard@myncma.org; grady@ncconservationnetwork.org; tom@forsiteinc.com; Daly, Caroline B; Knott, Brad; Hutson, Benne C.; Evans, John",
     "Subject": "RE: Risk Based Remediation Documents - Review Requested",
     "Date": "Thursday, March 10, 2016 3:23:38 PM",
     "Attachments": "image006.png"
@@ -838,13 +901,23 @@
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000085.pdf",
     "start": 1,
-    "end": 4,
+    "end": 1,
     "From": "Case, Charles D.",
     "To": "Doorn, Peter",
-    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Tom; Franchina, Dave (Dave.Franchina@klgates.com); Steve Weber (steveweber@parkerpoe.com); Rob Gelblum (Rob@attybryanbrice.com); Joe Starr (jstarr@harthickman.com); Leo Moretz; David Duncklee; Rick Kolb; Conan Fitzgerald (conan.fitzgerald@aecom.com); Rick Catlin (rick.catlin@catlinusa.com); preston.howard@myncma.org; grady@ncconservationnetwork.org; tom@forsiteinc.com; Daly, Caroline B; Knott,",
+    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Jesneck, Charlotte; Woosley, Julie; Kritzer, Jamie; Nancy Dunn; Osborne, Jay L; Lorscheider, Ellen; Reeder, Tom; Franchina, Dave (Dave.Franchina@klgates.com); Steve Weber (steveweber@parkerpoe.com); Rob Gelblum (Rob@attybryanbrice.com); Joe Starr (jstarr@harthickman.com); Leo Moretz; David Duncklee; Rick Kolb; Conan Fitzgerald (conan.fitzgerald@aecom.com); Rick Catlin (rick.catlin@catlinusa.com); preston.howard@myncma.org; grady@ncconservationnetwork.org; tom@forsiteinc.com; Daly, Caroline B; Knott, Brad; Hutson, Benne C.; Evans, John",
     "Subject": "RE: Risk Based Remediation Documents - Review Requested",
     "Date": "Thursday, March 10, 2016 3:20:26 PM",
     "Attachments": "image003.png"
+  },
+  {
+    "file": "test/data/tranche-001/Reeder, Tom.pdf-000085.pdf",
+    "start": 2,
+    "end": 4,
+    "Sent": "Thursday, March 03, 2016 4:26 PM",
+    "To": "Doorn, Peter; Franchina, Dave (Dave.Franchina@klgates.com); Case, Charles D.; Steve Weber (steveweber@parkerpoe.com); Rob Gelblum (Rob@attybryanbrice.com); Joe Starr (jstarr@harthickman.com); Leo Moretz; David Duncklee; Rick Kolb; Conan Fitzgerald (conan.fitzgerald@aecom.com); Rick Catlin (rick.catlin@catlinusa.com); preston.howard@myncma.org; grady@ncconservationnetwork.org; tom@forsiteinc.com",
+    "Cc": "Bateson, James; Macdonald, Janet K; Scott, Michael; Jen French (jen.french@catlinusa.com); Barnhardt, Art; Jesneck, Charlotte; Woosley, Julie; Kritzer, Jamie; Nancy Dunn; Osborne, Jay L; Lorscheider, Ellen; Reeder, Tom; Daly, Caroline B; Knott, Brad; Evans, John",
+    "Subject": "RE: Risk Based Remediation Documents - Review Requested Pete: Thanks for the opportunity. Except for March 15, I can make the other times work (either in person or by phone.) Benne Benne C. Hutson T: +1 704.343.2060 | M: +1 704.965.6555",
+    "From": "Doorn, Peter [mailto:peter.doorn@ncdenr.gov]"
   },
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000086.pdf",
@@ -895,12 +968,21 @@
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000091.pdf",
     "start": 1,
-    "end": 2,
+    "end": 1,
     "From": "Daly, Caroline B",
     "To": "Reeder, Tom; Holman, Sheila; Abraczinskas, Michael",
     "Subject": "RE: Air Quality Question re: Ceremonial American Flag Disposal Burn",
     "Date": "Thursday, March 10, 2016 2:52:38 PM",
     "Attachments": "image001.png"
+  },
+  {
+    "file": "test/data/tranche-001/Reeder, Tom.pdf-000091.pdf",
+    "start": 2,
+    "end": 2,
+    "Subject": "FW: Air Quality Question re: Ceremonial American Flag Disposal Burn Hi Tom! I wanted to send this request over to you and see if you had heard of this issue before. I’m thinking I’ll need to send it to Sheila, but I wanted to check with you first! Caroline",
+    "From": "Augustus Willis (Research) [mailto:Augustus.Willis@ncleg.net]",
+    "Sent": "Monday, February 22, 2016 11:08 AM",
+    "To": "Knott, Brad &lt;brad.knott@ncdenr.gov&gt;; Daly, Caroline B &lt;caroline.daly@ncdenr.gov&gt;"
   },
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000092.pdf",
@@ -927,11 +1009,20 @@
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000094.pdf",
     "start": 1,
-    "end": 3,
+    "end": 2,
     "From": "BILL FRAZIER",
     "To": "Reeder, Tom",
     "Subject": "NC Lake Management Society Spring Conference",
     "Date": "Thursday, March 10, 2016 1:56:32 PM"
+  },
+  {
+    "file": "test/data/tranche-001/Reeder, Tom.pdf-000094.pdf",
+    "start": 3,
+    "end": 3,
+    "From": "Bennett, Bradley",
+    "To": "&quot;denr.dlr.strmperm@lists.ncmail.net&quot; (denr.dlr.strmperm@lists.ncmail.net); Higgins, Karen; Burdette, Jennifer a; Sullivan, Shelton; Maher, Niki; Haupt, Mac; Merritt, Katie; Poupart, Jeff; Bowden, Kevin; Devane, Boyd; Montalvo, Sheri A; Hennessy, John; Vinson, Toby; Davis, Tracy; Cole, Brad; Godwin, Debra; Deborah Reese; Fields, Tonya; Boyer, Janet; Wehner, Judy; Rodgers, Ashley; Pageau, Karyn; Huisman, John; Gannon, Rich; Larsen, Cory; Smith, Danny; Dumpor, Samir; Sams, Dan; Scott, Georgette; Johnson, Kelly; Vinson, Scott; Lewis,Linda; Lawyer, Mike; LaBounty, Tim L; Holley, John; Gantt, Matt; Khan, Zahid; Aiken, Stan E; Robert D. Patterson; Hunt, Bill &lt;bill_hunt@ncsu.edu&gt;; bclowther@gmail.com; Wade, Larry W; Manuel, Vanessa; Reeder, Tom; Manning, Jeff",
+    "Subject": "So Who&quot;s Going to Do the Planning!",
+    "Date": "Thursday, March 10, 2016 1:29:50 PM"
   },
   {
     "file": "test/data/tranche-001/Reeder, Tom.pdf-000095.pdf",

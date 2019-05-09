@@ -16,6 +16,7 @@ let MultiplePdfReader = function (params) {
     yPosTolerance: 0.5,
     verbose: true,
     outDir: '/tmp',
+    headerJustification: 'left',
     performOCR: false,
     unpackPortfolio: false,
     src: ''
@@ -29,10 +30,6 @@ let MultiplePdfReader = function (params) {
   let _emails = []
   let _onParseComplete = null
   let _onParseFail = null
-  let _numHeadersSeenOnPage = 0
-  let _numNonHeadersSeenOnPage = 0
-  let _numNonHeadersSeenSinceHeader = 0
-  let _ignoreHeaders = false
   let _currPage = 0
   let _currLine = {
     page: -1,
@@ -68,70 +65,19 @@ let MultiplePdfReader = function (params) {
   let _ehs = new EmailHeaderScanner()
   let _pdf = new PDFUtils()
 
-  function processLine (line) {
-    if (line.text === '') {
-      return
-    }
-
-    _logger.debug(`[${line.x}, ${line.y}] ${line.text}`)
-
-    if (_ignoreHeaders) {
-      return
-    }
-
-    let scanResult = _ehs.scanLine(line)
-    _logger.debug('SCAN RESULT: ' + scanResult[0])
-
-    if (scanResult[0] === 'email_start') {
-      _logger.debug('EMAIL START: ', scanResult[1])
-
-      let start = {
-        file: _files[_currIdx],
-        page: scanResult[1].page
-      }
-
-      let headers = scanResult[2]
-
-      // add a new email to the list
-      _emails.push({
-        file: _files[_currIdx],
-        start: start,
-        end: JSON.parse(JSON.stringify(start)),
-        headers: headers
-      })
-
-      _ignoreHeaders = true
-    }
-
-    if (scanResult[0] === 'header') {
-      _numHeadersSeenOnPage++
-      _numNonHeadersSeenSinceHeader = 0
-    } else {
-      _numNonHeadersSeenOnPage++
-      _numNonHeadersSeenSinceHeader++
-
-      if (_numHeadersSeenOnPage === 0) {
-        if (_numNonHeadersSeenOnPage <= _options.numNonHeadersAllowedAtTop) {
-          return
-        }
-      } else {
-        if (_numNonHeadersSeenSinceHeader <= _options.numNonHeadersAllowedBetweenHeaders) {
-          return
-        }
-      }
-      _ignoreHeaders = true
-    }
-  }
-
   function processPage () {
-    let headers = _ehs.scanForRightJustifiedHeaders(_pageLines)
-    if (headers) {
-      _logger.debug('found right-justified email headers on page; assuming these are the proper headers')
-      // add an "end" to the previous email
-      if (_emails.length > 0) {
-        _emails[_emails.length - 1].end.page = _currPage - 1
+    for (let i = 0; i < _pageLines.length; i++) {
+      let line = _pageLines[i]
+      _logger.debug(`[${line.x.toFixed(2)}, ${line.y.toFixed(2)}] ${line.text}`)
+      for (let j = 0; j < line.items.length; j++) {
+        let item = line.items[j]
+        _logger.debug(`  <${item.x.toFixed(2)}, ${item.y.toFixed(2)}] ${item.text}`)
       }
+    }
 
+    let headers = _ehs.scanForHeaders(_pageLines, (_options.headerJustification === 'right'))
+    if (headers) {
+      _logger.debug('found email headers on page')
       _emails.push({
         file: _files[_currIdx],
         start: {
@@ -142,19 +88,14 @@ let MultiplePdfReader = function (params) {
         },
         headers: headers
       })
-
-      return
-    }
-
-    _logger.debug('no right-justified email headers; scanning for left-justified headers...')
-    for (let i = 0; i < _pageLines.length; i++) {
-      processLine(_pageLines[i])
+    } else {
+      if (_emails.length > 0) {
+        _emails[_emails.length - 1].end.page = _currPage
+      }
     }
   }
 
   function processText (item) {
-    _logger.debug(`<${item.x}, ${item.y}> ${item.text}`)
-
     let delta = Math.abs(item.y - _currLine.y)
 
     if (delta > _options.yPosTolerance) {
@@ -180,8 +121,6 @@ let MultiplePdfReader = function (params) {
   }
 
   function processPageStart (item) {
-    _ehs.reset()
-
     _currPage++
     _pageLines = []
     _logger.debug('--------------------------------------------------------------------------------')
@@ -194,9 +133,6 @@ let MultiplePdfReader = function (params) {
       items: [],
       text: ''
     }
-
-    _numHeadersSeenOnPage = 0
-    _numNonHeadersSeenOnPage = 0
   }
 
   function finishParsing () {
@@ -231,7 +167,6 @@ let MultiplePdfReader = function (params) {
   }
 
   function parseNext () {
-    _ignoreHeaders = false
     _currPage = 0
 
     if (_options.performOCR) {

@@ -14,6 +14,10 @@ export function updateInputFile (state, inputFile) {
   state.inputFile = inputFile
 }
 
+export function updateHeaderJustification (state, headerJustification) {
+  state.headerJustification = headerJustification
+}
+
 export function updatePerformOCR (state, performOCR) {
   state.performOCR = performOCR
 }

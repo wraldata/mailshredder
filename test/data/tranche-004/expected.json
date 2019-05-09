@@ -105,7 +105,7 @@
     "end": 59,
     "From": "Debbie R. Robertson",
     "Sent": "Monday, July 09, 2018 8:28 AM",
-    "To": "Byers Phil Byers",
+    "To": "Byers Phil Byers Philip Byers",
     "Subject": "Wednesdays Reception"
   },
   {
@@ -122,7 +122,7 @@
     "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 61,
     "end": 61,
-    "From": "Harry Smith &lt;",
+    "From": "Harry Smith &lt; Harry Smith",
     "Sent": "Monday, July 09, 2018 9:19 AM",
     "To": "Randy Ramsey; Pearl Burris-Floyd; Wendy Murphy; Anna Nelson; Temple Sloan",
     "Cc": "harry smith",
@@ -160,11 +160,20 @@
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 72,
-    "end": 74,
+    "end": 73,
     "From": "The Chronicle of Higher Education &lt;solutions@chronicleaccounts.com&gt;",
     "Sent": "Monday, July 09, 2018 10:15 AM",
     "To": "Marty Kotis",
     "Subject": "Prepare for the Changes Ahead with The Chronicle"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 74,
+    "end": 74,
+    "From": "James G Ptaszynski",
+    "Sent": "Monday, July 09, 2018 11:18 AM",
+    "To": "Harry Smith ( Harry Smith; Hannah Gage; Margaret Spellings; Harry Smith Thomas C. Shanahan; Andrew P. Kelly; Kimberly van Noort",
+    "Subject": "elearning market estimated at $150B expected to grow &gt;5% annually 2017 - 2024"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
@@ -252,13 +261,22 @@
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 100,
-    "end": 109,
+    "end": 107,
     "From": "Andrea R. Poole",
     "Sent": "Monday, July 09, 2018 5:31 PM",
     "To": "Harry Smith; Randy Ramsey",
     "Cc": "Margaret Spellings; Meredith B. Didier",
     "Subject": "Materials for Tuesday morning",
     "Attachments": "Agenda for 710 at 9 am.pdf"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 108,
+    "end": 109,
+    "From": "Randy Ramsey",
+    "Sent": "Monday, July 09, 2018 5:50 PM",
+    "To": "Andrea R. Poole",
+    "Subject": "Accepted: Check-in"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
@@ -282,12 +300,21 @@
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 112,
-    "end": 122,
+    "end": 115,
     "From": "Randy Ramsey",
     "Sent": "Monday, July 09, 2018 7:07 PM",
     "To": "Randy Ramsey",
     "Subject": "Fwd: Materials for Tuesday morning",
     "Attachments": "image001.png; ATT00001.htm; Agenda for 710 at 9 am.pdf; ATT00002.htm"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 116,
+    "end": 122,
+    "From": "Darrell Allison",
+    "Sent": "Monday, July 09, 2018 8:05 PM",
+    "To": "Andrea R. Poole",
+    "Subject": "Accepted: Special Meeting of the Board of Governors"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
@@ -341,7 +368,7 @@
     "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 133,
     "end": 133,
-    "From": "Harry Smith &lt;",
+    "From": "Harry Smith &lt; Harry Smith",
     "Sent": "Monday, July 09, 2018 9:33 PM",
     "To": "Randy Ramsey",
     "Subject": "Re: Materials for Tuesday morning"
@@ -350,7 +377,7 @@
     "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 134,
     "end": 134,
-    "From": "Harry Smith &lt;",
+    "From": "Harry Smith &lt; Harry Smith",
     "Sent": "Monday, July 09, 2018 9:34 PM",
     "To": "Andrea R. Poole",
     "Cc": "Margaret Spellings; Meredith B. Didier; Randy Ramsey",
@@ -458,11 +485,65 @@
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 170,
-    "end": 189,
+    "end": 171,
     "From": "Sue A. Carpenter",
     "Sent": "Tuesday, July 10, 2018 8:17 AM",
     "To": "Darrell Allison",
     "Subject": "RE: UNC - System Password Expiration Notification"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 172,
+    "end": 174,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 8:52 AM",
+    "To": "Temple Sloan",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 175,
+    "end": 177,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 9:11 AM",
+    "To": "Rob Bryan",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 178,
+    "end": 180,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 9:11 AM",
+    "To": "Carolyn Coward",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 181,
+    "end": 183,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 9:11 AM",
+    "To": "Tom Fetzer",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 184,
+    "end": 186,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 9:13 AM",
+    "To": "Anna Nelson",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 187,
+    "end": 189,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 9:20 AM",
+    "To": "David Powers",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
@@ -477,11 +558,20 @@
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 193,
-    "end": 202,
+    "end": 197,
     "From": "William Webb",
     "Sent": "Tuesday, July 10, 2018 9:42 AM",
     "To": "Kathie B. Sidner",
     "Subject": "Office Address"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 198,
+    "end": 202,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 10:01 AM",
+    "To": "Steven Long",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
@@ -495,7 +585,7 @@
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 204,
-    "end": 207,
+    "end": 204,
     "From": "currentbog2017-19-bounces@lists.northcarolina.edu on behalf of Andrea R. Poole",
     "Sent": "Tuesday, July 10, 2018 10:40 AM",
     "To": "CurrentBoG2017-19@lists.northcarolina.edu",
@@ -504,22 +594,103 @@
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 205,
+    "end": 207,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 10:54 AM",
+    "To": "Thom Goolsby",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 208,
-    "end": 215,
+    "end": 209,
     "From": "Randy Ramsey",
     "Sent": "Tuesday, July 10, 2018 10:57 AM",
-    "To": "Harry Smith; Wendy Murphy; Pearl Burris-Floyd; Temple Sloan; Anna Nelson; Randy",
+    "To": "Harry Smith; Wendy Murphy; Pearl Burris-Floyd; Temple Sloan; Anna Nelson; Randy Ramsey",
     "Subject": "Re: PAC"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 210,
+    "end": 212,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 11:02 AM",
+    "To": "Ann Maxwell",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 213,
+    "end": 215,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 11:10 AM",
+    "To": "Michael Williford",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 216,
-    "end": 240,
+    "end": 216,
     "From": "Matthew S. Brody",
     "Sent": "Tuesday, July 10, 2018 11:19 AM",
     "To": "Kellie Hunt Blue",
     "Cc": "Wendy Murphy",
     "Subject": "HR orientation"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 217,
+    "end": 219,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 11:46 AM",
+    "To": "Alex Mitchell",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 220,
+    "end": 222,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 11:46 AM",
+    "To": "Pearl Burris-Floyd",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 223,
+    "end": 225,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 11:47 AM",
+    "To": "Harry Smith",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 226,
+    "end": 228,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 12:13 PM",
+    "To": "Bob Rucho",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 229,
+    "end": 237,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 12:13 PM",
+    "To": "Leo Daughtry",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 238,
+    "end": 240,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 12:39 PM",
+    "To": "Joe Knott",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
@@ -534,17 +705,28 @@
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 243,
-    "end": 333,
+    "end": 327,
     "From": "currentbog2017-19-bounces@lists.northcarolina.edu on behalf of Andrea R. Poole",
     "Sent": "Tuesday, July 10, 2018 12:47 PM",
     "To": "CurrentBoG2017-19@lists.northcarolina.edu",
-    "Cc": "Andrew G. Moretz; Joanna Carey Cleveland; Joshua N Ellis; Matthew S. Brody; Thomas",
-    "Subject": "[CurrentBoG2017-19] FW: UNC Equal Opportunity/Diversity Report"
+    "Cc": "Andrew G. Moretz; Joanna Carey Cleveland; Joshua N Ellis; Matthew S. Brody; Thomas C. Shanahan; Meredith B. Didier",
+    "Subject": "[CurrentBoG2017-19] FW: UNC Equal Opportunity/Diversity Report Recommendations",
+    "Attachments": "EO-DI Attachment A.pdf; EO-DI Attachment B.pdf; EO-DI Attachment C.pdf; EO-DI"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 328,
+    "end": 333,
+    "From": "Randy Ramsey &lt; Randy Ramsey",
+    "Sent": "Tuesday, July 10, 2018 1:17 PM",
+    "To": "Jim Holmes; Tom Fetzer",
+    "Cc": "Harry Smith; Pearl Burris-Floyd Wendy Murphy David Powers Alex Mitchell Mike Williford Senator Bob Rucho; Bill Webb Rob Bryan david.powers83@gmail.com; Carolyn Coward; Kellie Hunt Blue",
+    "Subject": "RE: New University of Oklahoma president wastes no time with administrative overhaul"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 334,
-    "end": 337,
+    "end": 334,
     "From": "Debbie R. Robertson",
     "Sent": "Tuesday, July 10, 2018 1:18 PM",
     "To": "Phil Byers; kellydockham@unc.edu; rachelle_feldman@unc.edu; ahelms35@uncc.edu; lherndon@unca.edu; clayton@unc.edu; Kyle T Villemain; Thomas C. Shanahan",
@@ -552,12 +734,30 @@
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 335,
+    "end": 337,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 1:33 PM",
+    "To": "James Holmes",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 338,
-    "end": 341,
+    "end": 338,
     "From": "Randy Ramsey",
     "Sent": "Tuesday, July 10, 2018 1:35 PM",
     "To": "Randy Ramsey",
     "Subject": "Fwd: Materials for July 9 P&amp;T Meeting"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 339,
+    "end": 341,
+    "From": "The University of North Carolina at Greensboro &lt;planned_giving@uncg.giftlegacy.com&gt; on behalf of The University of North Carolina at Greensboro &lt;giftplan@uncggiftplanning.org&gt;",
+    "Sent": "Tuesday, July 10, 2018 2:09 PM",
+    "To": "Doyle Parrish",
+    "Subject": "Your UNCG Financial Planning eNewsletter - July 10, 2018"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
@@ -587,7 +787,8 @@
     "From": "Jason Tyson",
     "Sent": "Tuesday, July 10, 2018 2:42 PM",
     "To": "Jason Tyson",
-    "Subject": "NEWS RELEASE: Clinton Carter named Senior Vice President for Finance and"
+    "Subject": "NEWS RELEASE: Clinton Carter named Senior Vice President for Finance and Administration and CFO for UNC System",
+    "Attachments": "Clinton Carter.jpg"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
@@ -596,7 +797,8 @@
     "From": "bog_public_notice-bounces@lists.northcarolina.edu on behalf of Jason Tyson",
     "Sent": "Tuesday, July 10, 2018 2:42 PM",
     "To": "Jason Tyson",
-    "Subject": "[BoG_Public_Notice] NEWS RELEASE: Clinton Carter named Senior Vice President for"
+    "Subject": "[BoG_Public_Notice] NEWS RELEASE: Clinton Carter named Senior Vice President for Finance and Administration and CFO for UNC System",
+    "Attachments": "Clinton Carter.jpg; ATT00001.c"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
@@ -652,7 +854,8 @@
     "From": "David Powers",
     "Sent": "Tuesday, July 10, 2018 4:10 PM",
     "To": "David Powers",
-    "Subject": "Fwd: [CurrentBoG2017-19] 2018-2019 Committee Assignments (sent on behalf of"
+    "Subject": "Fwd: [CurrentBoG2017-19] 2018-2019 Committee Assignments (sent on behalf of Chair-Elect Smith)",
+    "Attachments": "image001.png; ATT00001.htm; 2018-2019 Committee Assignments.pdf; ATT00002.htm;"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
@@ -737,7 +940,7 @@
     "From": "Matthew S. Brody",
     "Sent": "Tuesday, July 10, 2018 10:50 PM",
     "To": "Wendy Murphy",
-    "Cc": "Kellie Hunt Blue; Harry Smith; Margaret Spellings; Meredith B. Didier; Thomas C.",
+    "Cc": "Kellie Hunt Blue; Harry Smith; Margaret Spellings; Meredith B. Didier; Thomas C. Shanahan",
     "Subject": "Re: BOG salary consults"
   },
   {
@@ -747,7 +950,7 @@
     "From": "Lacky Barnes",
     "Sent": "Wednesday, July 11, 2018 12:08 AM",
     "To": "Darrell Allison",
-    "Subject": "Follow-up from Lacky Barnes (NCCU class mate)"
+    "Subject": "Follow-up from Lacky Barnes (NCCU class mate) Attachments:"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
@@ -815,7 +1018,7 @@
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 424,
-    "end": 427,
+    "end": 426,
     "From": "The Chronicle &lt;solutions@chronicle.com&gt;",
     "Sent": "Wednesday, July 11, 2018 6:20 AM",
     "To": "Marty Kotis",
@@ -823,18 +1026,37 @@
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 427,
+    "end": 427,
+    "From": "Darrell Allison",
+    "Sent": "Wednesday, July 11, 2018 6:45 AM",
+    "To": "Meredith M Steadman",
+    "Subject": "Accepted: Chancellors&apos; Retreat Dinner"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 428,
-    "end": 434,
-    "From": "Harry Smith &lt;",
+    "end": 431,
+    "From": "Harry Smith &lt; Harry Smith",
     "Sent": "Wednesday, July 11, 2018 6:57 AM",
     "To": "Margaret Spellings; Randy Ramsey",
-    "Subject": "Fwd: August Power Lunch"
+    "Subject": "Fwd: August Power Lunch What’s the intent with the speech tour? What are we telling North Carolinian’s? ---------- Forwarded message --------- Harry Smith From: Harry Smith &lt;",
+    "Date": "Wed, Jul 11, 2018 at 6:55 AM"
+  },
+  {
+    "file": "./test/data/tranche-004/unc_system.pdf",
+    "start": 432,
+    "end": 434,
+    "From": "Matthew S. Brody",
+    "Sent": "Wednesday, July 11, 2018 8:20 AM To: Harry Smith",
+    "Cc": "Harry Smith",
+    "Subject": "FW: BOG salary consults"
   },
   {
     "file": "./test/data/tranche-004/unc_system.pdf",
     "start": 435,
     "end": 435,
-    "From": "Harry Smith &lt;",
+    "From": "Harry Smith &lt; Harry Smith",
     "Sent": "Wednesday, July 11, 2018 8:29 AM",
     "To": "Matthew S. Brody",
     "Cc": "Harry Smith",

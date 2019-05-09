@@ -188,21 +188,13 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 40,
-    "end": 40,
+    "end": 41,
     "From": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "To": "&quot;Larry Sherrill&quot; &lt;lsherrill@wcpss.net&gt;",
     "CC": "&quot;Sheri Ann Green&quot; &lt;sagreen@wcpss.net&gt; &quot;Mabry Desormeaux&quot; &lt;jdesormeaux@wcpss.net&gt; &quot;Betty Parker&quot; &lt;bparker@wcpss.net&gt; &quot;Ann L Turner&quot; &lt;aturner@wcpss.net&gt;",
     "Date": "2/7/2013 6:15:49 PM",
     "Subject": "Fw: Scanned -National Environmental Policy Act - Reedy Creek RoadImprovements",
     "Attachments": "DOC020713.pdf"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 41,
-    "end": 41,
-    "From": "WCPSS No Reply@Staff",
-    "Date": "02/07/2013 04:00PM",
-    "Subject": "Scanned from MFP07317178 02/07/2013 16:58"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -259,7 +251,7 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 56,
-    "end": 57,
+    "end": 59,
     "From": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "To": "&quot;Trisha Posey&quot; &lt;tposey@wcpss.net&gt;",
     "CC": "&quot;Alexander G Fuller&quot; &lt;afuller@wcpss.net&gt; &quot;William Carl Hartley&quot; &lt;whartley@wcpss.net&gt; &quot;Rod Malone&quot; &lt;rmalone@tharringtonsmith.com&gt; &quot;Mabry Desormeaux&quot; &lt;jdesormeaux@wcpss.net&gt;",
@@ -268,32 +260,12 @@
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
-    "start": 58,
-    "end": 59,
-    "To": "Brian Conklin/PlanningConstruction/WCPSS@STAFF",
-    "From": "William Carl Hartley/PlanningConstruction/WCPSS",
-    "Date": "09/30/2013 01:19PM",
-    "Cc": "Alexander G Fuller/PlanningConstruction/WCPSS@STAFF",
-    "Subject": "Fw: Signature Request - Bryant-Durham Electric, Inc. - Energy Study"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
     "start": 60,
-    "end": 60,
+    "end": 63,
     "From": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "To": "Rose.Genung@alliantgroup.com",
     "Date": "11/27/2013 10:54:28 AM",
     "Subject": "RE: Signature Request - Bryant-Durham Electric, Inc. - Energy Study"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 61,
-    "end": 63,
-    "From": "Brian Conklin [mailto:bconklin@wcpss.net ]",
-    "Sent": "Tuesday, October 01, 2013 1:06 PM",
-    "To": "Rose Genung",
-    "Cc": "Alexander G Fuller; William Carl Hartley; Trisha Posey",
-    "Subject": "Re: Fw: Signature Request - Bryant-Durham Electric, Inc. - Energy Study"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -395,21 +367,12 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 88,
-    "end": 90,
+    "end": 92,
     "From": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "To": "&quot;Richard S Fichera&quot; &lt;rfichera@wcpss.net&gt;",
     "Date": "3/11/2015 8:09:56 PM",
     "Subject": "Fw: Barnhill Contracting Company - Wake County Public School System",
     "Attachments": "Barnhill Contracting Co - Wake County Public School.pdf"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 91,
-    "end": 92,
-    "From": "Arissa Palmer &lt;Arissa Palmer@alliantgroup com &gt;",
-    "To": "Richard S Fichera/PlanningConstruction/WCPSS@STAFF,",
-    "Date": "11/06/2014 12:30 PM",
-    "Subject": "RE: Barnhill Contracting Company - Wake County Public School System"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -539,22 +502,12 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 130,
-    "end": 132,
+    "end": 134,
     "From": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "To": "&quot;Sean O&apos;Leary&quot; &lt;SO&apos;Leary@cbh.com&gt;",
     "CC": "&quot;Alexander G Fuller&quot; &lt;afuller@wcpss.net&gt; &quot;Bob Egan \\(began@thewootencompany.com\\)&quot; &lt;began@thewootencompany.com&gt; &quot;Michael Dickerson&quot; &lt;MDickerson@cbh.com&gt; mreese@thewootencompany.com &quot;Ron Wainwright&quot; &lt;RWainwright@cbh.com&gt; &quot;Trisha Posey&quot; &lt;tposey@wcpss.net&gt;",
     "Date": "9/9/2016 5:10:51 PM",
     "Subject": "RE: Section 179D submission for The Wooten Company - Scotts RidgeElementary School"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 133,
-    "end": 134,
-    "From": "Sean O&apos;Leary",
-    "Sent": "Tuesday, August 23, 2016 12:41 PM",
-    "To": "&apos;Brian Conklin&apos;",
-    "Cc": "mreese@thewootencompany.com ; Bob Egan (began@thewootencompany.com ); Ron Wainwright; Michael Dickerson",
-    "Subject": "RE: Section 179D submission for The Wooten Company - Scotts Ridge Elementary School"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -681,21 +634,12 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 159,
-    "end": 159,
+    "end": 161,
     "From": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "To": "&quot;Trisha Posey&quot; &lt;tposey@wcpss.net&gt;",
     "CC": "&quot;Alexander G Fuller&quot; &lt;afuller@wcpss.net&gt; &quot;Debra Wallace&quot; &lt;dwallace2@wcpss.net&gt; &quot;Mabry Desormeaux&quot; &lt;jdesormeaux@wcpss.net&gt; &quot;Mark Winters&quot; &lt;mwinters@wcpss.net&gt;",
     "Date": "12/13/2016 2:42:56 PM",
     "Subject": "Re: Fw: 179D savings to WCPSS"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 160,
-    "end": 161,
-    "From": "Brian Conklin/PlanningConstruction/WCPSS",
-    "Date": "12/13/2016 11:51AM",
-    "Cc": "Mark Winters/Finance/WCPSS@Staff, Mabry Desormeaux/Facilities/WCPSS@STAFF, Alexander G Fuller/PlanningConstruction/WCPSS",
-    "Subject": "Fw: 179D savings to WCPSS"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -729,7 +673,7 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 173,
-    "end": 173,
+    "end": 182,
     "From": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "To": "&quot;Trisha Posey&quot; &lt;tposey@wcpss.net&gt;",
     "CC": "&quot;Alexander G Fuller&quot; &lt;afuller@wcpss.net&gt; &quot;Debra Wallace&quot; &lt;dwallace2@wcpss.net&gt; &quot;Mabry Desormeaux&quot; &lt;jdesormeaux@wcpss.net&gt; &quot;Mark Winters&quot; &lt;mwinters@wcpss.net&gt; &quot;Alexandra Dalton&quot; &lt;adalton2@wcpss.net&gt; &quot;Chris Whitley&quot; &lt;cwhitley@ccorpusa.com&gt;",
@@ -738,43 +682,14 @@
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
-    "start": 174,
-    "end": 175,
-    "To": "Trisha Posey/Finance/WCPSS@STAFF",
-    "From": "Brian Conklin/PlanningConstruction/WCPSS@STAFF",
-    "Date": "12/13/2016 05:27PM",
-    "Cc": "Alexander G Fuller/PlanningConstruction/WCPSS@STAFF, Debra Wallace/Purchasing/WCPSS@Staff, Mabry Desormeaux/Facilities/WCPSS@STAFF, Mark Winters/Finance/WCPSS@Staff",
-    "Subject": "Re: Fw: 179D savings to WCPSS"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 176,
-    "end": 182,
-    "From": "William Volker &lt;wvolker@wesavegreen.com&gt;",
-    "To": "Brian Conklin/PlanningConstruction/WCPSS@STAFF",
-    "Date": "12/13/2016 11:11 AM",
-    "Subject": "Re: 179D savings to WCPSS"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
     "start": 183,
-    "end": 184,
+    "end": 193,
     "From": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "To": "&quot;Alexander G Fuller&quot; &lt;afuller@wcpss.net&gt; &quot;Alexandra Dalton&quot; &lt;adalton2@wcpss.net&gt; cwhitley@ccorpusa.com &quot;Debra Wallace&quot; &lt;dwallace2@wcpss.net&gt; &quot;Trisha Posey&quot; &lt;tposey@wcpss.net&gt; whartley@wcpss.net",
     "CC": "&quot;Mabry Desormeaux&quot; &lt;jdesormeaux@wcpss.net&gt; &quot;Mark Winters&quot; &lt;mwinters@wcpss.net&gt;",
     "Date": "12/15/2016 6:06:39 PM",
     "Subject": "IRS Tax code 179D deduction - benefit share",
     "Attachments": "c170641.ics"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 185,
-    "end": 193,
-    "From": "Trisha Posey/Finance/WCPSS",
-    "To": "Brian Conklin/PlanningConstruction/WCPSS@STAFF",
-    "Cc": "Alexander G Fuller/PlanningConstruction/WCPSS@STAFF, Debra Wallace/Purchasing/WCPSS@Staff, Mabry Desormeaux/Facilities/ WCPSS@STAFF, Mark Winters/Finance/WCPSS@Staff",
-    "Date": "12/14/2016 10:08 AM",
-    "Subject": "Re: Fw: 179D savings to WCPSS"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -800,21 +715,11 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 204,
-    "end": 206,
+    "end": 210,
     "From": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "To": "&quot;Trisha Posey&quot; &lt;tposey@wcpss.net&gt;",
     "Date": "1/4/2017 6:20:57 PM",
     "Subject": "Re: Fw: IRS Tax code 179D deduction - benefit share"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 207,
-    "end": 210,
-    "To": "Trisha Posey/Finance/WCPSS@STAFF",
-    "From": "Brian Conklin/PlanningConstruction/WCPSS@STAFF",
-    "Date": "12/13/2016 05:27PM",
-    "Cc": "Alexander G Fuller/PlanningConstruction/WCPSS@STAFF, Debra Wallace/Purchasing/WCPSS@Staff, Mabry Desormeaux/Facilities/WCPSS@STAFF, Mark Winters/Finance/WCPSS@Staff",
-    "Subject": "Re: Fw: 179D savings to WCPSS"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -859,20 +764,11 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 216,
-    "end": 216,
+    "end": 217,
     "From": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "To": "&quot;Jillian Jones&quot; &lt;Jillian.Jones@alliantgroup.com&gt;",
     "Date": "3/31/2017 2:36:49 PM",
     "Subject": "RE: Pine Hollow Middle School- Certification for 179D Requests for Ratio &amp; Wooten"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 217,
-    "end": 217,
-    "From": "Jillian Jones &lt;Jillian.Jones@alliantgroup.com &gt;",
-    "To": "Brian Conklin/PlanningConstruction/WCPSS@STAFF",
-    "Date": "03/24/2017 12:45 PM",
-    "Subject": "Pine Hollow Middle School- Certification for 179D Requests for Ratio &amp; Wooten"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -959,19 +855,10 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 231,
-    "end": 231,
+    "end": 233,
     "From": "&quot;Bennett Geller&quot; &lt;bgeller@wcpss.net&gt;",
     "To": "&quot;Debra Wallace&quot; &lt;dwallace2@wcpss.net&gt;",
     "Date": "5/16/2016 3:59:35 PM",
-    "Subject": "Re:"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 232,
-    "end": 233,
-    "To": "Debra Wallace/Purchasing/WCPSS@Staff",
-    "From": "Bennett Geller/Purchasing/WCPSS",
-    "Date": "05/16/2016 03:34PM",
     "Subject": "Re:"
   },
   {
@@ -1005,20 +892,11 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 245,
-    "end": 245,
+    "end": 249,
     "From": "&quot;Donald M Agee&quot; &lt;dagee@wcpss.net&gt;",
     "To": "&quot;Paul Scott&quot; &lt;pss@lighthouseengineering.com&gt;",
     "CC": "debbie@dantobuilders.com &quot;ZYY-1504 Richland Creek Elementary Energy Benefit&quot; &lt;ZYY-1504RichlandCreekElementaryEnergyBenefit@lighthouseengineering com&gt;",
     "Date": "5/4/2015 2:49:51 PM",
-    "Subject": "RE: 179D Energy Benefit - Site Visit for Richland Creek Elementary"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 246,
-    "end": 249,
-    "From": "Deborah Deioma Danto [mailto:debbie@dantobuilders com]",
-    "Sent": "Monday, May 04, 2015 11:43 AM",
-    "To": "Paul Scott",
     "Subject": "RE: 179D Energy Benefit - Site Visit for Richland Creek Elementary"
   },
   {
@@ -1044,7 +922,7 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 254,
-    "end": 254,
+    "end": 256,
     "From": "&quot;Deborah Deioma Danto&quot; &lt;debbie@dantobuilders.com&gt;",
     "To": "&quot;Donald M Agee&quot; &lt;dagee@w cpss.net&gt;",
     "CC": "&quot;Paul Scott&quot; &lt;pss@lighthouseengineering.com&gt;",
@@ -1053,41 +931,13 @@
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
-    "start": 255,
-    "end": 256,
-    "From": "Deborah Deioma Danto [mailto:debbie@dantobuilders.com]",
-    "Sent": "Monday, May 04, 2015 9:37 AM",
-    "To": "Paul Scott",
-    "Subject": "RE: 179D Energy Benefit - Site Visit for Richland Creek Elementary"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
     "start": 257,
-    "end": 257,
+    "end": 270,
     "From": "&quot;Deborah Deioma Danto&quot; &lt;debbie@dantobuilders.com&gt;",
     "To": "&quot;Paul Scott&quot; &lt;pss@lighthouseengineering.com&gt; &quot;Donald M Agee&quot; &lt;dagee@wcpss.net&gt;",
     "CC": "&quot;ZYY-1504 Richland Creek Elementary Energy Benefit&quot; &lt;ZYY-1504RichlandCreekElementaryEnergyBenefit@lighthouseengineering.com&gt;",
     "Date": "5/4/2015 3:05:15 PM",
     "Subject": "RE: 179D Energy Benefit - Site Visit for Richland Creek Elementary"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 258,
-    "end": 266,
-    "From": "&quot;Deborah Deioma Danto&quot; &lt;debbie@dantobuilders.com &gt;",
-    "Date": "05/04/2015 12:58PM",
-    "Cc": "&quot;&apos;Paul Scott&apos;&quot; &lt;pss@l ghthouseengineering com &gt;",
-    "Subject": "FW: 179D Energy Benefit - S te Visit for Richland Creek Elementary"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 267,
-    "end": 270,
-    "From": "Derrick Evans [mailto:devans4@wcpss.net]",
-    "Sent": "Friday, June 17, 2016 8:19 AM",
-    "To": "Sean O&apos;Leary",
-    "Cc": "Bob Egan (began@thewootencompany.com); Ron Wainwright",
-    "Subject": "RE: Site Inspection for Scotts Ridge Elementary School -The Wooten Company(Architect) - Federal Tax Program for Energy Efficient"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -1101,7 +951,7 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 272,
-    "end": 272,
+    "end": 273,
     "From": "&quot;Debra Wallace&quot; &lt;dwallace2@wcpss.net&gt;",
     "To": "&quot;Bennett Geller&quot; &lt;bgeller@wcpss.net&gt;",
     "Date": "5/16/2016 3:46:13 PM",
@@ -1109,28 +959,11 @@
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
-    "start": 273,
-    "end": 273,
-    "To": "Bennett Geller/Purchasing/WCPSS@Staff",
-    "From": "Debra Wallace/Purchasing/WCPSS",
-    "Date": "05/16/2016 03:30PM",
-    "Subject": "(Untitled)"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
     "start": 274,
-    "end": 274,
+    "end": 275,
     "From": "&quot;Debra Wallace&quot; &lt;dwallace2@wcpss.net&gt;",
     "To": "&quot;Bennett Geller&quot; &lt;bgeller@wcpss.net&gt;",
     "Date": "5/16/2016 4:09:08 PM",
-    "Subject": "Re:"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 275,
-    "end": 275,
-    "From": "Debra Wallace/Purchasing/WCPSS",
-    "Date": "05/16/2016 03:41PM",
     "Subject": "Re:"
   },
   {
@@ -1146,30 +979,11 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 281,
-    "end": 281,
+    "end": 285,
     "From": "&quot;Debra Wallace&quot; &lt;dwallace2@wcpss.net&gt;",
     "To": "&quot;Trisha Posey&quot; &lt;tposey@wcpss.net&gt;",
     "Date": "12/14/2016 12:28:15 PM",
     "Subject": "Re: Fw: 179D savings to WCPSS"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 282,
-    "end": 283,
-    "From": "Trisha Posey/Finance/WCPSS",
-    "To": "Brian Conklin/PlanningConstruction/WCPSS@STAFF",
-    "Cc": "Alexander G Fuller/PlanningConstruction/WCPSS@STAFF, Debra Wallace/Purchasing/WCPSS@Staff, Mabry Desormeaux/Facilities/WCPSS@STAFF, Mark Winters/Finance/WCPSS@Staff",
-    "Date": "12/13/2016 02:01 PM",
-    "Subject": "Re: Fw: 179D savings to WCPSS"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 284,
-    "end": 285,
-    "From": "William Volker &lt;wvolker@wesavegreen.com&gt;",
-    "To": "Brian Conklin/PlanningConstruction/WCPSS@STAFF",
-    "Date": "11/16/2016 11:12 AM",
-    "Subject": "179D savings to WCPSS"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -1268,21 +1082,12 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 304,
-    "end": 304,
+    "end": 306,
     "From": "&quot;Jillian Jones&quot; &lt;Jillian.Jones@alliantgroup.com&gt;",
     "To": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "Date": "3/31/2017 2:44:20 PM",
     "Subject": "RE: Pine Hollow Middle School- Certification for 179D Requests forRatio &amp; Wooten",
     "Attachments": "REVISED Ratio Architects - Pine Hollow Middle School.pdf"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 305,
-    "end": 306,
-    "From": "Jillian Jones &lt;Jillian.Jones@alliantgroup.com &gt;",
-    "To": "Brian Conklin/PlanningConstruction/WCPSS@STAFF",
-    "Date": "03/31/2017 02:19 PM",
-    "Subject": "RE: Pine Hollow Middle School- Certification for 179D Requests for Ratio &amp; Wooten"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -1467,22 +1272,12 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 348,
-    "end": 349,
+    "end": 350,
     "From": "&quot;Marcella S Rorie&quot; &lt;mrorie@wcpss.net&gt;",
     "To": "&quot;Margaret Sutter&quot; &lt;msutter@wcpss.net&gt;",
     "CC": "&quot;Stephen Zetts&quot; &lt;szetts@wcpss.net&gt;",
     "Date": "4/10/2017 2:51:20 PM",
     "Subject": "Re: Fw: Re: Moseley: 179D Allocation Ltr"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 350,
-    "end": 350,
-    "To": "Margaret Sutter/PlanningConstruction/WCPSS@STAFF",
-    "From": "Marcella S Rorie/PlanningConstruction/WCPSS",
-    "Date": "04/10/2017 09:33AM",
-    "Cc": "Stephen Zetts/PlanningConstruction/WCPSS@STAFF, &quot;Copeland, Jim&quot; &lt;jcopeland@moseleyarchitects.com &gt;",
-    "Subject": "Moseley: 179D Allocation Ltr"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -1497,21 +1292,12 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 353,
-    "end": 354,
+    "end": 355,
     "From": "&quot;Margaret Sutter&quot; &lt;msutter@wcpss.net&gt;",
     "To": "&quot;Marcella S Rorie&quot; &lt;mrorie@wcpss.net&gt;",
     "CC": "&quot;Stephen Zetts&quot; &lt;szetts@wcpss.net&gt;",
     "Date": "4/10/2017 1:16:24 PM",
     "Subject": "Re: Fw: Re: Moseley: 179D Allocation Ltr"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 355,
-    "end": 355,
-    "To": "Marcella S Rorie/PlanningConstruction/WCPSS@STAFF, Stephen Zetts/PlanningConstruction/WCPSS@STAFF",
-    "From": "&quot;Copeland, Jim&quot; &lt;jcopeland@moseleyarchitects.com &gt;",
-    "Date": "04/05/2017 02:26PM",
-    "Subject": "179D Allocation Ltr"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -1574,7 +1360,7 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 368,
-    "end": 368,
+    "end": 370,
     "From": "&quot;Rose Genung&quot; &lt;Rose.Genung@alliantgroup.com&gt;",
     "To": "&quot;William Carl Hartley&quot; &lt;whartley@wcpss.net&gt;",
     "Date": "10/17/2013 12:17:49 PM",
@@ -1583,32 +1369,13 @@
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
-    "start": 369,
-    "end": 370,
-    "From": "Rose Genung",
-    "Sent": "Thursday, September 26, 2013 1:23 PM",
-    "To": "&apos;whartley@wcpss.net&apos;",
-    "Subject": "Update: Signature Request - Bryant-Durham Electric, Inc. - Energy Study"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
     "start": 371,
-    "end": 371,
+    "end": 373,
     "From": "&quot;Rose Genung&quot; &lt;Rose.Genung@alliantgroup.com&gt;",
     "To": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "CC": "&quot;Alexander G Fuller&quot; &lt;afuller@wcpss.net&gt; &quot;William Carl Hartley&quot; &lt;whartley@wcpss.net&gt; &quot;Trisha Posey&quot; &lt;tposey@wcpss.net&gt;",
     "Date": "10/17/2013 1:20:11 PM",
     "Subject": "RE: Fw: Signature Request - Bryant-Durham Electric, Inc. - EnergyStudy"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 372,
-    "end": 373,
-    "To": "Brian Conklin/PlanningConstruction/WCPSS@STAFF",
-    "From": "William Carl Hartley/PlanningConstruction/WCPSS",
-    "Date": "09/30/2013 01:19PM",
-    "Cc": "Alexander G Fuller/PlanningConstruction/WCPSS@STAFF",
-    "Subject": "Fw: Signature Request - Bryant-Durham Electric, Inc. - Energy Study"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -1752,25 +1519,16 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 411,
-    "end": 411,
+    "end": 413,
     "From": "&quot;Robyn Presley&quot; &lt;rpresley@wcpss.net&gt;",
     "To": "rickyl@ccs.k12.nc.us",
     "Date": "6/13/2012 1:52:21 PM",
     "Subject": "FW: question"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 412,
-    "end": 413,
-    "From": "Ricky Lopes [mailto:rickyl@ccs.k12.nc.us]",
-    "Sent": "Wednesday, June 13, 2012 12:24 PM",
-    "To": "Jennifer Bennett",
-    "Subject": "RE: question"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 414,
-    "end": 414,
+    "end": 416,
     "From": "&quot;Robyn Presley&quot; &lt;rpresley@wcpss.net&gt;",
     "To": "rickyl@ccs.k12.nc.us",
     "Date": "6/13/2012 1:52:21 PM",
@@ -1778,17 +1536,8 @@
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
-    "start": 415,
-    "end": 416,
-    "From": "Ricky Lopes [mailto:rickyl@ccs.k12.nc.us]",
-    "Sent": "Wednesday, June 13, 2012 12:24 PM",
-    "To": "Jennifer Bennett",
-    "Subject": "RE: question"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
     "start": 417,
-    "end": 417,
+    "end": 418,
     "From": "&quot;Robyn Presley&quot; &lt;rpresley@wcpss.net&gt;",
     "To": "rwilliams@rivescpa.com",
     "Date": "6/19/2012 7:33:16 AM",
@@ -1796,32 +1545,13 @@
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
-    "start": 418,
-    "end": 418,
-    "From": "Robyn Presley [mailto:rpresley@wcpss.net ]",
-    "Sent": "Wednesday, June 13, 2012 10:32 AM",
-    "To": "Regina Williams",
-    "Subject": "question"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
     "start": 419,
-    "end": 420,
+    "end": 422,
     "From": "&quot;Robyn Presley&quot; &lt;rpresley@wcpss.net&gt;",
     "To": "&quot;Trisha Posey&quot; &lt;tposey@wcpss.net&gt;",
     "CC": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "Date": "10/17/2013 1:59:07 PM",
     "Subject": "Re: Fw: RE: Fw: Signature Request - Bryant-Durham Electric, Inc. - EnergyStudy"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 421,
-    "end": 422,
-    "To": "Brian Conklin/PlanningConstruction/WCPSS@STAFF",
-    "From": "William Carl Hartley/PlanningConstruction/WCPSS",
-    "Date": "09/30/2013 01:19PM",
-    "Cc": "Alexander G Fuller/PlanningConstruction/WCPSS@STAFF",
-    "Subject": "Fw: Signature Request - Bryant-Durham Electric, Inc. - Energy Study"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -1853,22 +1583,12 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 431,
-    "end": 432,
+    "end": 433,
     "From": "&quot;Ron Wainwright&quot; &lt;RWainwright@cbh.com&gt;",
     "To": "&quot;Kerry Kane&quot; &lt;KKane@smallkane.com&gt; &quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "CC": "&quot;Alexander G Fuller&quot; &lt;afuller@wcpss.net&gt; mreese@thewootencompany.com &quot;Trisha Posey&quot; &lt;tposey@wcpss.net&gt; &quot;Sean O&apos;Leary&quot; &lt;SO&apos;Leary@cbh.com&gt;",
     "Date": "8/15/2015 9:59:06 AM",
     "Subject": "RE: S179D project at Richland Creek Elementary for The WootenCompany"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 433,
-    "end": 433,
-    "From": "Brian Conklin [mailto:bconklin@wcpss.net]",
-    "Sent": "Thursday, August 13, 2015 12:06 PM",
-    "To": "Sean O&apos;Leary",
-    "Cc": "mreese@thewootencompany.com ; Ron Wainwright; Kerry Kane (KKane@smallkane.com ); Trisha Posey; Alexander G Fuller",
-    "Subject": "Re: S179D project at Richland Creek Elementary for The Wooten Company"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -2040,22 +1760,12 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 500,
-    "end": 500,
+    "end": 502,
     "From": "&quot;Sean O&apos;Leary&quot; &lt;SO&apos;Leary@cbh.com&gt;",
     "To": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "CC": "&quot;Bob Egan (began@thewootencompany.com)&quot; &lt;began@thewootencompany.com&gt; &quot;Michael Dickerson&quot; &lt;MDickerson@cbh.com&gt; mreese@thewootencompany.com &quot;Ron Wainwright&quot; &lt;RWainwright@cbh.com&gt; &quot;Alexander G Fuller&quot; &lt;afuller@wcpss.net&gt; &quot;Trisha Posey&quot; &lt;tposey@wcpss.net&gt;",
     "Date": "9/7/2016 1:51:44 PM",
     "Subject": "RE: Section 179D submission for The Wooten Company - Scotts RidgeElementary School"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 501,
-    "end": 502,
-    "From": "Sean O&apos;Leary &lt;SO&apos;Leary@cbh.com&gt;",
-    "To": "Brian Conklin/PlanningConstruction/WCPSS@STAFF",
-    "Cc": "&quot;mreese@thewootencompany.com &quot; &lt;mreese@thewootencompany.com &gt;, &quot;Bob Egan (began@thewootencompany.com )&quot; &lt; began@thewootencompany.com&gt;, Ron Wainwright &lt;RWainwright@cbh.com &gt;, Michael Dickerson &lt;MDickerson@cbh.com &gt;",
-    "Date": "09/01/2016 05:00 PM",
-    "Subject": "RE: Section 179D submission for The Wooten Company - Scotts Ridge Elementary School"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",
@@ -2132,21 +1842,11 @@
   {
     "file": "./test/data/tranche-006/wake.pdf",
     "start": 534,
-    "end": 535,
+    "end": 537,
     "From": "&quot;Trisha Posey&quot; &lt;tposey@wcpss.net&gt;",
     "To": "&quot;Brian Conklin&quot; &lt;bconklin@wcpss.net&gt;",
     "Date": "10/17/2013 1:45:24 PM",
     "Subject": "Re: Fw: RE: Fw: Signature Request - Bryant-Durham Electric, Inc. - EnergyStudy"
-  },
-  {
-    "file": "./test/data/tranche-006/wake.pdf",
-    "start": 536,
-    "end": 537,
-    "To": "Brian Conklin/PlanningConstruction/WCPSS@STAFF",
-    "From": "William Carl Hartley/PlanningConstruction/WCPSS",
-    "Date": "09/30/2013 01:19PM",
-    "Cc": "Alexander G Fuller/PlanningConstruction/WCPSS@STAFF",
-    "Subject": "Fw: Signature Request - Bryant-Durham Electric, Inc. - Energy Study"
   },
   {
     "file": "./test/data/tranche-006/wake.pdf",

@@ -3,6 +3,7 @@ export default {
   dcPassword: '',
   dcProjectId: '',
   inputFile: '',
+  headerJustification: 'left',
   performOCR: false,
   unpackPortfolio: false
 }

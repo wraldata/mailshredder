@@ -15,7 +15,7 @@ function setupTest () {
   ensureDirectoryExists(testOutDir)
 }
 
-function runTest (testData, performOCR) {
+function runTest (testData, performOCR, headerJustification) {
   setupTest()
 
   Logger.init(testOutDir)
@@ -32,7 +32,8 @@ function runTest (testData, performOCR) {
   let r = new MonolithicPdfReader({
     src: testData,
     outDir: testOutDir,
-    performOCR: performOCR
+    performOCR: performOCR,
+    headerJustification: headerJustification
   })
 
   return r.read().then((emails) => {
@@ -68,14 +69,14 @@ function runTest (testData, performOCR) {
   })
 }
 
-test('Monolithic PDF, no OCR, 1 pre-header line', () => {
-  return runTest('./test/data/tranche-004/unc_system.pdf', false)
+test('Tranche 004 - Monolithic PDF, no OCR, 1 pre-header line', () => {
+  return runTest('./test/data/tranche-004/unc_system.pdf', false, 'left')
 }, 1200000)
 
-test('Monolithic PDF, no OCR, no pre-header lines', () => {
-  return runTest('./test/data/tranche-005/blackbeard.pdf', false)
+test('Tranche 005 - Monolithic PDF, no OCR, no pre-header lines', () => {
+  return runTest('./test/data/tranche-005/blackbeard.pdf', false, 'left')
 }, 1200000)
 
-test('Monolithic PDF, no OCR, right-justified header labels', () => {
-  return runTest('./test/data/tranche-006/wake.pdf', false)
+test('Tranche 006 - Monolithic PDF, no OCR, right-justified header labels', () => {
+  return runTest('./test/data/tranche-006/wake.pdf', false, 'right')
 }, 1200000)

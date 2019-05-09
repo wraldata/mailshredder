@@ -15,7 +15,7 @@ function setupTest () {
   ensureDirectoryExists(testOutDir)
 }
 
-function runTest (testData, performOCR, unpackPortfolio) {
+function runTest (testData, performOCR, unpackPortfolio, headerJustification) {
   setupTest()
 
   Logger.init(testOutDir)
@@ -33,7 +33,8 @@ function runTest (testData, performOCR, unpackPortfolio) {
     src: testData,
     outDir: testOutDir,
     performOCR: performOCR,
-    unpackPortfolio: unpackPortfolio
+    unpackPortfolio: unpackPortfolio,
+    headerJustification: headerJustification
   })
 
   return r.read().then((emails) => {
@@ -73,14 +74,14 @@ function runTest (testData, performOCR, unpackPortfolio) {
 // a single monolithic PDF using mailshredder, so it stands to reason that every PDF will have a
 // set of headers that can be recognized by mailshredder.  It would be better to get an actual
 // multi-PDF, searchable text (meaning we don't have to run OCR) tranche.
-test('Multiple PDFs, no OCR', () => {
-  return runTest('./test/data/tranche-001/', false, false)
+test('Tranche 001 - Multiple PDFs, no OCR', () => {
+  return runTest('./test/data/tranche-001/', false, false, 'left')
 }, 1200000)
 
-test('Single PDF Portfolio', () => {
-  return runTest('./test/data/tranche-002/Greensboro-response-opt.pdf', false, true)
+test('Tranche 002 - Single PDF Portfolio', () => {
+  return runTest('./test/data/tranche-002/Greensboro-response-opt.pdf', false, true, 'left')
 }, 1200000)
 
-test('Multiple PDFs, OCR', () => {
-  return runTest('./test/data/tranche-003/', true, false)
+test('Tranche 003 - Multiple PDFs, OCR', () => {
+  return runTest('./test/data/tranche-003/', true, false, 'left')
 }, 1200000)

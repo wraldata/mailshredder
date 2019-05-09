@@ -3,15 +3,6 @@
   - tranche-002 - 81 PDFs, 80 identified emails
       - CC header with 5 lines of recipients (no email addresses, just names)
 
-- don't include headers you've already seen as you scan for them -- e.g., if you already see "From:",
-  don't count any further instances of "From:" -- we are now doing this for the right-justified headers,
-  but not the left-justified headers, AFAIK
-
-- pre-identify header style and assume it is consistent throughout the tranche; this will let you
-  limit the type of parsing you apply, reducing the chance for false positives, and letting your
-  parsing be a little more agressive (might help match a misaligned Subject line like the one
-  illustrated below); user could indicate to the software a page that starts with headers
-
 - parsing headers can fail if the headers are presented in a table format and the headers are not aligned to the
   top; For example (exaggerated here so you can see what I'm talking about):
              
@@ -24,15 +15,6 @@
   we won't get a subject header, and therefore, we won't complete our "critical" headers, and we won't
   identify the start of a new email.  
 
-- I think that in the long term, the way the readers interact with the EmailHeaderScanner could be very different;
-  when we discovered a tranche with right-justified header labels, we built a pre-scan to try to find such headers,
-  since the original header scanning code checked the left-alignment of the header lines to separate the real
-  headers from embedded headers (from forwards and replies).
-
-  This scan for right-justified headers is not done line-by-line the way the "normal" scan is done; instead,
-  all the lines are passed to the EHS, and it does a couple of passes through the lines to make its determination.
-  I think that it could be more reliable if it followed the multi-line, multi-pass model.
-
 - MultiplePdfReader could possibly misidentify an embedded email as a separate email if the page breaks are just right
   and the embedded message's headers start at the top of a page.  This class probably needs to be more definitive
   about "1 email per pdf" and parse accordingly to minimize the chance of such errors.  I don't know that there's a
@@ -40,13 +22,11 @@
 
 - get OCR working faster/more reliably; currently the conversion from PDF to 300dpi TIFF and then running tesseract on the result takes about 6.8s per page.
 
-- build a test suite -- use the tranches we have and run them through the tests, comparing the output JSON
-  (maybe we could write all the email JSON to a single JSON for ease of running these tests?)
-
 - make DocumentCloud optional -- you should be able to just use the tool to split up the PDF and build you a directory 
   of filtered PDFs and their metadata files
 
 - auto-detection so you don't need user-specified options
+   - right/left justification of headers
    - scanned PDFs
    - PDF portfolios 
 
