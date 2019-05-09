@@ -1,9 +1,14 @@
 - get OCR working faster/more reliably; currently the conversion from PDF to 300dpi TIFF and then running tesseract on the result takes about 6.8s per page.
 
+- how to handle OCR for mixed PDFs?  Only OCR the pages that are image-based?  What happens if we run one of these through Adobe Acrobat's OCR
+
 - make DocumentCloud optional -- you should be able to just use the tool to split up the PDF and build you a directory 
   of filtered PDFs and their metadata files
 
-- auto-detection so you don't need user-specified options
+- delay the reassembly of the email PDFs until after you're done filtering.  This would let you get to the filter UI 
+  faster, and if you're unchecking a lot of emails, it could save a lot of time in the reassembly process.
+
+- auto-detection so you don't need user-specified options:
    - right/left justification of headers
    - scanned PDFs
    - PDF portfolios 
