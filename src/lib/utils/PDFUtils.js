@@ -85,28 +85,6 @@ let PDFUtils = function () {
     })
 
     win.loadURL(htmlUrl)
-
-    /*
-
-    let e = new ElectronPDF()
-    e.on('charged', () => {
-      e.createJob(html, pdf).then(job => {
-        job.on('job-complete', (r) => {
-          console.log('electron-pdf results: ', r)
-          callback()
-        })
-        job.render()
-      })
-    })
-    e.start()
-    */
-
-    /*
-    let proc = spawn(chrome, ['--headless', '--print-to-pdf=' + pdf, html])
-    proc.on('close', (code) => {
-      callback(code)
-    })
-    */
   }
 
   this.countPages = function (pdf) {
@@ -131,20 +109,39 @@ let PDFUtils = function () {
     let buffer = ''
 
     let proc = spawn(_commands['pdftotext'], ['-htmlmeta', '-bbox', pdf, '-'])
+
+    proc.on('error', (err) => {
+      console.log('Error: ', err)
+    })
+
+    proc.on('disconnect', () => {
+      console.log('Disconnected')
+    })
+
     proc.stdout.on('data', function (data) {
       buffer += data
-    })
-    proc.on('close', (code) => {
-      logger.debug(`[PDFUtils.toText] child process exited with code ${code}`)
-      logger.debug('[PDFUtils.toText] buffer size: ' + buffer.length)
 
-      let results = buffer.toString().split('\n')
+      let bufStr = buffer.toString()
+      let closePageIdx = bufStr.lastIndexOf('</page>')
+      if (closePageIdx !== -1) {
+        closePageIdx += 6
+        let chunk = bufStr.substr(0, closePageIdx + 1)
+        processChunk(chunk)
+
+        // reset the buffer to just the leftover portion
+        let leftover = bufStr.substr(closePageIdx + 1)
+        buffer = Buffer.from(leftover, 'utf8')
+      }
+    })
+
+    function processChunk (chunk) {
+      let results = chunk.split('\n')
 
       for (let i = 0; i < results.length; i++) {
         let line = results[i].trim()
         if (line.match(/<page/)) {
           pageNum++
-          callback(null, { page: pageNum })
+          callback(null, { pageStart: pageNum })
           continue
         }
         if (line.match(/<\/page/)) {
@@ -154,18 +151,28 @@ let PDFUtils = function () {
           for (let j = 0; j < _items.length; j++) {
             callback(null, _items[j])
           }
+          callback(null, { pageEnd: pageNum })
           _items = []
         }
-        let matches = line.match(/<word\s+xMin="(.+?)"\s+yMin="(.+?)".+?>(.+?)<\/word>/)
+        let matches = line.match(/<word\s+xMin="(.+?)"\s+yMin="(.+?)"\s+xMax="(.+?)"\s+yMax="(.+?)".*?>(.+?)<\/word>/)
         if (matches) {
           _items.push({
-            text: matches[3],
+            text: matches[5],
             x: parseFloat(matches[1]),
-            y: parseFloat(matches[2])
+            y: parseFloat(matches[2]),
+            xMax: parseFloat(matches[3]),
+            yMax: parseFloat(matches[4])
           })
           continue
         }
       }
+    }
+
+    proc.on('close', (code) => {
+      logger.debug(`[PDFUtils.toText] child process exited with code ${code}`)
+      logger.debug('[PDFUtils.toText] buffer size: ' + buffer.length)
+
+      processChunk(buffer.toString())
 
       callback(null, null)
     })
@@ -209,7 +216,7 @@ let PDFUtils = function () {
       let fullPath = path.join(dir, executable)
       if (fs.existsSync(fullPath)) {
         _commands[key] = fullPath
-        console.log(`found ${executable}: ${fullPath}`)
+        // console.log(`found ${executable}: ${fullPath}`)
         return true
       }
     }

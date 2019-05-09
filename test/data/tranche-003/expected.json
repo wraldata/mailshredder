@@ -1,458 +1,75 @@
 [
   {
-    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0003_GOVRECORDS12-20-20180003734.pdf",
-    "start": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0003_GOVRECORDS12-20-20180003734.pdf",
-      "page": 1
-    },
-    "headers": {
-      "From": {
-        "header": "From",
-        "value": "NC Policy Watch [info@ncpolicywatch.com]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0003_GOVRECORDS12-20-20180003734.pdf",
-          "page": 1,
-          "x": 36.72,
-          "y": 43.84,
-          "text": "From: NC Policy Watch [info@ncpolicywatch.com]"
-        }
-      },
-      "Sent": {
-        "header": "Sent",
-        "value": "10/17/2017 8:01:18 AM",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0003_GOVRECORDS12-20-20180003734.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 56.08,
-          "text": "Sent: 10/17/2017 8:01:18 AM"
-        }
-      },
-      "To": {
-        "header": "To",
-        "value": "Stallard, Lorea A [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=742fa809a86c430383d6707ebab07599-lastallard]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0003_GOVRECORDS12-20-20180003734.pdf",
-          "page": 1,
-          "x": 36,
-          "y": 68.32,
-          "text": "To: Stallard, Lorea A [/o=ExchangeLabs/ou=Exchange Administrative Group"
-        }
-      },
-      "Subject": {
-        "header": "Subject",
-        "value": "[External] Weekly Briefing: Our rogue General Assembly returns to Raleigh for yet another rump session",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0003_GOVRECORDS12-20-20180003734.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 92.8,
-          "text": "Subject: [External] Weekly Briefing: Our rogue General Assembly returns to Raleigh for yet another rump session"
-        }
-      }
-    },
-    "end": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0003_GOVRECORDS12-20-20180003734.pdf",
-      "page": 4
-    }
+    "file": "./ocr/0003_GOVRECORDS12-20-20180003734.pdf",
+    "start": 1,
+    "end": 4,
+    "From": "NC Policy Watch [info@ncpolicywatch.com]",
+    "Sent": "10/17/2017 8:01:18 AM",
+    "To": "Stallard, Lorea A [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=742fa809a86c430383d6707ebab07599-lastallard]",
+    "Subject": "[External] Weekly Briefing: Our rogue General Assembly returns to Raleigh for yet another rump session"
   },
   {
-    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0004_GOVRECORDS12-20-20180003423.pdf",
-    "start": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0004_GOVRECORDS12-20-20180003423.pdf",
-      "page": 1
-    },
-    "headers": {
-      "From": {
-        "header": "From",
-        "value": "Akroyd, Cathy R [/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=82FDF2DE4BE5481C8F01C933B5F2CAB9-CRAKROYD]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0004_GOVRECORDS12-20-20180003423.pdf",
-          "page": 1,
-          "x": 36.72,
-          "y": 39.96,
-          "text": "From: Akroyd, Cathy R [/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP"
-        }
-      },
-      "Sent": {
-        "header": "Sent",
-        "value": "10/11/2017 9:49:35 AM",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0004_GOVRECORDS12-20-20180003423.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 64.2,
-          "text": "Sent: 10/11/2017 9:49:35 AM"
-        }
-      },
-      "To": {
-        "header": "To",
-        "value": "DEQ.All [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5134fb84624841778f422478525c0efd-DEQ - All]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0004_GOVRECORDS12-20-20180003423.pdf",
-          "page": 1,
-          "x": 36,
-          "y": 76.44,
-          "text": "To: DEQ.All [/o=ExchangeLabs/ou=Exchange Administrative Group"
-        }
-      },
-      "Subject": {
-        "header": "Subject",
-        "value": "DEQ NewsClips: Oct. 11, 2017",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0004_GOVRECORDS12-20-20180003423.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 101.92,
-          "text": "Subject: DEQ NewsClips: Oct. 11, 2017"
-        }
-      }
-    },
-    "end": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0004_GOVRECORDS12-20-20180003423.pdf",
-      "page": 2
-    }
+    "file": "./ocr/0004_GOVRECORDS12-20-20180003423.pdf",
+    "start": 1,
+    "end": 2,
+    "From": "Akroyd, Cathy R [/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=82FDF2DE4BE5481C8F01C933B5F2CAB9-CRAKROYD]",
+    "Sent": "10/11/2017 9:49:35 AM",
+    "To": "DEQ.All [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5134fb84624841778f422478525c0efd-DEQ - All]",
+    "Subject": "DEQ NewsClips: Oct. 11, 2017"
   },
   {
-    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0005_GOVRECORDS12-20-20180000097.pdf",
-    "start": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0005_GOVRECORDS12-20-20180000097.pdf",
-      "page": 1
-    },
-    "headers": {
-      "From": {
-        "header": "From",
-        "value": "White, Julia W [/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=D92F33E7D43E44A9B15D6EC92E2348CB-JWBUCKNER]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0005_GOVRECORDS12-20-20180000097.pdf",
-          "page": 1,
-          "x": 36.72,
-          "y": 40.96,
-          "text": "From: White, Julia W [/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP"
-        }
-      },
-      "Sent": {
-        "header": "Sent",
-        "value": "10/10/2017 1:56:52 PM",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0005_GOVRECORDS12-20-20180000097.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 65.2,
-          "text": "Sent: 10/10/2017 1:56:52 PM"
-        }
-      },
-      "To": {
-        "header": "To",
-        "value": "Talley, Noelle S$ [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd9f3882421746bcb5a60cbe82cdff89-nstalley]; Weiner, Sadie [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=df98bd64929043eeaab54e589dd7d1b2-asweiner]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0005_GOVRECORDS12-20-20180000097.pdf",
-          "page": 1,
-          "x": 36,
-          "y": 77.44,
-          "text": "To: Talley, Noelle S$ [/o=ExchangeLabs/ou=Exchange Administrative Group"
-        }
-      },
-      "Subject": {
-        "header": "Subject",
-        "value": "RE: for today",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0005_GOVRECORDS12-20-20180000097.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 126.4,
-          "text": "Subject: RE: for today"
-        }
-      }
-    },
-    "end": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0005_GOVRECORDS12-20-20180000097.pdf",
-      "page": 2
-    }
+    "file": "./ocr/0005_GOVRECORDS12-20-20180000097.pdf",
+    "start": 1,
+    "end": 2,
+    "From": "White, Julia W [/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=D92F33E7D43E44A9B15D6EC92E2348CB-JWBUCKNER]",
+    "Sent": "10/10/2017 1:56:52 PM",
+    "To": "Talley, Noelle S$ [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd9f3882421746bcb5a60cbe82cdff89-nstalley]; Weiner, Sadie [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=df98bd64929043eeaab54e589dd7d1b2-asweiner]",
+    "Subject": "RE: for today"
   },
   {
-    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0006_GOVRECORDS12-20-20180004183.pdf",
-    "start": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0006_GOVRECORDS12-20-20180004183.pdf",
-      "page": 1
-    },
-    "headers": {
-      "From": {
-        "header": "From",
-        "value": "Jill Warren [jill.lucas@ncdenr.gov]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0006_GOVRECORDS12-20-20180004183.pdf",
-          "page": 1,
-          "x": 36.72,
-          "y": 40.96,
-          "text": "From: Jill Warren [jill.lucas@ncdenr.gov]"
-        }
-      },
-      "Sent": {
-        "header": "Sent",
-        "value": "10/10/2017 3:56:15 PM",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0006_GOVRECORDS12-20-20180004183.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 53.2,
-          "text": "Sent: 10/10/2017 3:56:15 PM"
-        }
-      },
-      "To": {
-        "header": "To",
-        "value": "Talley, Noelle S [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd9f3882421746bcb5a60cbe82cdff89-nstalley]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0006_GOVRECORDS12-20-20180004183.pdf",
-          "page": 1,
-          "x": 36,
-          "y": 65.2,
-          "text": "To: Talley, Noelle S [/o=ExchangeLabs/ou=Exchange Administrative Group"
-        }
-      },
-      "Subject": {
-        "header": "Subject",
-        "value": "State seeks public comments, sets hearing for air permit on Atlantic Coast Pipeline project",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0006_GOVRECORDS12-20-20180004183.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 89.68,
-          "text": "Subject: State seeks public comments, sets hearing for air permit on Atlantic Coast Pipeline project"
-        }
-      }
-    },
-    "end": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0006_GOVRECORDS12-20-20180004183.pdf",
-      "page": 2
-    }
+    "file": "./ocr/0006_GOVRECORDS12-20-20180004183.pdf",
+    "start": 1,
+    "end": 2,
+    "From": "Jill Warren [jill.lucas@ncdenr.gov]",
+    "Sent": "10/10/2017 3:56:15 PM",
+    "To": "Talley, Noelle S [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd9f3882421746bcb5a60cbe82cdff89-nstalley]",
+    "Subject": "State seeks public comments, sets hearing for air permit on Atlantic Coast Pipeline project"
   },
   {
-    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0007_GOVRECORDS12-20-20180001337.pdf",
-    "start": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0007_GOVRECORDS12-20-20180001337.pdf",
-      "page": 1
-    },
-    "headers": {
-      "From": {
-        "header": "From",
-        "value": "insider@ncinsider.com [insider@ncinsider.com]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0007_GOVRECORDS12-20-20180001337.pdf",
-          "page": 1,
-          "x": 36.72,
-          "y": 43.84,
-          "text": "From: insider@ncinsider.com [insider@ncinsider.com]"
-        }
-      },
-      "Sent": {
-        "header": "Sent",
-        "value": "10/10/2017 12:05:19 AM",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0007_GOVRECORDS12-20-20180001337.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 56.08,
-          "text": "Sent: 10/10/2017 12:05:19 AM"
-        }
-      },
-      "To": {
-        "header": "To",
-        "value": "NC Insider [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=03d899d89f174a119e5ff45f3320ff12-NC Insider]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0007_GOVRECORDS12-20-20180001337.pdf",
-          "page": 1,
-          "x": 36,
-          "y": 68.32,
-          "text": "To: NC Insider [/o=ExchangeLabs/ou=Exchange Administrative Group"
-        }
-      },
-      "Subject": {
-        "header": "Subject",
-        "value": "[External] Insider for October 10, 2017",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0007_GOVRECORDS12-20-20180001337.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 92.8,
-          "text": "Subject: [External] Insider for October 10, 2017"
-        }
-      }
-    },
-    "end": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0007_GOVRECORDS12-20-20180001337.pdf",
-      "page": 21
-    }
+    "file": "./ocr/0007_GOVRECORDS12-20-20180001337.pdf",
+    "start": 1,
+    "end": 21,
+    "From": "insider@ncinsider.com [insider@ncinsider.com]",
+    "Sent": "10/10/2017 12:05:19 AM",
+    "To": "NC Insider [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=03d899d89f174a119e5ff45f3320ff12-NC Insider]",
+    "Subject": "[External] Insider for October 10, 2017"
   },
   {
-    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0008_GOVRECORDS12-20-20180004144.pdf",
-    "start": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0008_GOVRECORDS12-20-20180004144.pdf",
-      "page": 1
-    },
-    "headers": {
-      "From": {
-        "header": "From",
-        "value": "Kritzer, Jamie [/(O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=CEE93C49D01445A3B541BB327DCDC840-JBKRITZER]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0008_GOVRECORDS12-20-20180004144.pdf",
-          "page": 1,
-          "x": 36.72,
-          "y": 39.96,
-          "text": "From: Kritzer, Jamie [/(O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP"
-        }
-      },
-      "Sent": {
-        "header": "Sent",
-        "value": "10/10/2017 1:07:36 PM",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0008_GOVRECORDS12-20-20180004144.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 64.2,
-          "text": "Sent: 10/10/2017 1:07:36 PM"
-        }
-      },
-      "To": {
-        "header": "To",
-        "value": "Talley, Noelle S$ [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd9f3882421746bcb5a60cbe8 2cdff89-nstalley] cc: Kritzer, Jamie [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cee93c49d01445a3b541bb327dcdc840-jbkritzer]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0008_GOVRECORDS12-20-20180004144.pdf",
-          "page": 1,
-          "x": 36,
-          "y": 77.44,
-          "text": "To: Talley, Noelle S$ [/o=ExchangeLabs/ou=Exchange Administrative Group"
-        }
-      },
-      "Subject": {
-        "header": "Subject",
-        "value": "for today",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0008_GOVRECORDS12-20-20180004144.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 126.4,
-          "text": "Subject: for today"
-        }
-      }
-    },
-    "end": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0008_GOVRECORDS12-20-20180004144.pdf",
-      "page": 2
-    }
+    "file": "./ocr/0008_GOVRECORDS12-20-20180004144.pdf",
+    "start": 1,
+    "end": 2,
+    "From": "Kritzer, Jamie [/(O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=CEE93C49D01445A3B541BB327DCDC840-JBKRITZER]",
+    "Sent": "10/10/2017 1:07:36 PM",
+    "To": "Talley, Noelle S$ [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd9f3882421746bcb5a60cbe8 2cdff89-nstalley]",
+    "cc": "Kritzer, Jamie [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cee93c49d01445a3b541bb327dcdc840-jbkritzer]",
+    "Subject": "for today"
   },
   {
-    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0009_GOVRECORDS12-20-20180003943.pdf",
-    "start": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0009_GOVRECORDS12-20-20180003943.pdf",
-      "page": 1
-    },
-    "headers": {
-      "From": {
-        "header": "From",
-        "value": "Talley, Noelle S [(O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=CD9F3882421746BCB5A60CBE82CDFF89-NSTALLEY]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0009_GOVRECORDS12-20-20180003943.pdf",
-          "page": 1,
-          "x": 36.72,
-          "y": 40.96,
-          "text": "From: Talley, Noelle S [(O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP"
-        }
-      },
-      "Sent": {
-        "header": "Sent",
-        "value": "10/10/2017 1:51:45 PM",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0009_GOVRECORDS12-20-20180003943.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 65.2,
-          "text": "Sent: 10/10/2017 1:51:45 PM"
-        }
-      },
-      "To": {
-        "header": "To",
-        "value": "Weiner, Sadie [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=df98bd64929043eeaab54e589dd7d1b2-asweiner]; White, Julia W [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d92f33e7d43e44a9b15d6ec92e2348cb-jwbuckner]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0009_GOVRECORDS12-20-20180003943.pdf",
-          "page": 1,
-          "x": 36,
-          "y": 77.44,
-          "text": "To: Weiner, Sadie [/o=ExchangeLabs/ou=Exchange Administrative Group"
-        }
-      },
-      "Subject": {
-        "header": "Subject",
-        "value": "FW: for today",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0009_GOVRECORDS12-20-20180003943.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 126.4,
-          "text": "Subject: FW: for today"
-        }
-      }
-    },
-    "end": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0009_GOVRECORDS12-20-20180003943.pdf",
-      "page": 2
-    }
+    "file": "./ocr/0009_GOVRECORDS12-20-20180003943.pdf",
+    "start": 1,
+    "end": 2,
+    "From": "Talley, Noelle S [(O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=CD9F3882421746BCB5A60CBE82CDFF89-NSTALLEY]",
+    "Sent": "10/10/2017 1:51:45 PM",
+    "To": "Weiner, Sadie [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=df98bd64929043eeaab54e589dd7d1b2-asweiner]; White, Julia W [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d92f33e7d43e44a9b15d6ec92e2348cb-jwbuckner]",
+    "Subject": "FW: for today"
   },
   {
-    "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0010_GOVRECORDS12-20-20180002015.pdf",
-    "start": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0010_GOVRECORDS12-20-20180002015.pdf",
-      "page": 1
-    },
-    "headers": {
-      "From": {
-        "header": "From",
-        "value": "Talley, Noelle S [(O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=CD9F3882421746BCB5A60CBE82CDFF89-NSTALLEY]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0010_GOVRECORDS12-20-20180002015.pdf",
-          "page": 1,
-          "x": 36.72,
-          "y": 40.96,
-          "text": "From: Talley, Noelle S [(O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP"
-        }
-      },
-      "Sent": {
-        "header": "Sent",
-        "value": "10/10/2017 2:00:29 PM",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0010_GOVRECORDS12-20-20180002015.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 64.2,
-          "text": "Sent: 10/10/2017 2:00:29 PM"
-        }
-      },
-      "To": {
-        "header": "To",
-        "value": "Kritzer, Jamie [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cee93c49d01445a3b541bb327dcdc840-jbkritzer]",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0010_GOVRECORDS12-20-20180002015.pdf",
-          "page": 1,
-          "x": 36,
-          "y": 77.44,
-          "text": "To: Kritzer, Jamie [/o=ExchangeLabs/ou=Exchange Administrative Group"
-        }
-      },
-      "Subject": {
-        "header": "Subject",
-        "value": "RE: for today",
-        "line": {
-          "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0010_GOVRECORDS12-20-20180002015.pdf",
-          "page": 1,
-          "x": 36.24,
-          "y": 101.92,
-          "text": "Subject: RE: for today"
-        }
-      }
-    },
-    "end": {
-      "file": "/var/folders/ts/2byct4k90h5fcwcl8bn3pht40000gn/T/mailshredder-test/ocr/0010_GOVRECORDS12-20-20180002015.pdf",
-      "page": 2
-    }
+    "file": "./ocr/0010_GOVRECORDS12-20-20180002015.pdf",
+    "start": 1,
+    "end": 2,
+    "From": "Talley, Noelle S [(O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=CD9F3882421746BCB5A60CBE82CDFF89-NSTALLEY]",
+    "Sent": "10/10/2017 2:00:29 PM",
+    "To": "Kritzer, Jamie [/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cee93c49d01445a3b541bb327dcdc840-jbkritzer]",
+    "Subject": "RE: for today"
   }
 ]

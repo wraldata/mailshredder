@@ -25,6 +25,7 @@ let MultiplePdfReader = function (params) {
 
   Object.assign(_options, params)
 
+  let _pageLines = []
   let _emails = []
   let _onParseComplete = null
   let _onParseFail = null
@@ -37,6 +38,7 @@ let MultiplePdfReader = function (params) {
     page: -1,
     x: -1,
     y: -1,
+    items: [],
     text: ''
   }
   let _ocrDir = ''
@@ -94,6 +96,7 @@ let MultiplePdfReader = function (params) {
       _emails.push({
         file: _files[_currIdx],
         start: start,
+        end: JSON.parse(JSON.stringify(start)),
         headers: headers
       })
 
@@ -120,34 +123,75 @@ let MultiplePdfReader = function (params) {
     }
   }
 
+  function processPage () {
+    let headers = _ehs.scanForRightJustifiedHeaders(_pageLines)
+    if (headers) {
+      _logger.debug('found right-justified email headers on page; assuming these are the proper headers')
+      // add an "end" to the previous email
+      if (_emails.length > 0) {
+        _emails[_emails.length - 1].end.page = _currPage - 1
+      }
+
+      _emails.push({
+        file: _files[_currIdx],
+        start: {
+          page: _currPage
+        },
+        end: {
+          page: _currPage
+        },
+        headers: headers
+      })
+
+      return
+    }
+
+    _logger.debug('no right-justified email headers; scanning for left-justified headers...')
+    for (let i = 0; i < _pageLines.length; i++) {
+      processLine(_pageLines[i])
+    }
+  }
+
   function processText (item) {
+    _logger.debug(`<${item.x}, ${item.y}> ${item.text}`)
+
     let delta = Math.abs(item.y - _currLine.y)
 
     if (delta > _options.yPosTolerance) {
-      processLine(_currLine)
-      _currLine.x = item.x
-      _currLine.y = item.y
-      _currLine.text = item.text
+      _pageLines.push(_currLine)
+      _currLine = {
+        file: _files[_currIdx],
+        page: _currPage,
+        x: item.x,
+        y: item.y,
+        items: [ item ],
+        text: item.text
+      }
     } else {
+      _currLine.items.push(item)
       _currLine.text += ' ' + item.text
     }
   }
 
-  function processPage (item) {
-    if (_currPage > 0) {
-      processLine(_currLine)
-    }
+  function processPageEnd (item) {
+    _pageLines.push(_currLine)
 
+    processPage()
+  }
+
+  function processPageStart (item) {
     _ehs.reset()
 
     _currPage++
+    _pageLines = []
     _logger.debug('--------------------------------------------------------------------------------')
-    _logger.debug('PAGE ' + item.page)
+    _logger.debug('PAGE ' + item.pageStart)
     _currLine = {
       file: _files[_currIdx],
       page: _currPage,
       x: -1,
       y: -1,
+      items: [],
       text: ''
     }
 
@@ -156,8 +200,6 @@ let MultiplePdfReader = function (params) {
   }
 
   function finishParsing () {
-    processLine(_currLine)
-
     if (_emails.length > 0) {
       _emails[_emails.length - 1].end = {
         file: _files[_currIdx],
@@ -179,8 +221,10 @@ let MultiplePdfReader = function (params) {
       _onParseFail(err.data)
     } else if (!item) {
       finishParsing()
-    } else if (item.page) {
-      processPage(item)
+    } else if (item.pageStart) {
+      processPageStart(item)
+    } else if (item.pageEnd) {
+      processPageEnd(item)
     } else if (item.text) {
       processText(item)
     }

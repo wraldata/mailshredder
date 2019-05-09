@@ -1,5 +1,8 @@
+import Logger from './Logger'
 
 let EmailHeaderScanner = function () {
+  let _logger = Logger.getLogger()
+
   let _headersFound = {}
   let _continuation = false
   let _continuationHeader = null
@@ -8,6 +11,23 @@ let EmailHeaderScanner = function () {
   // how far out of horizontal alignment can they be before we decide that a given piece of text
   // is not actually a header?
   let _xPosTolerance = 1
+
+  // how many non-headers will we allow before the first right-aligned header block?
+  let _maxNumNonHeadersBeforeRightJustifiedHeaderBlock = 1
+
+  // it's possible to have something like this:
+  //     Date: Wed May 15, 2019 05:00 PM
+  //       To: recipient1@example.com
+  //           recipient2@example.com
+  //           recipient3@example.com
+  //           recipient4@example.com
+  //  Subject: Subject line here
+  //
+  // but how many lines are you willing to attribute to the "To:" header?  If this number is too
+  // high, you can end up finding something that looks like a right-aligned header deep inside
+  // the body of the message, causing everything from the top of the message to that deep header
+  // to be interpreted as headers
+  let _maxNumNonHeadersInRightJustifiedHeaderBlock = 7
 
   function containsEmail (text) {
     if (text.match(/\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+/)) {
@@ -18,7 +38,7 @@ let EmailHeaderScanner = function () {
   }
 
   function headerShouldHaveAddresses (h) {
-    if (h.header.match(/^\s*(From|To|Cc|Bcc)/)) {
+    if (h.header.match(/^\s*(From|To|Cc|Bcc)/i)) {
       return true
     }
 
@@ -26,8 +46,10 @@ let EmailHeaderScanner = function () {
   }
 
   function scanForNewHeader (line) {
-    let matches = line.text.match(/^\s*(From|To|Subject|Date|Sent|Attachments|Cc|Bcc):\s+(.+)/)
+    _logger.debug('scanning line for header')
+    let matches = line.text.match(/^\s*(From|To|Subject|Date|Sent|Attachments|Cc|Bcc):\s+(.+)/i)
     if (!matches) {
+      _logger.debug('no match')
       return false
     }
 
@@ -37,6 +59,7 @@ let EmailHeaderScanner = function () {
       let foundLine = _headersFound[h].line
       let delta = Math.abs(line.x - foundLine.x)
       if (delta > _xPosTolerance) {
+        _logger.debug('xpos tolerance violation')
         return false
       }
     }
@@ -46,11 +69,14 @@ let EmailHeaderScanner = function () {
       value: matches[2],
       line: { ...line } // clone the line
     }
+    _logger.debug('identified header: ' + matches[1])
     _headersFound[matches[1]] = hf
 
     _continuation = false
     _continuationHeader = null
+    // FIXME -- this will falsely match on lines that end with HTML entities, like "&gt;", for example.
     if (line.text.match(/[;,]\s*$/)) {
+      _logger.debug('looks like a continuation header')
       _continuation = true
       _continuationHeader = hf
     }
@@ -150,6 +176,89 @@ let EmailHeaderScanner = function () {
     }
 
     return ['non-header', {}]
+  }
+
+  this.scanForRightJustifiedHeaders = function (lines) {
+    _logger.debug('Scanning for right-justified headers...')
+
+    // first see how many lines look like they have right-justified header labels
+    let xAlign = Number.NEGATIVE_INFINITY
+    let maxHeaderIdx = -1
+    let linesProcessed = 0
+    let alreadySeen = {}
+    for (let i = 0; i < lines.length; i++) {
+      if (lines[i].items.length < 1) {
+        continue
+      }
+
+      let firstItem = lines[i].items[0]
+      let matches = firstItem.text.match(/^\s*(From|To|Subject|Date|Sent|Attachments|Cc|Bcc):\s*/i)
+      if (matches) {
+        if (typeof alreadySeen[matches[1]] !== 'undefined') {
+          _logger.debug('Line ' + i + ', found "' + matches[1] + '" - already seen this header; not parsing for more right-justified headers')
+          break
+        }
+
+        if (xAlign === Number.NEGATIVE_INFINITY) {
+          xAlign = firstItem.xMax
+        }
+        let delta = Math.abs(xAlign - firstItem.xMax)
+        _logger.debug('Line ' + i + ', found "' + matches[1] + '" ("' + lines[i].text + '"); xdelta: ' + delta)
+        if (delta > _xPosTolerance) {
+          // if we find a header-like label but it doesn't right-align with any others that we've seen,
+          // then we're not dealing with right-justified headers
+          _logger.debug('misaligned header label; email is probably not using right-justified headers')
+          return false
+        }
+        _logger.debug('keep header; setting maxHeaderIdx to ' + i)
+        maxHeaderIdx = i
+        alreadySeen[matches[1]] = 1
+      } else {
+        if (i - maxHeaderIdx > _maxNumNonHeadersInRightJustifiedHeaderBlock) {
+          _logger.debug('too many lines seen without a header label; not parsing for more right-justified headers')
+          break
+        }
+      }
+
+      linesProcessed++
+      if ((linesProcessed > _maxNumNonHeadersBeforeRightJustifiedHeaderBlock) && (maxHeaderIdx === -1)) {
+        // if we haven't found any conclusive headers by the time we have processed the first
+        // two lines, then bail out
+        return false
+      }
+    }
+
+    // if we didn't find any right-justified header labels, then bail out
+    if (maxHeaderIdx === -1) {
+      return false
+    }
+
+    // if we did find right-justified header labels, process all the headers up to maxHeaderIdx, building up our header array;
+    // all lines in this range that *don't* have right-justified header labels will be assumed to be continuation of the
+    // previous header
+    let currHeader = null
+    for (let i = 0; i <= maxHeaderIdx; i++) {
+      let matches = lines[i].text.match(/^\s*(From|To|Subject|Date|Sent|Attachments|Cc|Bcc):\s*(.+)/i)
+      if (matches) {
+        currHeader = {
+          header: matches[1],
+          value: matches[2],
+          line: { ...lines[i] }
+        }
+        _headersFound[matches[1]] = currHeader
+      } else {
+        if (currHeader) {
+          currHeader.value += ' ' + lines[i].text
+        }
+      }
+    }
+
+    if (!foundCriticalHeaders()) {
+      _headersFound = {}
+      return false
+    }
+
+    return _headersFound
   }
 
   this.reset = function () {
