@@ -3,7 +3,11 @@ import Logger from './Logger'
 let EmailHeaderScanner = function () {
   let _logger = Logger.getLogger()
 
+  // these are confirmed headers
   let _headersFound = {}
+
+  // these are possible headers
+  let _potentialHeadersSeen = {}
 
   // we expect headers to be horizontally aligned, but they're not always perfectly aligned;
   // how far out of horizontal alignment can they be before we decide that a given piece of text
@@ -38,6 +42,20 @@ let EmailHeaderScanner = function () {
     return false
   }
 
+  function alreadySeen (header) {
+    if (typeof _potentialHeadersSeen[header] !== 'undefined') {
+      return true
+    }
+
+    if (header === 'Date') {
+      if (typeof _potentialHeadersSeen['Sent'] !== 'undefined') {
+        return true
+      }
+    }
+
+    return false
+  }
+
   this.scanForHeaders = function (lines, rightJustified) {
     _headersFound = {}
     let side = rightJustified ? 'right' : 'left'
@@ -47,7 +65,7 @@ let EmailHeaderScanner = function () {
     let xAlign = Number.NEGATIVE_INFINITY
     let maxHeaderIdx = -1
     let linesProcessed = 0
-    let alreadySeen = {}
+    _potentialHeadersSeen = {}
     for (let i = 0; i < lines.length; i++) {
       if (lines[i].items.length < 1) {
         continue
@@ -56,7 +74,7 @@ let EmailHeaderScanner = function () {
       let firstItem = lines[i].items[0]
       let matches = firstItem.text.match(/^\s*(From|To|Subject|Date|Sent|Attachments|Cc|Bcc):\s*/i)
       if (matches) {
-        if (typeof alreadySeen[matches[1]] !== 'undefined') {
+        if (alreadySeen(matches[1])) {
           _logger.debug(`Line ${i}, found "${matches[1]}" - already seen this header; not parsing for more ${side}-justified headers`)
           break
         }
@@ -76,7 +94,7 @@ let EmailHeaderScanner = function () {
         }
         _logger.debug(`keep header; setting maxHeaderIdx to i`)
         maxHeaderIdx = i
-        alreadySeen[matches[1]] = 1
+        _potentialHeadersSeen[matches[1]] = 1
       } else {
         if (i - maxHeaderIdx > _maxNumNonHeadersInHeaderBlock) {
           _logger.debug(`too many lines seen without a header label; not parsing for more ${side}-justified headers`)
