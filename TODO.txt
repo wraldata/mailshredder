@@ -1,3 +1,13 @@
+- The filter view didn't fit on Tyler's MBP screen, presumably because he uses different scaling
+  settings than I do.   I dropped the table to 20 rows, but ideally, the software would adjust itself
+  to show as many rows as possible in the space it has.
+
+- There are actually two pdftotext programs: one from Xpdf, and one from poppler.  We need the one from 
+  poppler; not sure how to distinguish them (maybe just run the program with no arguments to see if
+  the output contains "Poppler")
+
+- the application doesn't seem to exit when you close all the windows.
+
 - get OCR working faster/more reliably; currently the conversion from PDF to 300dpi TIFF and then running tesseract on the result takes about 6.8s per page.
 
 - how to handle OCR for mixed PDFs?  Only OCR the pages that are image-based?  What happens if we run one of these through Adobe Acrobat's OCR

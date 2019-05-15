@@ -184,7 +184,7 @@ export default {
           style: 'width: 35px; overflow: hidden'
         }
       ],
-      paginationControl: { rowsPerPage: 25 },
+      paginationControl: { rowsPerPage: 20 },
       emailFilter: '',
       outputDir: ''
     }
