@@ -55,10 +55,24 @@ let MonolithicPdfReader = function (params) {
   function processPage () {
     for (let i = 0; i < _pageLines.length; i++) {
       let line = _pageLines[i]
+
+      // note -- because we use ytolerance when assembling lines from individual text
+      // items, the words for a given line might not be sorted in X; so we sort them now
+      line.items.sort((a, b) => {
+        return a.x - b.x
+      })
+      // and reassemble the text string with the ordered items
+      let newText = ''
+      for (let j = 0; j < line.items.length; j++) {
+        let item = line.items[j]
+        newText += item.text + ' '
+      }
+      line.text = newText.trim()
+
       _logger.debug(`[${line.x.toFixed(2)}, ${line.y.toFixed(2)}] ${line.text}`)
       for (let j = 0; j < line.items.length; j++) {
         let item = line.items[j]
-        _logger.debug(`  <${item.x.toFixed(2)}, ${item.y.toFixed(2)}] ${item.text}`)
+        _logger.debug(`  <${item.x.toFixed(2)}, ${item.y.toFixed(2)}> ${item.text}`)
       }
     }
 

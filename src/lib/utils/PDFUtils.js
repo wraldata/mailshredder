@@ -146,7 +146,7 @@ let PDFUtils = function () {
         }
         if (line.match(/<\/page/)) {
           _items.sort((a, b) => {
-            return a.y === b.y ? a.x - b.x : a.y - b.y
+            return (a.y === b.y) ? a.x - b.x : a.y - b.y
           })
           for (let j = 0; j < _items.length; j++) {
             callback(null, _items[j])
